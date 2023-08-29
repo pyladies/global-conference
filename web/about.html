@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PyLadiesCon 2023</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/6cf87c29c5.js"></script>
+  </head>
+  <body>
+
+  <header class="site-header sticky-top py-1">
+  <ul class="nav nav-pills container d-flex flex-column flex-md-row justify-content-around align-items-center">
+    <a class="py-2" href="index.html" aria-label="PyLadiesCont">
+      <img class="menu-logo" src="img/icon.png"/>
+    </a>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle menu-font" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="about.html#the-event">The Event</a>
+        <a class="dropdown-item" href="about.html#the-organizers">The Organizers</a>
+        <a class="dropdown-item" href="about.html#coc">Code of Conduct</a>
+      </div>
+    </li>
+    <!--
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Speakers</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Sponsor</a>
+    </li>
+    -->
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="https://pretalx.com/pyladiescon-2023/cfp">Call for Proposals</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="index.html#contact">Contact</a>
+    </li>
+    <!--
+    <div class="text-end">
+        <a class="btn btn-outline-secondary btn-pink text-white" href="">Register</a>
+    </div>
+    -->
+  </ul>
+</header>
+
+<main>
+
+  <!-- page cover -->
+  <div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center bg-white">
+    <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center">
+      <div class="col-md-4 p-lg-1 mx-auto mt-auto">
+        <h1 class="special-font gradient title-size">About</h1>
+      </div>
+      <div class="col-md-4 d-none d-lg-block">
+        <img src="img/about-icon-1.png" />
+      </div>
+      <div class="col-md-4 d-none d-lg-block">
+        <img src="img/about-icon-2.png" />
+      </div>
+    </div>
+  </div>
+
+  <!-- about -->
+
+  <div class="d-md-flex flex-md-equal w-100 mt-md-3 ps-md-3">
+    <div class="bg-white pt-3 pt-md-5 overflow-hidden">
+      <img class="w-100" src="img/about-photo-1.png" />
+    </div>
+    <div class="bg-white pt-3 pt-md-5 overflow-hidden">
+      <img class="w-100" src="img/about-photo-2.png" />
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 ps-md-3">
+    <div class="bg-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left text-white overflow-hidden">
+      <div class="my-3 py-3 text-black" id="the-event">
+        <h2 class="display-8">The Event</h2>
+        <p class="lead">
+          Attention all PyLadies community members! We’re excited to share that
+          we are in the early stages of planning a PyLadies Conference
+          (PyLadiesCon), a transformative event designed to promote diversity,
+          learning, and empowerment within the Python community. 🎉
+        </p>
+        <p class="lead">
+          Save the date! The conference will take place on the first weekend of
+          December, where we’ll gather together for a weekend filled with
+          insightful talks, engaging panels, and collaborative networking
+          opportunities.
+        </p>
+      </div>
+    </div>
+    <div class="bg-pink mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden text-white">
+      <div class="my-3 p-3" id="the-organizers">
+        <h2 class="display-8">The Organizers</h2>
+        <p class="lead">
+          PyLadies is an international mentorship group with a focus on helping
+          more women become active participants and leaders in the Python
+          open-source community.
+        </p>
+        <p class="lead">
+          Our mission is to promote, educate and advance a diverse Python
+          community through outreach, education, conferences, events and social
+          gatherings.
+        </p>
+        <p class="lead">
+          To learn more,
+        </p>
+        <p class="lead">
+          <a class="rarrow-link text-white" href="https://pyladies.com">Visit The Website</a>
+        </p>
+        <h2 class="display-8">The Volunteers</h2>
+        <p class="lead">
+          Thanks to all the people that submitted their interest
+          into helping PyLadiesCon. Currently, we have enough
+          helpers to make this an amazing conference. If a new
+          Volunteer Call happens, we will everyone.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="d-md-flex flex-md-equal w-100 ps-md-3 bg-pink px-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="bg-pink mr-md-3 pt-3 px-3 mx-5 py-md-5 px-md-5 overflow-hidden">
+          <div class="carousel-item active">
+            <div class="row">
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/naomi.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Naomi Ceder</h5>
+                  <p class="text-white">Sponsorship Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Author of Quick Python Book, former chair of the PSF, using and teaching Python since 2001
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/mariatta.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Mariatta </h5>
+                  <p class="text-white">Co-Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Mariatta is a Python core developer where she focuses on improving the workflow and documentation. She is active in the Python community as an advisor for the Global PyLadies, co-founder of PyCasca...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/maria.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Maria Jose</h5>
+                  <p class="text-white">Program Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                I am a passionate biologist, working as a Sr. Data Scientist in Berlin. In my spare time, I love to develop projects that can help people around, especially people who are eager to learn new things...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/cristián.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Cristián Maureira-Fredes</h5>
+                  <p class="text-white">Tech/Infra Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Currently working as Sr. RnD Manager at The Qt Company. Python community and conference organizer, and PSF Fellow.
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            </div>
+          </div> <!-- row -->
+          <div class="carousel-item row">
+            <div class="row">
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/georgi.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Georgi Ker</h5>
+                  <p class="text-white">Volunteer Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Georgi is a currently serving as a Director at the Python Software Foundation (PSF), where she is not only a Fellow Member but also a member of the D&I Workgroup. Her contributions were recognized ...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/denny.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Denny Perez</h5>
+                  <p class="text-white">Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Denny, a Software QA Analyst with an accounting background, passionately advocates diversity and inclusion within tech communities. As a Python Community Manager, GitHub leader, and conference orga...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/vicky.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Vicky Twomey-Lee</h5>
+                  <p class="text-white">Communication Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Vicky Twomey-Lee, a techie who has been involved with the Irish Tech Community since 2005, and currently advocates diversity in tech through PyLadies Dublin, Coding Grace as well as being involved ...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/elka.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Elka Buitrago</h5>
+                  <p class="text-white">Design & Social Media Chair</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Currently  working freelancing at e-commerce. Have worked in different roles along the time Functional Analyst, Project Manager, Programmer in Industries as Bank, Oil, Tourism. Graduate in Computer...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            </div>
+          </div> <!-- row -->
+          <div class="carousel-item row">
+            <div class="row">
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/cheuk.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Cheuk Ting Ho</h5>
+                  <p class="text-white">Speaker Support </p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                After having a career as a Data Scientist and Developer Advocate, Cheuk dedicated her work to the open-source community and working as a community manager at OpenSSF. She has co-founded Humble Data...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/lynn.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Lynn Root</h5>
+                  <p class="text-white">PyLadies Global Council</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Lynn Root is the Chair of the PyLadies Global Council, a member of the Python Software Foundation, and the former Vice Chair of the PSF's Board of Directors. She is also a staff engineer at Spotify...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            
+              
+            <div class="col-lg-3">
+              <div class="row">
+                <div class="col-4 d-none d-lg-block">
+                  <img class="rounded-circle img-fluid" src="img/org/lisa.jpg" alt="Generic placeholder image">
+                </div>
+                <div class="col-8 align-start">
+                  <h5 style="position: inline;" class="text-white">Lisa Marielle Cooper</h5>
+                  <p class="text-white">nan</p>
+                </div>
+              </div>
+              <p class="mt-3 text-white">
+                Lisa Marielle Cooper (she/her) is an interdisciplinary artist, a disability justice advocate, and community builder who loves Python! She is one of the organizers of Pyjamas Conf, the laziest 24-ho...
+              </p>
+              </div><!-- /.col-lg-4 -->
+            
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100">
+    <img class="w-100" src="img/about-photo-3.png" />
+  </div>
+
+  <!-- registration details -->
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-light me-md-3 py-3 px-3 py-md-5 px-md-5 overflow-hidden">
+      <div class="my-3 py-3 px-5" id="coc">
+        <h5 class="display-6 special-font pink">Code of Conduct</h4>
+        <p class="lead">
+          Welcome to the PyLadies Conference 2023! We are delighted to have you
+          join us for an inspiring and inclusive event aimed at fostering
+          a diverse and vibrant Python community. As advocates for promoting
+          and advancing women's participation in the Python open-source
+          community, we hold the values of respect, inclusivity, and
+          collaboration at the core of our conference. We want to ensure that
+          every participant can experience a positive, safe, and enjoyable
+          environment throughout the event.
+        </p>
+
+        <div class="row w-100">
+          <div id="CoCGroup">
+
+            <button type="button" class="btn btn-primary btn-block mb-2 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#first">Respect and Inclusivity</button>
+            <div id="first" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              At the PyLadies Conference, we celebrate diversity and welcome
+              individuals of all backgrounds, regardless of age, race,
+              ethnicity, nationality, gender identity, sexual orientation,
+              religion, or experience level. Everyone deserves to be treated
+              with kindness, empathy, and understanding, and we expect all
+              attendees, speakers, sponsors, and volunteers to uphold this
+              principle.
+            </div>
+
+            <button type="button" class="btn btn-primary btn-block my-3 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#second">Harassment-Free Environment</button>
+            <div id="second" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              ...
+            </div>
+
+            <button type="button" class="btn btn-primary btn-block my-3 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#third">Professionalism and Collaboration</button>
+            <div id="third" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              ...
+            </div>
+
+            <button type="button" class="btn btn-primary btn-block my-3 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#fourth">Inclusivity in Language and Presentation</button>
+            <div id="fourth" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              ...
+            </div>
+            <button type="button" class="btn btn-primary btn-block my-3 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#fifth">Reporting Incidents</button>
+            <div id="fifth" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              ...
+            </div>
+            <button type="button" class="btn btn-primary btn-block my-3 accordion-btn w-100 coc-button" data-toggle="collapse" data-target="#sixth">Consequences of Violation</button>
+            <div id="sixth" class="collapse p-3 coc-text" data-parent="#CoCGroup">
+              ...
+            </div>
+
+          </div>
+        </div>
+
+        <p class="lead">
+          As organizers of the PyLadies Conference 2023, we are dedicated to
+          fostering an atmosphere that encourages learning, sharing, and
+          collaboration while respecting the rights and dignity of every
+          individual.
+        </p>
+
+        <p class="lead">
+          By attending this event, you acknowledge your commitment to upholding
+          these principles and helping us create an inclusive and welcoming
+          community.
+        </p>
+
+        <p class="lead">
+          Thank you for being a part of this journey with us. Together, we can
+          make a significant impact in advancing women's representation and
+          leadership within the Python open-source community. Let's learn,
+          inspire, and grow together!
+        </p>
+
+      </div>
+     </div>
+   </div>
+ </div>
+
+</main>
+
+  <footer class="container py-5">
+  <div class="row">
+    <div class="col-6 col-md">
+      <img src="img/logo_footer.png" />
+      <small class="d-block mb-3 text-muted">
+        2007 - 2023 PyLadies. All Rights Reserved.<br>
+        Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation
+      </small>
+    </div>
+    <div class="col-6 col-md text-end">
+      <a class="arrow-link" href="https://pyladies.com/">PyLadies</a>
+      <a class="arrow-link" href="https://www.python.org/psf-landing/">PSF</a>
+      <a class="arrow-link" href="https://python.org">Python</a>
+      <div class="social pt-3">
+      <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2"></i></a>
+      <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2"></i></a>
+      <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2"></i></a>
+      <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-3">
+      <a href="https://www.awesomic.com"><img src="img/awesomic.png"/></a>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
