@@ -29,14 +29,14 @@ templates = {"about":
         "og_description": "About PyLadiesCon.",
         "og_type": "article",
         "og_url": "https://conference.pyladies.com/about.html",
-        "og_image": "https://conference.pyladies.com/img/icon.png",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
     },
     "index": {
         "og_title": "PyLadiesCon 2023",
         "og_description": "PyLadiesCon 2023. Global PyLadies Community Conference.",
         "og_type": "website",
         "og_url": "https://conference.pyladies.com/index.html",
-        "og_image": "https://conference.pyladies.com/img/icon.png",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
     },
 }
 
