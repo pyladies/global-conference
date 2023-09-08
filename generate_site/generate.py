@@ -38,6 +38,7 @@ templates = {"about":
         "og_type": "website",
         "og_url": "https://conference.pyladies.com/index.html",
         "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCong logo',
     },
 }
 
