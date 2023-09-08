@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head.html' %}
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PyLadiesCon 2023</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/6cf87c29c5.js"></script>
+  </head>
   <body>
 
-  {% include 'header.html' %}
+  <header class="site-header sticky-top py-1">
+  <ul class="nav nav-pills container d-flex flex-column flex-md-row justify-content-around align-items-center">
+    <a class="py-2" href="index.html" aria-label="PyLadiesCont">
+      <img class="menu-logo" src="img/icon.png"/>
+    </a>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle menu-font" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="about.html#the-event">The Event</a>
+        <a class="dropdown-item" href="about.html#the-organizers">The Organizers</a>
+        <a class="dropdown-item" href="about.html#coc">Code of Conduct</a>
+      </div>
+    </li>
+    <!--
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Speakers</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="#">Sponsor</a>
+    </li>
+    -->
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="https://pretalx.com/pyladiescon-2023/cfp">Call for Proposals</a>
+    </li>
+    <li class="nav-item">
+      <a class="py-2 d-none d-md-inline-block menu-font" href="index.html#contact">Contact</a>
+    </li>
+    <!--
+    <div class="text-end">
+        <a class="btn btn-outline-secondary btn-pink text-white" href="">Register</a>
+    </div>
+    -->
+  </ul>
+</header>
 
 <main>
 
@@ -14,10 +64,14 @@
         <img style="width: 60%;" src="img/banner.png" />
       </div>
       <div class="col-md-5 p-lg-3 mx-auto my-5">
-        <p class="lead fw-normal">
-          "The more I study, the more insatiable do I feel my genius for it to be."
-        </p>
-        <h4>Ada Lovelace</h4>
+        <blockquote class="blockquote text-center">
+          <p>
+            <i class="fas fa-quote-left fa-xs pink"></i>
+            <span>The more I study, the more insatiable do I feel my genius for it to be.</span>
+            <i class="fas fa-quote-right fa-xs pink"></i>
+          </p>
+          <footer class="blockquote-footer">Ada Lovelace</footer>
+        </blockquote>
         <h1 class="pink display-4 fw-normal">PyLadiesCon</h1>
         <h4 class="gradient special-font">2023 Online</h4>
         <p class="lead fw-normal">
@@ -123,6 +177,10 @@
         <img class="icon-section" src="img/contact-icon.png"/>
         <h2 class="display-5">Contact</h2>
         <p class="lead">
+          Email us at
+          <a href="mailto:pyladiescon@pyladies.com">pyladiescon@pyladies.com</a>
+        </p>
+        <p class="lead">
           Follow us on <a href="https://twitter.com/pyladiescon">Twitter</a>
         </p>
         <p class="lead">
@@ -150,7 +208,34 @@
 
 </main>
 
-{% include 'footer.html' %}
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-6 col-md">
+      <img src="img/logo_footer.png" />
+      <small class="d-block mb-3 text-muted">
+        2007 - 2023 PyLadies. All Rights Reserved.<br>
+        Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation
+      </small>
+    </div>
+    <div class="col-6 col-md text-end">
+      <a class="arrow-link" href="https://pyladies.com/">PyLadies</a>
+      <a class="arrow-link" href="https://www.python.org/psf-landing/">PSF</a>
+      <a class="arrow-link" href="https://python.org">Python</a>
+      <div class="social pt-3">
+      <a href="mailto:pyladiescon@pyladies.com"><i class="fas fa-envelope fa-2x px-2"></i></a>
+      <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2"></i></a>
+      <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2"></i></a>
+      <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2"></i></a>
+      <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-3">
+      <a href="https://www.awesomic.com"><img src="img/awesomic.png"/></a>
+    </div>
+  </div>
+</footer>
 
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -158,4 +243,3 @@
 
   </body>
 </html>
-
