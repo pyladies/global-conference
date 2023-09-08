@@ -14,12 +14,13 @@ ORG = "organization.csv"
 dev = True if len(sys.argv) > 1 else False
 
 # Organization info
-df_org = pd.read_csv("organizers.csv")[["Name", "Role", "Biography"]]
+df_org = pd.read_csv("organizers.csv", na_values="-")[["Name", "Role", "Biography"]]
+df_org.fillna("", inplace=True)
 # TODO: Download images? 'Headshot image' is the column name
 
 ##### Template configuration
 conf = {
-    "ORG": df_org.to_dict('records'),
+    "ORG": df_org.to_dict("records"),
 }
 
 templates = ["about", "index"]
