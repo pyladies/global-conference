@@ -30,7 +30,7 @@ templates = {"about":
         "og_type": "article",
         "og_url": "https://conference.pyladies.com/about.html",
         "og_image_url": "https://conference.pyladies.com/img/icon.png",
-        "og_image_alt": "PyLadiesCong logo',
+        "og_image_alt": "PyLadiesCon logo",
     },
     "index": {
         "og_title": "PyLadiesCon 2023",
@@ -38,7 +38,7 @@ templates = {"about":
         "og_type": "website",
         "og_url": "https://conference.pyladies.com/index.html",
         "og_image_url": "https://conference.pyladies.com/img/icon.png",
-        "og_image_alt": "PyLadiesCong logo',
+        "og_image_alt": "PyLadiesCon logo",
     },
 }
 
