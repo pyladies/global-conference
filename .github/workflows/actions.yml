@@ -21,7 +21,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script
-        run: python generate.py
+        run:  |
+            cd generate_site/
+            python generate.py
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
