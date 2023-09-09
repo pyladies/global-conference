@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="pink-arrow-up-right.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="24.291667"
+     inkscape:cx="12"
+     inkscape:cy="11.979417"
+     inkscape:window-width="1564"
+     inkscape:window-height="2150"
+     inkscape:window-x="1925"
+     inkscape:window-y="5"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="arrow-up-right"
+     style="stroke:#ee264d;stroke-opacity:1">
+    <path
+       id="Vector"
+       d="M7 17L17 7"
+       stroke="black"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="stroke:#ee264d;stroke-opacity:1" />
+    <path
+       id="Vector_2"
+       d="M7 7H17V17"
+       stroke="black"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="stroke:#ee264d;stroke-opacity:1" />
+  </g>
+</svg>

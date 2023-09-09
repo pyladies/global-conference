@@ -1,0 +1,333 @@
+* {
+  font-family: sans-serif;
+  font-family: var(--font);
+}
+
+.lead a {
+  color: white;
+}
+
+.social a {
+  color: var(--py-lady-pink);
+}
+
+.social a:hover {
+  color: rgba(142, 112, 154, 1);
+}
+
+.special-font {
+  font-family: sans-serif;
+  font-family: var(--special-font);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: sans-serif;
+  font-family: var(--title-font);
+}
+
+.menu-font {
+  font-family: sans-serif;
+  font-family: var(--special-font);
+  text-decoration: none;
+}
+
+.pink {
+  color: var(--py-lady-pink);
+}
+
+.icon-section {
+  padding-bottom: 10px;
+}
+
+.gradient {
+  background: var(
+    --main-gradient,
+    linear-gradient(
+      -80.71deg,
+      rgba(142, 112, 154, 1) 0%,
+      rgba(229, 29, 65, 1) 100%
+    )
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.bg-pink {
+  background: var(--py-lady-pink);
+}
+
+.bg-white {
+  background: white;
+}
+
+.btn-pink {
+  background: var(--py-lady-pink);
+  border-radius: 50px;
+  border: 0;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  font-family: var(--special-font);
+}
+
+.btn-pink:hover {
+  background: var(--main-gradient, linear-gradient(337deg, #8E709A 0%, #E51D41 100%));
+}
+
+.btn-pink-gradient {
+  background: var(
+    --main-gradient,
+    linear-gradient(
+      -80.71deg,
+      rgba(142, 112, 154, 1) 0%,
+      rgba(229, 29, 65, 1) 100%
+    )
+  );
+  border-radius: 50px;
+  border: 0;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  font-family: var(--special-font);
+}
+
+@media (max-width: 500px) {
+  .btn-pink-gradient {
+    font-size: 0.8em;
+  }
+  .display-6 {
+    font-size: 1em;
+  }
+}
+
+.btn-pink-gradient:hover {
+  background: var(--black-gradient, linear-gradient(90deg, #E51D41 0%, #040404 100%));
+}
+
+/* Arrow up right */
+.arrow-link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  margin-right: 30px;
+}
+
+.arrow-link::after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: url('../img/arrow-up-right.svg') no-repeat;
+}
+
+.arrow-link:hover {
+  color: var(--py-lady-pink) !important;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.arrow-link:hover:after {
+  background: url('../img/pink-arrow-up-right.svg') no-repeat;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* Arrow right */
+.rarrow-link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  margin-right: 30px;
+}
+
+.rarrow-link::after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: url('../img/arrow-right.svg') no-repeat;
+}
+
+.rarrow-link:hover {
+  color: var(--py-lady-pink) !important;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.rarrow-link:hover:after {
+  background: url('../img/pink-arrow-right.svg') no-repeat;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* Background color dropdown */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: white;
+  color: var(--py-lady-pink);
+}
+.nav > li > .dropdown-menu {
+  background-color: var(--py-lady-pink);
+}
+.nav > li > .dropdown-menu a {
+  color: white;
+o}
+
+.nav > li > .dropdown-menu a:hover {
+  color: black;
+}
+
+/* Accordion for CoC */
+.accordion-btn {
+   position: relative;
+}
+.accordion-btn:before {
+   position: absolute;
+   content: "+";
+   right: 10px;
+   top: 5px;
+}
+.accordion-btn[aria-expanded="true"]:before {
+   content: "-";
+}
+
+.coc-button {
+  text-align: left !important;
+  background-color: white;
+  color: black;
+  border: 0;
+  font-size: 1.5em;
+}
+
+.coc-button:hover, .coc-button:active {
+  background-color: var(--py-lady-pink) !important;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .coc-button {
+    font-size: 1em;
+  }
+}
+
+.coc-text {
+  background-color: var(--gray-3);
+  color: black;
+}
+
+/* Carousel */
+
+.carousel-control-prev {
+  margin-left: 0;
+  padding-left: 0;
+  width: 5%;
+}
+
+.carousel-control-next {
+  margin-right: 0;
+  padding-right: 0;
+  width: 5%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,.8);
+}
+.site-header a {
+  color: black;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: var(--py-lady-pink);
+  text-decoration: none;
+}
+
+.title-size {
+  font-size: 4em;
+}
+@media (max-width: 500px) {
+.title-size {
+  font-size: 2em;
+}
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
