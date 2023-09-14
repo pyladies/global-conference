@@ -23,12 +23,35 @@ conf = {
     "ORG": df_org.to_dict("records"),
 }
 
-templates = ["about", "index"]
+templates = {"about":
+    {
+        "og_title": "PyLadiesCon 2023 - About Us",
+        "og_description": "About PyLadiesCon.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/about.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
+    "index": {
+        "og_title": "PyLadiesCon 2023",
+        "og_description": "PyLadiesCon 2023. Global PyLadies Community Conference.",
+        "og_type": "website",
+        "og_url": "https://conference.pyladies.com/index.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
+}
+
 environment = Environment(loader=FileSystemLoader("templates/"))
 
-for _template in templates:
-    _t = environment.from_string(open(f"templates/{_template}-base.html").read())
-
+for key, value in templates.items():
+    _t = environment.from_string(
+        open(f"templates/{key}-base.html").read()
+    )
+    template_params = conf
+    template_params.update(value)
     # Write final HTML
-    with open(Path("..") / f"{_template}.html", "w") as f:
-        f.write(_t.render(conf))
+    with open(Path("..") / f"{key}.html", "w") as f:
+        print(f"writing {f=}")
+        print(template_params)
+        f.write(_t.render(template_params))
