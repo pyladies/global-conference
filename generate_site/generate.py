@@ -23,12 +23,20 @@ conf = {
     "ORG": df_org.to_dict("records"),
 }
 
-templates = {"about":
-    {
+templates = {
+    "about": {
         "og_title": "PyLadiesCon 2023 - About Us",
         "og_description": "About PyLadiesCon.",
         "og_type": "article",
         "og_url": "https://conference.pyladies.com/about.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
+    "sponsors": {
+        "og_title": "PyLadiesCon 2023 - Sponsors",
+        "og_description": "Sponsoring PyLadiesCon.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/sponsors.html",
         "og_image_url": "https://conference.pyladies.com/img/icon.png",
         "og_image_alt": "PyLadiesCon logo",
     },
