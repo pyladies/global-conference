@@ -7,6 +7,10 @@
   color: white;
 }
 
+.desc {
+  font-size: 0.8rem;
+}
+
 .social a {
   color: var(--py-lady-pink);
 }
@@ -80,6 +84,10 @@ h1, h2, h3, h4, h5 {
   color: white;
   font-family: sans-serif;
   font-family: var(--special-font);
+}
+
+.no-font {
+  font-family: sans-serif;
 }
 
 .btn-pink:hover {
@@ -175,6 +183,27 @@ h1, h2, h3, h4, h5 {
 
 .rarrow-link:hover:after {
   background: url('../img/pink-arrow-right.svg') no-repeat;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.rarrow-link-white {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  margin-right: 30px;
+}
+
+.rarrow-link-white::after {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: url('../img/arrow-right-white.svg') no-repeat;
+}
+
+.rarrow-link-white:hover {
+  color: black;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -277,9 +306,16 @@ o}
 .title-size {
   font-size: 4em;
 }
+
+.title-size-2 {
+  font-size: 2em;
+}
 @media (max-width: 500px) {
 .title-size {
   font-size: 2em;
+}
+.title-size-2 {
+  font-size: 1em;
 }
 }
 
@@ -331,3 +367,43 @@ o}
   }
 }
 
+/* Sponsors table */
+.table-pink{
+  --bs-table-color:#fff;
+  --bs-table-bg: var(--py-lady-pink);
+  --bs-table-border-color:#373b3e;
+  --bs-table-striped-bg:#2c3034;
+  --bs-table-striped-color:#fff;
+  --bs-table-active-bg:#373b3e;
+  --bs-table-active-color:#fff;
+  --bs-table-hover-bg:#323539;
+  --bs-table-hover-color:#fff;
+  color:var(--bs-table-color);
+  border-color:var(--bs-table-border-color);
+  /* fix col size */
+  table-layout: fixed;
+  word-wrap: break-word;
+  /* for spacing between the table elements */
+  border-spacing: 20px 0;
+  border-collapse: separate;
+}
+
+.table-pink th, td {
+  border-collapse: collapse;
+  text-align: center;
+  border-top: none;
+  border-bottom: none;
+}
+
+.table-plan-header {
+  background-color: #540d1b !important;
+  color: var(--py-lady-pink) !important;
+  border-radius: 5px 5px 0px 0px;
+  font-weight: bold !important;
+  font-size: 1.4rem !important;
+}
+
+.table-plan-td {
+  background-color: #a71b36 !important;
+  border-top: 1px solid #a71b36;
+}
