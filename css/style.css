@@ -16,7 +16,7 @@
 }
 
 .social a:hover {
-  color: rgba(142, 112, 154, 1);
+  color: black;
 }
 
 .special-font {
@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5 {
 
 .arrow-link:hover {
   color: var(--py-lady-pink) !important;
-  text-decoration: none;
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 .arrow-link:hover:after {
@@ -177,8 +177,8 @@ h1, h2, h3, h4, h5 {
 
 .rarrow-link:hover {
   color: var(--py-lady-pink) !important;
-  text-decoration: none;
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 .rarrow-link:hover:after {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5 {
 
 .rarrow-link-white:hover {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bolder;
 }
 
@@ -293,6 +293,7 @@ o}
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,.8);
+  background-color: white;
 }
 .site-header a {
   color: black;
