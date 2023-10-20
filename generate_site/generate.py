@@ -1,3 +1,4 @@
+import csv
 import sys
 import requests
 import pandas as pd
@@ -18,9 +19,16 @@ df_org = pd.read_csv("organizers.csv")[["Name", "Role", "Biography"]]
 df_org.fillna("", inplace=True)
 # TODO: Download images? 'Headshot image' is the column name
 
+# Assuming https://github.com/pyladies/global-conference/pull/60 gets merged
+with open("speakers.csv", encoding="utf-8-sig") as f:
+    reader = csv.DictReader(f)
+    df_speakers = list(reader)
+
 ##### Template configuration
 conf = {
     "ORG": df_org.to_dict("records"),
+    "SPEAKERS_ENABLED": False, # Toggle the "Speakers" section in the homepage
+    "SPEAKERS": df_speakers,
 }
 
 templates = {
