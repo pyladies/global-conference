@@ -1,26 +1,24 @@
+import csv
 import sys
-import requests
-import pandas as pd
 
 from pathlib import Path
 
-from jinja2 import Environment, FileSystemLoader, Template
+from jinja2 import Environment, FileSystemLoader
 
-
-# Files
-ORG = "organization.csv"
 
 # It is a dev run?
 dev = True if len(sys.argv) > 1 else False
 
-# Organization info
-df_org = pd.read_csv("organizers.csv")[["Name", "Role", "Biography"]]
-df_org.fillna("", inplace=True)
+# Organization info from the csv
+with open("organizers.csv") as f:
+    reader = csv.DictReader(f)
+    df_org = list(reader)
+
 # TODO: Download images? 'Headshot image' is the column name
 
 ##### Template configuration
 conf = {
-    "ORG": df_org.to_dict("records"),
+    "ORG": df_org,
 }
 
 templates = {
