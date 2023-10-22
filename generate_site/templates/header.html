@@ -1,9 +1,9 @@
 <header class="site-header sticky-top py-1">
-  <ul class="nav nav-pills container d-flex flex-column col-xs-12 flex-md-row justify-content-around align-items-center">
+  <ul class="nav nav-pills container d-none d-md-flex flex-row justify-content-around align-items-center">
     <a class="py-2" href="index.html" aria-label="PyLadiesCon">
       <img class="menu-logo" src="img/icon.png"/>
     </a>
-    <li class="nav-item dropdown order-4 order-sm-1">
+    <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle menu-font" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false">About</a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="about.html#the-event">The Event</a>
@@ -20,13 +20,13 @@
     </li>
     -->
     <li class="nav-item order-1 order-sm-2">
-      <a class="py-2 f-flex d-md-inline-block menu-font" href="sponsors.html">Sponsor</a>
+      <a class="py-2 d-flex d-inline-block menu-font" href="sponsors.html">Sponsor</a>
     </li>
     <li class="nav-item order-2 order-sm-3">
-      <a class="py-2 d-flex d-md-inline-block menu-font" href="https://pretalx.com/pyladiescon-2023/cfp">Call for Proposals</a>
+      <a class="py-2 d-flex d-inline-block menu-font" href="https://pretalx.com/pyladiescon-2023/cfp">Call for Proposals</a>
     </li>
     <li class="nav-item order-3 order-sm-4">
-      <a class="py-2 d-flex d-md-inline-block menu-font" href="index.html#contact">Contact</a>
+      <a class="py-2 d-flex d-inline-block menu-font" href="index.html#contact">Contact</a>
     </li>
     <!--
     <div class="text-end">
@@ -34,4 +34,24 @@
     </div>
     -->
   </ul>
+
+  <nav class="navbar d-flex d-sm-none justify-content-between px-4">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <img class="hamburger-menu" src="img/bar-chart-2.png"/>
+    </span>
+    </button>
+    <a class="py-2 px-4" href="index.html" aria-label="PyLadiesCon">
+      <img class="menu-logo" src="img/icon.png"/>
+    </a>
+    <div class="collapse p-4" id="navbarToggler">
+        <a class="menu-font py-4 fs-3">About</a>
+        <a class="dropdown-item h5 px-4 fw-bold py-2" href="about.html#the-event">The Event</a>
+        <a class="dropdown-item h5 px-4 fw-bold py-2" href="about.html#the-organizers">The Organizers</a>
+        <a class="dropdown-item h5 px-4 fw-bold py-2" href="about.html#coc">Code of Conduct</a>
+        <a class="dropdown-item menu-font py-4 fs-3" href="sponsors.html">Sponsor</a>
+        <a class="dropdown-item menu-font py-4 fs-3 text-wrap" href="https://pretalx.com/pyladiescon-2023/cfp">Call for Proposals</a>
+        <a class="dropdown-item menu-font py-4 fs-3" href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
 </header>
