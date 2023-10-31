@@ -408,3 +408,56 @@ h1, h2, h3, h4, h5 {
   background-color: #a71b36 !important;
   border-top: 1px solid #a71b36;
 }
+
+/* keynotes */
+.card-keynote {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.card-keynote img {
+  display: block;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.card-text {
+  font-size: 90%;
+}
+
+.card-link {
+  position: relative;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  background-color: var(--py-lady-pink);
+  padding: 8px;
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-keynote {
+    flex-direction: column;
+  }
+  .card-keynote img {
+    width: 100%;
+  }
+}
+
+.card-keynote img {
+  filter: sepia(100%) hue-rotate(190deg);/* saturate(500%); */
+}
+
+.card-keynote img:hover{
+  filter: none;
+  transition-duration: 0.3s;
+}
