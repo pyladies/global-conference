@@ -88,16 +88,16 @@
                     {% if keynote['mastodon'] %}
                     {% set username = keynote['mastodon'].split('@')[0] %}
                     {% set domain = keynote['mastodon'].split('@')[1] %}
-                    <a class="card-link" href="https://{{ domain }}/@{{ username }}"><i class="fab fa-mastodon px-2"></i></a>
+                    <a href="https://{{ domain }}/@{{ username }}"><i class="fab fa-mastodon px-2"></i></a>
                     {% endif %}
                     {% if keynote['twitter'] %}
-                    <a class="card-link" href="https://twitter.com/{{ keynote['twitter'] }}"><i class="fab fa-twitter px-2"></i></a>
+                    <a href="https://twitter.com/{{ keynote['twitter'] }}"><i class="fab fa-twitter px-2"></i></a>
                     {% endif %}
                     {% if keynote['instagram'] %}
-                    <a class="card-link" href="https://instagram.com/{{ keynote['instagram'] }}"><i class="fab fa-instagram px-2"></i></a>
+                    <a href="https://instagram.com/{{ keynote['instagram'] }}"><i class="fab fa-instagram px-2"></i></a>
                     {% endif %}
                     {% if keynote['linkedin'] %}
-                    <a class="card-link" href="https://www.linkedin.com/in/{{ keynote['linkedin'] }}"><i class="fab fa-linkedin px-2"></i></a>
+                    <a href="https://www.linkedin.com/in/{{ keynote['linkedin'] }}"><i class="fab fa-linkedin px-2"></i></a>
                     {% endif %}
                   </div>
                 </div>
