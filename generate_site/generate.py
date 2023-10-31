@@ -14,17 +14,11 @@ with open("organizers.csv") as f:
     reader = csv.DictReader(f)
     df_org = list(reader)
 
-# Keynote info from the csv
-with open("keynotes.csv") as f:
-    reader = csv.DictReader(f)
-    keynotes = list(reader)
-
 # TODO: Download images? 'Headshot image' is the column name
 
 ##### Template configuration
 conf = {
     "ORG": df_org,
-    "KEYNOTES": keynotes[:2], # only two keynotes
 }
 
 templates = {
@@ -63,7 +57,7 @@ for key, value in templates.items():
     template_params = conf
     template_params.update(value)
     # Write final HTML
-    fname = Path("..") / f"{key}.html"
-    with open(fname, "w") as f:
-        print(f"writing {fname}")
+    with open(Path("..") / f"{key}.html", "w") as f:
+        print(f"writing {f=}")
+        print(template_params)
         f.write(_t.render(template_params))
