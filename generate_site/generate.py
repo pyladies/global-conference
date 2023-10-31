@@ -24,7 +24,7 @@ with open("keynotes.csv") as f:
 ##### Template configuration
 conf = {
     "ORG": df_org,
-    "KEYNOTES": [keynotes[0]], # only one keynote
+    "KEYNOTES": keynotes[:3], # only two keynotes
 }
 
 templates = {
