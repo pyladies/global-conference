@@ -408,3 +408,94 @@ h1, h2, h3, h4, h5 {
   background-color: #a71b36 !important;
   border-top: 1px solid #a71b36;
 }
+
+/* keynotes */
+.card-keynote {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.card-keynote img {
+  display: block;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.card-keynote .card-title {
+  width: 50%;
+  background-color: var(--py-lady-pink);
+  padding: 8px;
+  font-size: 95%;
+}
+
+.card-text {
+  font-size: 90%;
+}
+
+.card-link {
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-keynote {
+    flex-direction: column;
+  }
+  .card-keynote img {
+    width: 100%;
+  }
+
+  .card-keynote .card-title {
+    width: 100%;
+  }
+
+  .card-img-overlay {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-img-overlay {
+    height: 380px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card-img-overlay {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .card-img-overlay {
+    height: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card-img-overlay {
+    height: 260px !important;
+  }
+}
+
+@media only screen and (max-width: 353px) {
+  .card-img-overlay {
+    height: 240px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card-img-overlay {
+    height: 210px !important;
+  }
+}
+
+.card-keynote img {
+  filter: sepia(100%) hue-rotate(190deg);/* saturate(500%); */
+}
+
+.card-keynote img:hover{
+  filter: none;
+  transition-duration: 0.3s;
+}

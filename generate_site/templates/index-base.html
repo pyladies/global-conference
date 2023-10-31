@@ -69,6 +69,46 @@
     </div>
   </div>
 
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-pink me-md-3 py-3 px-3 py-md-5 px-md-5 text-white overflow-hidden">
+      <div class="my-3 py-3 px-5">
+        <img class="icon-section" src="img/speakers-icon.png"/>
+        <h3 class="display-6 special-font">Keynotes</h3>
+          <div class="row text-center justify-content-around">
+            {% for keynote in KEYNOTES %}
+            <div class="col-12 col-xl-6 d-flex">
+              <div class="card card-keynote my-3 bg-opacity-50">
+                <img src="{{ keynote['photo'] }}" class="card-img-top w-100" alt="{{ keynote['name'] }} Photo">
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end text-start">
+                  <h5 class="card-title text-white">{{ keynote['name'] }}</h5>
+                </div>
+                <div class="card-body w-100">
+                  <p class="card-text text-start">{{ '.'.join(keynote['bio'].split('.')[:2]) }}.</p>
+                  <div class="social">
+                    {% if keynote['mastodon'] %}
+                    {% set username = keynote['mastodon'].split('@')[0] %}
+                    {% set domain = keynote['mastodon'].split('@')[1] %}
+                    <a class="card-link" href="https://{{ domain }}/@{{ username }}"><i class="fab fa-mastodon px-2"></i></a>
+                    {% endif %}
+                    {% if keynote['twitter'] %}
+                    <a class="card-link" href="https://twitter.com/{{ keynote['twitter'] }}"><i class="fab fa-twitter px-2"></i></a>
+                    {% endif %}
+                    {% if keynote['instagram'] %}
+                    <a class="card-link" href="https://instagram.com/{{ keynote['instagram'] }}"><i class="fab fa-instagram px-2"></i></a>
+                    {% endif %}
+                    {% if keynote['linkedin'] %}
+                    <a class="card-link" href="https://www.linkedin.com/in/{{ keynote['linkedin'] }}"><i class="fab fa-linkedin px-2"></i></a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+  </div>
+
   <!-- registration details -->
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-light me-md-3 py-3 px-3 py-md-5 px-md-5 overflow-hidden">
