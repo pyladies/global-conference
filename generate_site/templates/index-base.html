@@ -88,7 +88,7 @@
                     {% if keynote['mastodon'] %}
                     {% set username = keynote['mastodon'].split('@')[0] %}
                     {% set domain = keynote['mastodon'].split('@')[1] %}
-                    <a class="card-link" href="{{ domain }}{{ username }}"><i class="fab fa-mastodon px-2"></i></a>
+                    <a class="card-link" href="https://{{ domain }}/@{{ username }}"><i class="fab fa-mastodon px-2"></i></a>
                     {% endif %}
                     {% if keynote['twitter'] %}
                     <a class="card-link" href="https://twitter.com/{{ keynote['twitter'] }}"><i class="fab fa-twitter px-2"></i></a>
