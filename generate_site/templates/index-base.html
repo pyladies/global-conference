@@ -78,9 +78,9 @@
             {% for keynote in KEYNOTES %}
             <div class="col-12 col-xl-6 d-flex">
               <div class="card card-keynote my-3 bg-opacity-50">
-                <img src="{{ keynote['photo'] }}" class="card-img-top w-100" alt="{{ keynote['name'] }} Photo">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end text-start">
-                  <h5 class="card-title text-white">{{ keynote['name'] }}</h5>
+                <div class="card-img-container w-100">
+                  <img src="{{ keynote['photo'] }}" class="card-img-top" alt="{{ keynote['name'] }} Photo">
+                  <h5 class="bottom-right text-white">{{ keynote['name'] }}</h5>
                 </div>
                 <div class="card-body w-100">
                   <p class="card-text text-start">{{ '.'.join(keynote['bio'].split('.')[:2]) }}.</p>

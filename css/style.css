@@ -423,13 +423,6 @@ h1, h2, h3, h4, h5 {
   border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
-.card-keynote .card-title {
-  width: 50%;
-  background-color: var(--py-lady-pink);
-  padding: 8px;
-  font-size: 95%;
-}
-
 .card-text {
   font-size: 90%;
 }
@@ -438,56 +431,25 @@ h1, h2, h3, h4, h5 {
   position: relative;
 }
 
+.card-img-container {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  background-color: var(--py-lady-pink);
+  padding: 8px;
+  width: 90%;
+}
+
 @media only screen and (max-width: 600px) {
   .card-keynote {
     flex-direction: column;
   }
   .card-keynote img {
     width: 100%;
-  }
-
-  .card-keynote .card-title {
-    width: 100%;
-  }
-
-  .card-img-overlay {
-    height: 500px !important;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .card-img-overlay {
-    height: 380px !important;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .card-img-overlay {
-    height: 300px !important;
-  }
-}
-
-@media only screen and (max-width: 393px) {
-  .card-img-overlay {
-    height: 280px !important;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .card-img-overlay {
-    height: 260px !important;
-  }
-}
-
-@media only screen and (max-width: 353px) {
-  .card-img-overlay {
-    height: 240px !important;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .card-img-overlay {
-    height: 210px !important;
   }
 }
 
