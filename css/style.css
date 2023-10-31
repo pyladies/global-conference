@@ -264,6 +264,11 @@ h1, h2, h3, h4, h5 {
 
 /* Carousel */
 
+/* Fix glitch when changing carousel and displaying half of the next person */
+.carousel-item-next {
+  display: none;
+}
+
 .carousel-control-prev {
   margin-left: 0;
   padding-left: 0;
