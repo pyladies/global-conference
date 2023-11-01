@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   font-family: var(--font);
+  max-width: 1920px;
+  margin: auto;
 }
 
 .lead a {
