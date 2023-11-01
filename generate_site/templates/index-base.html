@@ -120,7 +120,7 @@
         </p>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 
-        <div class="col d-flex align-items-stretch">
+        <div class="col d-flex alignn-items-stretch">
           <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
             <div class="card-body">
               <h5 class="card-title special-font">Be a Volunteer</h5>
@@ -132,7 +132,7 @@
           </div>
         </div>
 
-        <div class="col d-flex align-items-stretch">
+        <div class="col d-flex alignn-items-stretch">
           <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
             <div class="card-body">
               <h5 class="card-title special-font">Make a difference!</h5>
@@ -143,7 +143,7 @@
           </div>
         </div>
 
-        <div class="col d-flex align-items-stretch">
+        <div class="col d-flex alignn-items-stretch">
           <div class="card mb-4 rounded-3 shadow-sm bg-dark text-white">
             <div class="card-body">
               <h5 class="card-title special-font">Meet PyLadies from all over the world</h5>
@@ -155,33 +155,6 @@
           </div>
         </div>
 
-      </div>
-     </div>
-   </div>
- </div>
-
- <!-- sponsors section -->
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="bg-light me-md-3 py-3 px-3 py-md-5 px-md-5 overflow-hidden">
-      <div class="my-3 py-3 px-5">
-        <img class="icon-section" src="img/details-icon.png"/>
-        <h3 class="display-6 special-font pink">Sponsors</h3>
-        <p class="lead">
-          Know the sponsors of our conference.
-        </p>
-        <!-- TODO: Add the other levels -->
-        {% if SPONSORS['Community'] %}
-        <h4 class="special-font pink">Community</h4>
-        <div class="row row-cols-6 text-center align-items-center">
-          {% for sponsor in SPONSORS['Community'] %}
-          <div class="col d-flex align-items-center">
-            <a href="{{ sponsor['url'] }}">
-              <img class="w-50" src="img/sponsors/{{ sponsor['image']}}" alt="{{ sponsor['name'] }} logo" />
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
      </div>
    </div>

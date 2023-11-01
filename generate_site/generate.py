@@ -19,28 +19,12 @@ with open("keynotes.csv") as f:
     reader = csv.DictReader(f)
     keynotes = list(reader)
 
-with open("sponsors.csv") as f:
-    reader = csv.DictReader(f)
-    _sponsors = list(reader)
-
-sponsors = {}
-for s in _sponsors:
-    _type = s["type"]
-    if _type not in sponsors:
-        sponsors[_type] = []
-    sponsors[_type].append({
-        "name": s["name"],
-        "image": s["image"],
-        "url": s["url"],
-    })
-
 # TODO: Download images? 'Headshot image' is the column name
 
 ##### Template configuration
 conf = {
     "ORG": df_org,
-    "KEYNOTES": keynotes[:2], # only two keynotes
-    "SPONSORS": sponsors,
+    "KEYNOTES": keynotes[:3], # only 3 keynotes
 }
 
 templates = {
