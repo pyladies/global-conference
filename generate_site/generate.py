@@ -14,11 +14,33 @@ with open("organizers.csv") as f:
     reader = csv.DictReader(f)
     df_org = list(reader)
 
+# Keynote info from the csv
+with open("keynotes.csv") as f:
+    reader = csv.DictReader(f)
+    keynotes = list(reader)
+
+with open("sponsors.csv") as f:
+    reader = csv.DictReader(f)
+    _sponsors = list(reader)
+
+sponsors = {}
+for s in _sponsors:
+    _type = s["type"]
+    if _type not in sponsors:
+        sponsors[_type] = []
+    sponsors[_type].append({
+        "name": s["name"],
+        "image": s["image"],
+        "url": s["url"],
+    })
+
 # TODO: Download images? 'Headshot image' is the column name
 
 ##### Template configuration
 conf = {
     "ORG": df_org,
+    "KEYNOTES": keynotes[:4], # only 4 keynotes
+    "SPONSORS": sponsors,
 }
 
 templates = {
@@ -57,7 +79,7 @@ for key, value in templates.items():
     template_params = conf
     template_params.update(value)
     # Write final HTML
-    with open(Path("..") / f"{key}.html", "w") as f:
-        print(f"writing {f=}")
-        print(template_params)
+    fname = Path("..") / f"{key}.html"
+    with open(fname, "w") as f:
+        print(f"writing {fname}")
         f.write(_t.render(template_params))
