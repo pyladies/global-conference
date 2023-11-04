@@ -39,7 +39,7 @@ for s in _sponsors:
 ##### Template configuration
 conf = {
     "ORG": df_org,
-    "KEYNOTES": keynotes[:5], # only 5 keynotes
+    "KEYNOTES": keynotes[:6], # only 6 keynotes
     "SPONSORS": sponsors,
 }
 
