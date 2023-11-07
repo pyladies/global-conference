@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   font-family: var(--font);
+  max-width: 1920px;
+  margin: auto;
 }
 
 .lead a {
@@ -59,6 +61,16 @@ h1, h2, h3, h4, h5 {
 .menu-logo {
   width: 48px;
   height: 48px;
+}
+
+.hamburger-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.hamburger-menu {
+  width: 35px;
+  height: 35px;
 }
 
 .bg-pink {
@@ -124,6 +136,18 @@ h1, h2, h3, h4, h5 {
   }
   .display-6 {
     font-size: 1em;
+  }
+}
+
+/* Adjusting keynote name */
+@media (max-width: 900px) {
+  h5 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  h5 {
+    font-size: 0.8rem;
   }
 }
 
@@ -264,6 +288,11 @@ h1, h2, h3, h4, h5 {
 
 /* Carousel */
 
+/* Fix glitch when changing carousel and displaying half of the next person */
+.carousel-item-next {
+  display: none;
+}
+
 .carousel-control-prev {
   margin-left: 0;
   padding-left: 0;
@@ -319,41 +348,6 @@ h1, h2, h3, h4, h5 {
   font-size: 1em;
 }
 }
-
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  transform: rotate(30deg);
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 5px;
-}
-
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
 
 /*
  * Extra utilities
@@ -421,4 +415,53 @@ h1, h2, h3, h4, h5 {
 }
 .avatar-row > :first-child {
   margin-left: 0;
+}
+
+/* keynotes */
+.card-keynote {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.card-keynote img {
+  display: block;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.card-text {
+  font-size: 90%;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  background-color: var(--py-lady-pink);
+  padding: 8px;
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-keynote {
+    flex-direction: column;
+  }
+  .card-keynote img {
+    width: 100%;
+  }
+}
+
+.card-keynote img {
+  filter: sepia(100%) hue-rotate(190deg);/* saturate(500%); */
+}
+
+.card-keynote img:hover{
+  filter: none;
+  transition-duration: 0.3s;
 }
