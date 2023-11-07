@@ -141,6 +141,7 @@
             </div>
           {% endfor %}
         </div>
+        {% if (SPEAKERS|length - CUTOFF) > 0 %}
         <p>and {{ SPEAKERS|length - CUTOFF }} more!</p>
         <div class="avatar-row mb-4">
           {% for speaker in SPEAKERS[CUTOFF:] %}
@@ -156,6 +157,7 @@
             Meet All The Speakers <i class="fas fa-arrow-right"></i>
           </a>
         </p>
+        {% endif %}
         {% endif %}
       </div>
     </div>
