@@ -403,6 +403,20 @@ h1, h2, h3, h4, h5 {
   border-top: 1px solid #a71b36;
 }
 
+/* Avatar row */
+.avatar-row {
+  display: flex;
+}
+.avatar-row > * {
+  width: 4rem;
+  margin-left: -1rem;
+  transform: scale(1.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.avatar-row > :first-child {
+  margin-left: 0;
+}
+
 /* keynotes */
 .card-keynote {
   flex-direction: row;

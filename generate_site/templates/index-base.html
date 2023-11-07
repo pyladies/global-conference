@@ -105,6 +105,58 @@
             </div>
             {% endfor %}
           </div>
+        {% if SPEAKERS_ENABLED %}
+        <h2 class="dispaly-6 special-font mb-5">The Speakers</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-3">
+          {% set CUTOFF = 8 %}
+          {% set socials = ("LinkedIn", "Twitter", "Mastodon", "Instagram") %}
+          {% for speaker in SPEAKERS[:CUTOFF] %}
+            <div class="col mb-3">
+              <div class="row">
+                <div class="col-5">
+                  {% if speaker['Photo'] %}
+                  <img src="{{ speaker["Photo"] }}" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
+                  {% else %}
+                  <img src="img/speakers/default.png" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
+                  {% endif %}
+                </div>
+                <div class="col-7">
+                  <strong class="fs-5">{{ speaker["Name"] }}</strong>
+                  <!--<p>{{ speaker["Title"] }} ({{ speaker["Pronouns"] }})</p>-->
+                  <p>
+                    {%- for social in socials -%}
+                      {%- if speaker[social] -%}
+                      <a href="{{ speaker[social] }}" class="text-white text-decoration-none">
+                        <i class="fab fa-{{ social|lower }} fa-lg px-2" aria-hidden="true"></i>
+                        <span class="visually-hidden">{{ social }}</span>
+                      </a>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </p>
+                </div>
+                <div class="col-12">
+                  <p>{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <p>and {{ SPEAKERS|length - CUTOFF }} more!</p>
+        <div class="avatar-row mb-4">
+          {% for speaker in SPEAKERS[CUTOFF:] %}
+             {% if speaker['Photo'] %}
+             <img src="{{ speaker['Photo'] }}" alt="{{ speaker['Name'] }}" class="rounded-circle">
+             {% else %}
+             <img src="img/speakers/default.png" alt="{{ speaker['Name'] }}" class="rounded-circle">
+             {% endif %}
+          {% endfor %}
+        </div>
+        <p>
+          <a class="fs-5 text-decoration-none text-white" href="">
+            Meet All The Speakers <i class="fas fa-arrow-right"></i>
+          </a>
+        </p>
+        {% endif %}
       </div>
     </div>
   </div>
