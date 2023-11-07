@@ -45,7 +45,7 @@ with open("speakers.csv", encoding="utf-8-sig") as f:
 conf = {
     "ORG": df_org,
     "SPEAKERS_ENABLED": True, # Toggle the "Speakers" section in the homepage
-    "SPEAKERS": speakers[:2], # only 2 speakers
+    "SPEAKERS": speakers[:4], # only 2 speakers
     "KEYNOTES": keynotes[:6], # only 6 keynotes
     "SPONSORS": sponsors,
 }
