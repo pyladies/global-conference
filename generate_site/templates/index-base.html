@@ -126,7 +126,18 @@
                   <p>
                     {%- for social in socials -%}
                       {%- if speaker[social] -%}
-                      <a href="{{ speaker[social] }}" class="text-white text-decoration-none">
+                        {% if social == "Mastodon" %}
+                        {% set username = speaker[social].split('@')[1] %}
+                        {% set domain = speaker[social].split('@')[2] %}
+                        {% set url = "https://" + domain + "/@" + username %}
+                        {% elif social == "Twitter" %}
+                        {% set url = "https://twitter.com/" + speaker[social] %}
+                        {% elif social == "Instagram" %}
+                        {% set url = "https://instagram.com/" + speaker[social] %}
+                        {% elif social == "LinkedIn" %}
+                        {% set url = speaker[social] %}
+                        {% endif %}
+                      <a href="{{ url }}" class="text-white text-decoration-none">
                         <i class="fab fa-{{ social|lower }} fa-lg px-2" aria-hidden="true"></i>
                         <span class="visually-hidden">{{ social }}</span>
                       </a>
