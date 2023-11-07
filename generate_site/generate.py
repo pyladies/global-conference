@@ -39,13 +39,13 @@ for s in _sponsors:
 # Assuming https://github.com/pyladies/global-conference/pull/60 gets merged
 with open("speakers.csv", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
-    df_speakers = list(reader)
+    speakers = list(reader)
 
 ##### Template configuration
 conf = {
     "ORG": df_org,
-    "SPEAKERS_ENABLED": False, # Toggle the "Speakers" section in the homepage
-    "SPEAKERS": df_speakers,
+    "SPEAKERS_ENABLED": True, # Toggle the "Speakers" section in the homepage
+    "SPEAKERS": speakers[:2], # only 2 speakers
     "KEYNOTES": keynotes[:6], # only 6 keynotes
     "SPONSORS": sponsors,
 }
