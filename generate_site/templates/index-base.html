@@ -120,7 +120,7 @@
                   <img src="img/speakers/default.png" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
                   {% endif %}
                 </div>
-                <div class="col-7">
+                <div class="col-7 my-auto">
                   <strong class="fs-5">{{ speaker["Name"] }}</strong>
                   <!--<p>{{ speaker["Title"] }} ({{ speaker["Pronouns"] }})</p>-->
                   <p>
@@ -146,7 +146,7 @@
                   </p>
                 </div>
                 <div class="col-12">
-                  <p>{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                  <p class="mt-2 border-left">{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
                 </div>
               </div>
             </div>
