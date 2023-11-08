@@ -34,10 +34,13 @@
             <div class="col mb-3">
               <div class="row align-items-center">
                 <div class="col-5">
-                  <img src="{{ speaker["photo"] }}" alt="{{ speaker["name"] }}" class="rounded-circle img-fluid">
+                  <img src="{{ speaker["photo"] }}" alt="{{ speaker["name"] }}" class="rounded-5 img-fluid">
                 </div>
-                <div class="col-7 d-flex align-self-center justify-content-center align-items-center flex-column">
+                <div class="col-7 flex-column my-auto">
                   <strong class="fs-4">{{ speaker["name"] }}</strong>
+                  <p>{{ speaker["title"] }}<br>
+                    <span style="font-size: 80%; font-weight: bold;">{{ speaker["company"] }}</span>
+                  </p>
                   <p>
                     {%- for social in socials[:3] -%}
                       {%- if speaker[social] -%}
@@ -49,8 +52,8 @@
                         {% set url = "https://twitter.com/" + speaker[social] %}
                         {% elif social == "instagram" %}
                         {% set url = "https://instagram.com/" + speaker[social] %}
-                        {% elif social == "linkedIn" %}
-                        {% set url = speaker[social] %}
+                        {% elif social == "linkedin" %}
+                        {% set url = "https://linkedin.com/in/" + speaker[social] %}
                         {% endif %}
                       <a href="{{ url }}" class="text-white text-decoration-none">
                         <i class="fab fa-{{ social|lower }} fa-lg px-2" aria-hidden="true"></i>
@@ -61,7 +64,7 @@
                   </p>
                 </div>
                 <div class="col-12">
-                  <p>{{ '.'.join(speaker["bio"].split(".")[:2]) }}</p>
+                  <p class="mt-3 border-left">{{ '.'.join(speaker["bio"].split(".")[:2]) }}</p>
                 </div>
               </div>
             </div>
@@ -80,7 +83,7 @@
                   <img src="img/speakers/default.png" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
                   {% endif %}
                 </div>
-                <div class="col-7">
+                <div class="col-7 flex-column my-auto">
                   <strong class="fs-5">{{ speaker["Name"] }}</strong>
                   <!--<p>{{ speaker["Title"] }} ({{ speaker["Pronouns"] }})</p>-->
                   <p>
@@ -106,7 +109,7 @@
                   </p>
                 </div>
                 <div class="col-12">
-                  <p>{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                  <p class="mt-3 border-left">{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
                 </div>
               </div>
             </div>
