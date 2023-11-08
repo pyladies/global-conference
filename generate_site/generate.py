@@ -45,12 +45,20 @@ with open("speakers.csv", encoding="utf-8-sig") as f:
 conf = {
     "ORG": df_org,
     "SPEAKERS_ENABLED": True, # Toggle the "Speakers" section in the homepage
-    "SPEAKERS": speakers[:4], # only 2 speakers
-    "KEYNOTES": keynotes[:6], # only 6 keynotes
+    "SPEAKERS": speakers[:4], # only 4 speakers
+    "KEYNOTES": keynotes,
     "SPONSORS": sponsors,
 }
 
 templates = {
+    "schedule": {
+        "og_title": "PyLadiesCon 2023 - Schedule",
+        "og_description": "Schedule PyLadiesCon.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/schedule.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
     "speakers": {
         "og_title": "PyLadiesCon 2023 - Speakers",
         "og_description": "Speakers PyLadiesCon.",
