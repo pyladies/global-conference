@@ -51,6 +51,14 @@ conf = {
 }
 
 templates = {
+    "speakers": {
+        "og_title": "PyLadiesCon 2023 - Speakers",
+        "og_description": "Speakers PyLadiesCon.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/speakers.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
     "about": {
         "og_title": "PyLadiesCon 2023 - About Us",
         "og_description": "About PyLadiesCon.",

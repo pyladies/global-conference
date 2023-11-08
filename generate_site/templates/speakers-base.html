@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'head.html' %}
+  <body>
+
+  {% include 'header.html' %}
+
+<main>
+
+  <!-- page cover -->
+  <div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center bg-white">
+    <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center">
+      <div class="col-md-6 p-lg-1 mx-auto mt-auto">
+        <h2 class="special-font gradient title-size">Speakers</h2>
+      </div>
+      <div class="col-md-3 d-none d-lg-block">
+        <!-- empty alt tag as it is a decorative image -->
+        <img src="img/about-icon-1.png" alt=""/>
+      </div>
+      <div class="col-md-3 d-none d-lg-block">
+        <!-- empty alt tag as it is a decorative image -->
+        <img src="img/speakers-icon-2.png" alt=""/>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-pink me-md-3 py-3 px-3 py-md-5 px-md-5 text-white overflow-hidden">
+      <div class="my-3 py-3 px-5">
+        <h2 class="dispaly-6 special-font mb-5">Meet our keynotes</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-3">
+          {% set socials = ("linkedin", "twitter", "mastodon", "instagram") %}
+          {% for speaker in KEYNOTES %}
+            <div class="col mb-3">
+              <div class="row align-items-center">
+                <div class="col-5">
+                  <img src="{{ speaker["photo"] }}" alt="{{ speaker["name"] }}" class="rounded-circle img-fluid">
+                </div>
+                <div class="col-7 d-flex align-self-center justify-content-center align-items-center flex-column">
+                  <strong class="fs-4">{{ speaker["name"] }}</strong>
+                  <p>
+                    {%- for social in socials[:3] -%}
+                      {%- if speaker[social] -%}
+                        {% if social == "mastodon" %}
+                        {% set username = speaker[social].split('@')[0] %}
+                        {% set domain = speaker[social].split('@')[1] %}
+                        {% set url = "https://" + domain + "/@" + username %}
+                        {% elif social == "twitter" %}
+                        {% set url = "https://twitter.com/" + speaker[social] %}
+                        {% elif social == "instagram" %}
+                        {% set url = "https://instagram.com/" + speaker[social] %}
+                        {% elif social == "linkedIn" %}
+                        {% set url = speaker[social] %}
+                        {% endif %}
+                      <a href="{{ url }}" class="text-white text-decoration-none">
+                        <i class="fab fa-{{ social|lower }} fa-lg px-2" aria-hidden="true"></i>
+                        <span class="visually-hidden">{{ social }}</span>
+                      </a>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </p>
+                </div>
+                <div class="col-12">
+                  <p>{{ '.'.join(speaker["bio"].split(".")[:2]) }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <h2 class="dispaly-6 special-font my-5">The Speakers</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-3">
+          {% set socials = ("LinkedIn", "Twitter", "Mastodon", "Instagram") %}
+          {% for speaker in SPEAKERS %}
+            <div class="col mb-3">
+              <div class="row">
+                <div class="col-5">
+                  {% if speaker['Photo'] %}
+                  <img src="{{ speaker["Photo"] }}" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
+                  {% else %}
+                  <img src="img/speakers/default.png" alt="{{ speaker["Name"] }}" class="rounded-circle img-fluid">
+                  {% endif %}
+                </div>
+                <div class="col-7">
+                  <strong class="fs-5">{{ speaker["Name"] }}</strong>
+                  <!--<p>{{ speaker["Title"] }} ({{ speaker["Pronouns"] }})</p>-->
+                  <p>
+                    {%- for social in socials -%}
+                      {%- if speaker[social] -%}
+                        {% if social == "Mastodon" %}
+                        {% set username = speaker[social].split('@')[1] %}
+                        {% set domain = speaker[social].split('@')[2] %}
+                        {% set url = "https://" + domain + "/@" + username %}
+                        {% elif social == "Twitter" %}
+                        {% set url = "https://twitter.com/" + speaker[social] %}
+                        {% elif social == "Instagram" %}
+                        {% set url = "https://instagram.com/" + speaker[social] %}
+                        {% elif social == "LinkedIn" %}
+                        {% set url = speaker[social] %}
+                        {% endif %}
+                      <a href="{{ url }}" class="text-white text-decoration-none">
+                        <i class="fab fa-{{ social|lower }} fa-lg px-2" aria-hidden="true"></i>
+                        <span class="visually-hidden">{{ social }}</span>
+                      </a>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </p>
+                </div>
+                <div class="col-12">
+                  <p>{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+{% include 'footer.html' %}
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
