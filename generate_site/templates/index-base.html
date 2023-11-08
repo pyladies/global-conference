@@ -108,7 +108,7 @@
         {% if SPEAKERS_ENABLED %}
         <h2 class="dispaly-6 special-font mb-5">The Speakers</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-3">
-          {% set CUTOFF = 8 %}
+          {% set CUTOFF = 4 %}
           {% set socials = ("LinkedIn", "Twitter", "Mastodon", "Instagram") %}
           {% for speaker in SPEAKERS[:CUTOFF] %}
             <div class="col mb-3">
