@@ -1,5 +1,6 @@
 import csv
 import sys
+import random
 
 from pathlib import Path
 
@@ -40,12 +41,13 @@ for s in _sponsors:
 with open("speakers.csv", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
     speakers = list(reader)
+    random.shuffle(speakers)
 
 ##### Template configuration
 conf = {
     "ORG": df_org,
     "SPEAKERS_ENABLED": True, # Toggle the "Speakers" section in the homepage
-    "SPEAKERS": speakers[:4], # only 4 speakers
+    "SPEAKERS": speakers,
     "KEYNOTES": keynotes,
     "SPONSORS": sponsors,
 }
