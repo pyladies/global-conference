@@ -146,7 +146,9 @@
                   </p>
                 </div>
                 <div class="col-12">
-                  <p class="mt-2 border-left">{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                  {% if speaker['Biography'] %}
+                  <p class="mt-2 border-left">o{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
+                  {% endif %}
                 </div>
               </div>
             </div>
