@@ -27,7 +27,7 @@
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
     <div class="bg-pink me-md-3 py-3 px-3 py-md-5 px-md-5 text-white overflow-hidden">
       <div class="my-3 py-3 px-5">
-        <h2 class="dispaly-6 special-font mb-5">Meet our keynotes</h2>
+        <h2 class="dispaly-6 special-font mb-5" id="keynotes">Meet our keynotes</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-3">
           {% set socials = ("linkedin", "twitter", "mastodon", "instagram") %}
           {% for speaker in KEYNOTES %}
@@ -72,7 +72,7 @@
             </div>
           {% endfor %}
         </div>
-        <h2 class="dispaly-6 special-font my-5">The Speakers</h2>
+        <h2 class="dispaly-6 special-font my-5" id="speakers">The Speakers</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-3">
           {% set socials = ("LinkedIn", "Twitter", "Mastodon", "Instagram") %}
           {% for speaker in SPEAKERS %}
