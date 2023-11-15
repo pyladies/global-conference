@@ -239,6 +239,19 @@
           Know the sponsors of our conference.
         </p>
         <!-- TODO: Add the other levels -->
+        {% if SPONSORS['Partner'] %}
+        <h4 class="special-font pink">Partner</h4>
+        <div class="row row-cols-4 text-center align-items-center">
+          {% for sponsor in SPONSORS['Partner'] %}
+          <div class="col d-flex align-items-center">
+            <a href="{{ sponsor['url'] }}">
+              <img class="w-50" src="img/sponsors/{{ sponsor['image']}}" alt="{{ sponsor['name'] }} logo" />
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if SPONSORS['Community'] %}
         <h4 class="special-font pink">Community</h4>
         <div class="row row-cols-6 text-center align-items-center">
