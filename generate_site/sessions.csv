@@ -1,0 +1,44 @@
+ID,Proposal title,Session type,Track,Tags,Language,Speaker IDs,Speaker names,Start,End
+3GAJLD,Testing in Python,Talk,América,Testing,en,APCTKW,Jessie Newman,2023-12-02T19:55:00+00:00,2023-12-02T20:15:00+00:00
+3S3SP3,"Collaboration Infrastructure in Data Science: Tools, Challenges and Best Practices",Talk,APAC,Data Science,en,LLJSBE,Pavithra Eswaramoorthy,2023-12-02T03:30:00+00:00,2023-12-02T03:50:00+00:00
+7GZZRE,Transcendence: The Power of Representation,Talk,Keynote,,en,7NWTAL,Marlene Mhangami,2023-12-02T07:10:00+00:00,2023-12-02T07:50:00+00:00
+8CHE8W,Pythonic Principles: Best Practices for Clean Code,Talk,APAC,Core Python,en,DNUJPT,Swarooprani Manoor,2023-12-02T01:40:00+00:00,2023-12-02T02:00:00+00:00
+8XDSHU,From futons to functions: the principles of good API design,Talk,APAC,,en,VCVVRF,Daisy Leigh Brenecki,2023-12-02T01:15:00+00:00,2023-12-02T01:35:00+00:00
+8ZV8BX,Cache me if you can: Boosting performance with Data Caching in Python,Talk,APAC,"Core Python, Devops/Developer Productivity, Open Source library",en,AFAAPF,Ria Bhatia,2023-12-02T05:25:00+00:00,2023-12-02T05:45:00+00:00
+93FA7B,How to Make a Docs Site: Shortcuts for Busy Devs,Talk,América,Documentation,en,MZYXRJ,Joanna Jablonski,2023-12-02T19:30:00+00:00,2023-12-02T19:50:00+00:00
+9VG9FS,How can we tell if the search results are good ?,Talk,Keynote,,en,BGNAZ3,Thais Viana,2023-12-02T23:10:00+00:00,2023-12-02T23:50:00+00:00
+AC8HVC,PyScript: Empowering Rich Python Applications in the Browser 在浏览器中运行Python,Talk,Keynote,"Community, Documentation",zh-hans,LAFT9K,Sophia Yang,2023-12-02T00:30:00+00:00,2023-12-02T01:10:00+00:00
+ACS7MA,PyLadies Introduction,Message from Organizers,América,,en,HNDEAH,Lynn Root,2023-12-02T16:00:00+00:00,2023-12-02T16:15:00+00:00
+BE7NNM,Vozes na Tecnologia: Contando Experiências na Indústria de Tecnologia,Panel,América,,pt,"XWWMQL, SHLWHX, CLCUKH, W3C9QY, DACNLC","Débora Azevedo (HOST), Jessica Temporal, Lidiane Monteiro, Ryllari Costa, Bia Rosa",2023-12-02T22:30:00+00:00,2023-12-02T23:10:00+00:00
+BZL9LB,PyLadies Introduction,Message from Organizers,APAC,,en,HNDEAH,Lynn Root,2023-12-02T00:00:00+00:00,2023-12-02T00:15:00+00:00
+CCSW3B,PyLadies Introduction,Message from Organizers,EMEA,,en,HNDEAH,Lynn Root,2023-12-02T08:00:00+00:00,2023-12-02T08:15:00+00:00
+CF3CHZ,Django Ninja - uma excelente opção para o desenvolvimento web,Talk,América,,pt,RFQAFN,Ana Dulce Padovan,2023-12-02T21:25:00+00:00,2023-12-02T21:45:00+00:00
+CMSJPJ,Mujeres en tecnología: experiencias de una Principal Data Scientist,Talk,EMEA,"Data Science, Career Growth, Inclusivity",es,LSFRP3,Judit Guimera Busquets,2023-12-02T11:55:00+00:00,2023-12-02T12:15:00+00:00
+CXBGKU,"PyLadies Maputo - Construir uma comunidade que promove a diversidade, conecta, encoraja e desenvolve competências profissionais e humanas",Talk,EMEA,,pt,TJGMMZ,Cecilia Tivir,2023-12-02T11:30:00+00:00,2023-12-02T11:50:00+00:00
+D7TXGE,Python x la Sostenibilidad: tecnología para combatir el Cambio Climático,Talk,América,,es,8XZ3YT,Valeria Cerpa Salas,2023-12-02T17:40:00+00:00,2023-12-02T18:00:00+00:00
+DP9PTG,Conference Closing,Message from Organizers,APAC,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T07:50:00+00:00,2023-12-02T08:00:00+00:00
+DXPBUV,Unity in Diversity: The Voices of PyLadies Global Council,Panel,América,,en,"YDVPDC, G38LT7, R8PQYJ, LMDA33","Lorena Mesa, Lynn Root, Marie-Louise Annan, Tania Allard",,
+ENBHVX,Python Adventures for the Neurospicy,Talk,APAC,"Inclusivity, Accessibility",en,CM8WDL,Lisa Marielle Cooper,2023-12-02T05:50:00+00:00,2023-12-02T06:10:00+00:00
+FL8RG3,Build Your First LLM-based Application with Haystack,Talk,APAC,"AI, ML, Open Source library",en,PVSNUG,Bilge Yücel,2023-12-02T20:20:00+00:00,2023-12-02T20:40:00+00:00
+FMYCFJ,Welcome to PyLadiesCon,Message from Organizers,APAC,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T00:15:00+00:00,2023-12-02T00:30:00+00:00
+GH7QUB,Empoderando a las Mujeres en la Industria Tecnológica: Experiencias y Perspectivas,Panel,EMEA,Leadership,es,"EKPXTC, SHRQQR, MHVJLW, DTKP9G, UJRVK9","Marta Gomez, Andrea Griffiths (HOST), Beatris Mendez Gandica, Stefanni Cavaletto, Marian Villa",2023-12-02T14:30:00+00:00,2023-12-02T15:05:00+00:00
+GMSZZH,The Genie is out of the Bottle -Generative AI,Talk,EMEA,"AI, ML",en,LRQQ9S,sireesha chavali,2023-12-02T13:25:00+00:00,2023-12-02T13:45:00+00:00
+HJVE7H,Project TEDDY (Text-based Early Distress Detector for Youth),Talk,APAC,"Community, Inclusivity",en,WM9GRC,Mona Obedoza,2023-12-02T04:20:00+00:00,2023-12-02T04:40:00+00:00
+HT9WVE,Survival Guide to typing in python,Talk,EMEA,Core Python,en,QGRNQU,HanaPoulpe,2023-12-02T13:00:00+00:00,2023-12-02T13:20:00+00:00
+HUUPT8,Usando Python para curar enfermedades genéticas,Talk,EMEA,,es,TDTD3R,Marina Moro López,2023-12-02T12:20:00+00:00,2023-12-02T12:40:00+00:00
+KRBSWM,Exploring Generative AI through the lens of Open source,Talk,APAC,"AI, ML",en,MHFXGX,Aparna Soneja,2023-12-02T03:55:00+00:00,2023-12-02T04:15:00+00:00
+KXF7JY,"Starting my career, the Open Source way.",Talk,Keynote,,en,TKWGDL,Abigail Mesrenyame Dogbe,2023-12-02T16:30:00+00:00,2023-12-02T17:10:00+00:00
+KYAWRK,Conference Closing,Message from Organizers,EMEA,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T15:50:00+00:00,2023-12-02T16:00:00+00:00
+L8QJPF,Pyladies Bioinfo Brasil,Talk,América,"Community, Inclusivity",pt,73PXDP,Pri Boyano,2023-12-02T21:50:00+00:00,2023-12-02T22:10:00+00:00
+LWQF39,Challenges for Women Working in Technology,Panel,APAC,,en,"XUGWWF, DTA88Q, EYNLTD, TLEV97, SC8XN7","Joeun Park, Micaela Reyes, Sarah Huang (HOST), Maaya Ishida, Winnie Ke",2023-12-02T06:30:00+00:00,2023-12-02T07:05:00+00:00
+NLLJLT,Sparkling Connections: Making PyLadies' Contributions Visible Through Mastodon Bots,Talk,EMEA,Community,en,7GY7XH,Cosima Meyer,2023-12-02T09:15:00+00:00,2023-12-02T09:35:00+00:00
+PCGNJV,Tu voz en Python,Talk,Keynote,,es,BXPSJJ,Jimena Bermúdez,2023-12-02T15:10:00+00:00,2023-12-02T15:50:00+00:00
+Q98DM8,Créer une communauté de 5000 expertes en apprentissage automatique : WiMLDS Paris,Keynote,Keynote,,fr,WJKXHS,Caroline Therwath-Chavier,2023-12-02T08:30:00+00:00,2023-12-02T09:10:00+00:00
+QK8WPD,IAcelearando despliegues poderosos,Talk,América,Devops/Developer Productivity,es,Q7LNYR,Rossana Suarez,2023-12-02T17:15:00+00:00,2023-12-02T17:35:00+00:00
+R89VX9,How and why I built a PyLadies avatar generator in 2 days,Talk,EMEA,Community,en,ZFEVEV,Mariana Bocoi,2023-12-02T09:40:00+00:00,2023-12-02T10:00:00+00:00
+RG9XA7,Drones : Do Software ao Hardware!  Utilizando  conhecimentos sobre Python para desenvolver um drone de voo autônomo,Talk,América,Electronics,pt,PGWB88,Mariana Oliveira,2023-12-02T21:00:00+00:00,2023-12-02T21:20:00+00:00
+VQ9H73,Welcome to PyLadiesCon,Message from Organizers,América,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T16:15:00+00:00,2023-12-02T16:30:00+00:00
+WV9AAD,"Djangonaut Space, how we organized a mentorship program",Talk,EMEA,"Community, Open Source library",en,RWAZC7,Sarah Abderemane,2023-12-02T13:50:00+00:00,2023-12-02T14:10:00+00:00
+XTAZDU,Welcome to PyLadiesCon,Message from Organizers,EMEA,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T08:15:00+00:00,2023-12-02T08:30:00+00:00
+Y7A7MA,时间序列特征一键式提取神器-tsfresh,Talk,APAC,"Data Science, Open Source library",zh-hans,CFDRLR,April,2023-12-02T05:00:00+00:00,2023-12-02T05:20:00+00:00
+YWCEW9,Conference Closing,Message from Organizers,América,,en,"UBWWHR, 8VQA3M","Denny Perez, Mariatta",2023-12-02T23:50:00+00:00,2023-12-03T00:00:00+00:00

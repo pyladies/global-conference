@@ -2,6 +2,7 @@ import csv
 import sys
 import random
 
+from datetime import datetime
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
@@ -43,6 +44,30 @@ with open("speakers.csv", encoding="utf-8-sig") as f:
     speakers = list(reader)
     random.shuffle(speakers)
 
+with open("sessions.csv", encoding="utf-8-sig") as f:
+    reader = csv.DictReader(f)
+    sessions_list = list(reader)
+
+sessions = {}
+for s in sessions_list:
+    idx = s["ID"]
+    if idx not in sessions:
+        sessions[idx] = {}
+    for k, v in s.items():
+        if k == "ID":
+            continue
+        if k in ("Start", "End"):
+            # 2023-12-02T20:15:00+00:00
+            try:
+                dtime = datetime.fromisoformat(v)
+                day = "1st" if dtime.day == 1 else "2nd"
+                sessions[idx][k] = f"{day};{dtime.hour:02}:{dtime.minute:02}"
+            except:
+                print(f"Empty Start/End time for talk: {s['Proposal title']}")
+                sessions[idx][k] = f"TBD;TBD"
+        else:
+            sessions[idx][k] = v
+
 ##### Template configuration
 conf = {
     "ORG": df_org,
@@ -50,6 +75,7 @@ conf = {
     "SPEAKERS": speakers,
     "KEYNOTES": keynotes,
     "SPONSORS": sponsors,
+    "SESSIONS": sessions,
 }
 
 templates = {

@@ -113,6 +113,19 @@
                 <div class="col-12">
                   <p class="mt-3 border-left">{{ '.'.join(speaker["Biography"].split(".")[:2]) }}</p>
                 </div>
+                <div class="col-12">
+                  {% for talk_id in speaker['Talk IDs'].split(';') %}
+                  {% set day = SESSIONS[talk_id]['Start'].split(';')[0] %}
+                  {% set time_start = SESSIONS[talk_id]['Start'].split(';')[1] %}
+                  {% set time_end = SESSIONS[talk_id]['End'].split(';')[1] %}
+                  <a href="https://pretalx.com/pyladiescon-2023/talk/{{talk_id}}" class="text-white" style="text-decoration: none;">
+                  <div class="w-100p rounded-2 mt-2" style="background-color: rgba(0, 0, 0, 0.2); padding: 10px;">
+                    <span class="text-center">{{ day }} Dec | {{time_start}} - {{time_end }} | UTC</span><br>
+                    <strong style="font-weight: 800;">{{ SESSIONS[talk_id]['Proposal title'] }}</strong>
+                  </div>
+                  </a>
+                  {% endfor %}
+                </div>
               </div>
             </div>
           {% endfor %}
