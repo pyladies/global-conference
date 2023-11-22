@@ -118,10 +118,11 @@
                   {% set day = SESSIONS[talk_id]['Start'].split(';')[0] %}
                   {% set time_start = SESSIONS[talk_id]['Start'].split(';')[1] %}
                   {% set time_end = SESSIONS[talk_id]['End'].split(';')[1] %}
-                  <a href="https://pretalx.com/pyladiescon-2023/talk/{{talk_id}}" class="text-white" style="text-decoration: none;">
                   <div class="w-100p rounded-2 mt-2" style="background-color: rgba(0, 0, 0, 0.2); padding: 10px;">
                     <span class="text-center">{{ day }} Dec | {{time_start}} - {{time_end }} | <a class="text-white" href="https://time.is/UTC" target="_blank">UTC</a>/<a class="text-white" href="https://time.is/GMT">GMT</a></span><br>
+                    <a href="https://pretalx.com/pyladiescon-2023/talk/{{talk_id}}" class="text-white" style="text-decoration: none;">
                     <strong style="font-weight: 800;">{{ SESSIONS[talk_id]['Proposal title'] }}</strong>
+                    </a>
                   </div>
                   </a>
                   {% endfor %}
