@@ -103,6 +103,22 @@ templates = {
         "og_image_url": "https://conference.pyladies.com/img/icon.png",
         "og_image_alt": "PyLadiesCon logo",
     },
+    "coc-enforcement": {
+        "og_title": "PyLadiesCon 2023 - Code of Conduct Enforcement Procedure",
+        "og_description": "Code of Conduct Enforcement Procedure.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/coc-enforcement.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
+    "coc-reporting": {
+        "og_title": "PyLadiesCon 2023 - Code of Conduct Reporting Procedure",
+        "og_description": "Code of Conduct Reporting Procedure.",
+        "og_type": "article",
+        "og_url": "https://conference.pyladies.com/coc-reporting.html",
+        "og_image_url": "https://conference.pyladies.com/img/icon.png",
+        "og_image_alt": "PyLadiesCon logo",
+    },
     "sponsors": {
         "og_title": "PyLadiesCon 2023 - Sponsors",
         "og_description": "Sponsoring PyLadiesCon.",
