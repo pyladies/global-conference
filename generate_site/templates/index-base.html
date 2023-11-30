@@ -252,6 +252,19 @@
         </div>
         {% endif %}
 
+        {% if SPONSORS['Translation'] %}
+        <h4 class="special-font pink">Translation</h4>
+        <div class="row row-cols-2 text-center align-items-center">
+          {% for sponsor in SPONSORS['Translation'] %}
+          <div class="col d-flex align-items-center">
+            <a href="{{ sponsor['url'] }}">
+              <img class="w-60" src="img/sponsors/{{ sponsor['image']}}" alt="{{ sponsor['name'] }} logo" />
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% if SPONSORS['Booster'] %}
         <h4 class="special-font pink">Booster</h4>
         <div class="row row-cols-3 text-center align-items-center">
