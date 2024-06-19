@@ -9,11 +9,6 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
 
-      - name: setup python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
