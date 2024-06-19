@@ -1,0 +1,14 @@
+<div class="col-lg-3">
+  <div class="row">
+    <div class="col-4 d-none d-lg-block">
+      <img class="rounded-circle img-fluid" src="{{ .Get 1 }}" alt="{{ .Get 0 }} profile picture">
+    </div>
+    <div class="col-8 align-start">
+      <h5 style="position: inline;" class="text-white">{{ .Get 0 }}</h5>
+      <p class="text-white">{{ .Get 2 }}</p>
+    </div>
+  </div>
+  <p class="mt-3 text-white">
+    {{ .Get 3 }}
+  </p>
+</div>
