@@ -1,0 +1,13 @@
+<!-- title and image header per page -->
+<div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
+  <div class="d-flex w-75 my-md-3 mx-auto align-items-center">
+    <div class="col-10 col-md-10 p-lg-1 mx-auto mt-auto">
+      <h4 class="special-font gradient title-size-2 text-start">{{ .Get 0 }}</h4>
+      <h4 class="no-font text-start">{{ .Get 1 }}</h4>
+    </div>
+    <div class="col-2 col-md-2 d-none d-lg-block">
+      <img class="img-fluid" src="{{ .Get 2 }}" />
+    </div>
+  </div>
+</div>
+
