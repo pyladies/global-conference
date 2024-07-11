@@ -20,7 +20,7 @@ layout = 2
         <h1 class="pink display-4 fw-normal">PyLadiesCon</h1>
         <h4 class="gradient special-font">2024 Online</h4>
         <p class="lead fw-normal">
-          TBD December | Multi-language | Multi-timezone
+          6th-8th December | Multi-language | Multi-timezone
         </p>
         <div class="social w-50 mx-auto pt-3">
           <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
@@ -46,7 +46,7 @@ the early stages of planning a PyLadies Conference (PyLadiesCon),
 a transformative event designed to promote diversity, learning, and empowerment
 within the Python community.  🎉
 
-Save the date! The conference will take place on the first weekend of December,
+Save the date! The conference will take place on December 6th-8th,
 where we’ll gather together for a weekend filled with insightful talks,
 engaging panels, and collaborative networking opportunities.
 

@@ -6,7 +6,7 @@ layout = 3
 
 {{< pageheadersmall
   "Sponsor Prospectus for the global PyLadies Conference"
-  "Join us online across the globe, Dec TBD, 2024!"
+  "Join us online across the globe, Dec 6th-8th, 2024!"
   "/img/sponsors-icon-2.png"
   >}}
 

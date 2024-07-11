@@ -31,7 +31,7 @@ PyLadies Conference (PyLadiesCon) is the first Pyladies conference
 held– an exciting online and FREE event dedicated to empowerment,
 learning, and diversity within the Python community! 🎉
 
-🗓️ Date TBD
+🗓️ Date: December 6th-8th
 
 At PyLadiesCon, we're bringing the Python world right to your
 doorstep. Make sure to mark your calendars for the first weekend of
