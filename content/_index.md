@@ -9,14 +9,6 @@ layout = 2
 <div style="background: #D2E0FB;" class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
     <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center">
       <div class="col-md-5 p-lg-3 mx-auto my-5">
-        <blockquote class="blockquote text-center">
-          <p>
-            <i class="fas fa-quote-left fa-xs pink" aria-hidden="true"></i>
-            <span>The more I study, the more insatiable do I feel my genius for it to be.</span>
-            <i class="fas fa-quote-right fa-xs pink" aria-hidden="true"></i>
-          </p>
-          <footer class="blockquote-footer">Ada Lovelace</footer>
-        </blockquote>
         <h1 class="pink display-4 fw-normal">PyLadiesCon</h1>
         <h4 class="gradient special-font">2024 Online</h4>
         <p class="lead fw-normal">
