@@ -48,7 +48,7 @@ sponsorship team will get back to you soon.
 
 Thanks to all the people that submitted their interest into helping
 PyLadiesCon. Currently, we have enough helpers to make this an amazing
-conference. If a new Volunteer Call happens, we will everyone.
+conference. If a new Volunteer Call happens, we will contact everyone.
 
 {{% /columns %}}
 
