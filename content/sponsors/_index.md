@@ -39,8 +39,7 @@ to attend conferences and community events.
 
 ## To learn more...
 
-To learn more and to join us as a sponsor, please contact
-[sponsors@pyladies.com](mailto:sponsors@pyladies.com), and a member of our
+To learn more and to join us as a sponsor, please contact us, and a member of our
 sponsorship team will get back to you soon.
 {{< rarrowlinkwhite "Get in touch" "mailto:sponsors@pyladies.com" >}}
 

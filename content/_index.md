@@ -6,12 +6,12 @@ layout = 2
 
 {{< rawhtml >}}
 <!-- TODO: Update banner -->
-<div style="background: #D2E0FB;" class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
+<div style="background: #dedfe2;" class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
     <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center">
       <div class="col-md-5 p-lg-3 mx-auto my-5">
-        <h1 class="pink display-4 fw-normal">PyLadiesCon</h1>
-        <h4 class="gradient special-font">2024 Online</h4>
-        <p class="lead fw-normal">
+        <h1 class="display-4 fw-normal pink">PyLadiesCon</h1>
+        <h4 class="special-font pink">2024 Online</h4>
+        <p class="lead" style="font-weight: bolder;">
           6th-8th December | Multi-language | Multi-timezone
         </p>
         <div class="social w-50 mx-auto pt-3">

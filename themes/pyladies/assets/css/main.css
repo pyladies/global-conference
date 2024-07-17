@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5 {
 
 .table-plan-header {
   background-color: #540d1b !important;
-  color: var(--py-lady-pink) !important;
+  color: white !important;
   border-radius: 5px 5px 0px 0px;
   font-weight: bold !important;
   font-size: 1.4rem !important;
