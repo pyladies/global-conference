@@ -1,0 +1,34 @@
+baseURL = 'https://conference.pyladies.com'
+languageCode = 'en-us'
+title = 'PyLadiesCon 2024'
+theme = "pyladies"
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 20
+
+#[[menus.main]]
+#name = 'Speakers'
+#pageRef = '/speakers'
+#weight = 30
+
+#[[menus.main]]
+#name = 'Schedule'
+#pageRef = '/schedule'
+#weight = 40
+
+[[menus.main]]
+name = 'Sponsors'
+pageRef = '/sponsors'
+weight = 50
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
