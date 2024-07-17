@@ -1,0 +1,18 @@
+:root{--py-lady-pink:#ee264d;--py-lady-yellow:#ffed8c;--black:#040404;--main-gradient:linear-gradient(
+    -80.71deg,
+    rgba(142, 112, 154, 1) 0%,
+    rgba(229, 29, 65, 1) 100%
+  );--black-gradient:linear-gradient(
+    90.39deg,
+    rgba(229, 29, 65, 1) 0%,
+    rgba(4, 4, 4, 1) 100%
+  );--gray-1:#f8f9fa;--gray-2:#f1f3f5;--gray-3:#e9ecef;--gray-4:#dee2e6;--gray-5:#ced4da;--gray-6:#acb5bd;--gray-7:#858e96;--gray-8:#495057;--gray-9:#343a40;--gray-10:#212529;--success:#38c976;--info:#2ab0fc;--warning:#fcc132;--error:#ff3819;--gradient-card:linear-gradient(
+    226.13deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(9, 24, 41, 0) 100%
+  );--pink-card-gradient:linear-gradient(
+      252.34deg,
+      rgba(238, 38, 77, 0.6) 4.13825623691082%,
+      rgba(238, 38, 77, 0) 100%
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);--title-font:"Orbitron";--special-font:"Press Start 2P";--font:"Inter"}
