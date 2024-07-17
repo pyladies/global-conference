@@ -2,7 +2,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-{{- with resources.Get "css/vars.css" }}
+{{- with resources.Get "/css/vars.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
@@ -12,7 +12,7 @@
   {{- end }}
 {{- end }}
 
-{{- with resources.Get "css/bootstrap.min.css" }}
+{{- with resources.Get "/css/bootstrap.min.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
@@ -22,7 +22,7 @@
   {{- end }}
 {{- end }}
 
-{{- with resources.Get "css/main.css" }}
+{{- with resources.Get "/css/main.css" }}
   {{- if eq hugo.Environment "development" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
