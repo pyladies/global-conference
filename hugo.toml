@@ -28,6 +28,12 @@ name = 'Sponsors'
 pageRef = '/sponsors'
 weight = 50
 
+[[menus.main]]
+name = 'Volunteer'
+pageRef = '/volunteer'
+weight = 50
+
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
