@@ -7,6 +7,7 @@ categories: ["Blog Post",]
 author: "Mariatta"
 tags: ["python", "community", "conference", "public speaking", "pyladies"]
 draft: false
+layout: news
 ---
 
 
@@ -18,10 +19,11 @@ and empowerment within the Python community. 🎉
 Save the date! The conference will take place on December 6th-8th, where we’ll gather together
 for a weekend filled with insightful talks, engaging panels, and collaborative networking opportunities.
 
+Sign up to volunteer with us! Read more on our [Volunteer](/volunteer) page.
+
 Call for proposals will open soon!
 
-In the meantime, you can stay updated by:
+In the meantime, you can stay up to date by:
 - Following us on various social media channels: [Mastodon](https://fosstodon.org/@pyladiescon), [Twitter/X](https://twitter.com/pyladiescon), [Instagram](https://instagram.com/pyladiescon), and [LinkedIn](https://www.linkedin.com/company/pyladiescon)
 - Subscribe to our [RSS Feed](https://conference.pyladies.com/index.xml)
 
-Sign up to volunteer with us! Read more on our [Volunteer](/volunteer) page.
