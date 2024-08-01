@@ -1,0 +1,18 @@
+<p class="bg-body dark:bg-darkmode-body p-8">
+  {{ $image:= .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+  {{ end }}
+  <h1 class="mb-3 ">
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h1>
+  <p class="mb-3 desc">
+      written by {{ .Params.author }}
+  </p>
+  <p class="mb-6">{{ .Summary }}</p>
+  <a href="{{ .RelPermalink }}">
+    Read more ...{{ i18n "read_more" }}
+  </a>
+</p>

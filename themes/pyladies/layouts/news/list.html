@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row gx-5">
+        <!-- blog posts -->
+        <div class="lg:col-8">
+          <div class="row">
+            {{ $paginator:= .Paginate .RegularPages }}
+            {{ range $paginator.Pages }}
+              <div class="md:col-6 mb-14">
+                {{ partial "components/blog-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <!--<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>-->
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-light me-md-3 py-3 px-3 py-md-5 px-md-5 overflow-hidden">
+      {{ .Content }}
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <!--
+  <b>Subpages:</b>
+  <ul>
+  {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+  </ul>
+  -->
+    </div>
+  </div>
+{{ end }}
