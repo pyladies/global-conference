@@ -34,7 +34,7 @@ Here are some ideas what you can talk about:
 
 Please remember, you **DO NOT** have to be an expert to share your experience or stories with us. You can share what you learn, what challenge you have overcome, or any good use-case of any Python libraries or open source technology that you know.
 
-For more details about how to write a CfP, you can see Cheuk’s blog post here ([English](https://cheuk.dev/2023/06/06/how-to-be-speaker/)) ([Spanish](https://cheuk.dev/2023/06/10/how-to-be-speaker-es/)).
+For more details about how to write a CfP, you can see Cheuk’s blog post, in ([English](https://cheuk.dev/2023/06/06/how-to-be-speaker/)) and ([Spanish](https://cheuk.dev/2023/06/10/how-to-be-speaker-es/)).
 
 This year we accept talks in multiple languages:
 
