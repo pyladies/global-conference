@@ -15,7 +15,7 @@ layout: news
 Just like last year, PyLadies Con 2024 will be a multiple-lingual online conference, happening at 6th-8th December 2024.
 
 
-We are happy to announce that the CfP (call for proposal) of PyLadies Con is [now live](https://pretalx.com/pyladiescon-2024/cfp)! You 
+We are happy to announce that the CfP (call for proposal) of PyLadiesCon is [now live](https://pretalx.com/pyladiescon-2024/cfp)! You 
 have around 1 month time before the CfP closes at **September 15, 2024 (Anywhere on Earth.)** So if you have any good ideas, great ideas, or awesome ideas, please start writing a proposal, we would like to hear from you.
 
 Here are some ideas what you can talk about:
