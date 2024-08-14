@@ -16,7 +16,7 @@ weight = 20
 
 [[menus.main]]
 name = 'CfP'
-pageRef = 'https://pretalx.com/pyladiescon-2024/cfp'
+url = 'https://pretalx.com/pyladiescon-2024/cfp'
 weight = 30
 
 #[[menus.main]]
