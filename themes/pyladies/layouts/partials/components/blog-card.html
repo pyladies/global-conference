@@ -9,7 +9,7 @@
     </a>
   </h1>
   <p class="mb-3 desc">
-      written by {{ .Params.author }}
+      written by {{ .Params.author }} on {{ .Params.date | time.Format ":date_long" }}
   </p>
   <p class="mb-6">{{ .Summary }}</p>
   <a href="{{ .RelPermalink }}">

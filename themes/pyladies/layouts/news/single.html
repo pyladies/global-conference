@@ -13,6 +13,7 @@
   </p>
   <div class="my-md-3 ps-md-3">
       {{ .Content }}
+      {{ partial "news-footer.html" }}
   </div>
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
