@@ -45,9 +45,8 @@ sponsorship team will get back to you soon.
 
 ## The Volunteers
 
-Thanks to all the people that submitted their interest into helping
-PyLadiesCon. Currently, we have enough helpers to make this an amazing
-conference. If a new Volunteer Call happens, we will contact everyone.
+We would not be able to run this conference without help from our volunteers.
+Please check the [Volunteer](/volunteer) page for more details on how to volunteer!
 
 {{% /columns %}}
 

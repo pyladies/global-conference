@@ -47,14 +47,14 @@ Here's what you can look forward to:
 * 🤝 Collaborative Networking: Connect with fellow Python enthusiasts, expand
   your professional network, and forge new friendships.
 
-All talks will be presented live through the online platform, Hubilo.
+All talks will be live-streamed.
 
-This inaugural conference is designed to promote diversity, learning, and
+This conference is designed to promote diversity, learning, and
 empowerment within the Python community.  We enthusiastically welcome
 presenters from members and supporters of the PyLadies Community. Prior
 experience is optional to share your insights and expertise.  Given that we are
-a global community, we warmly invite talks in the following languages: English,
-Español, Português, Français, and 中文.
+a global community, we warmly invite talks in the following languages: English, Español,
+Português, Deutsch, 日本語 and 中文.
 
 <--->
 
@@ -73,9 +73,8 @@ To learn more,
 
 ## The Volunteers
 
-Thanks to all the people that submitted their interest into helping
-PyLadiesCon. Currently, we have enough helpers to make this an amazing
-conference. If a new Volunteer Call happens, we will contact everyone.
+We would not be able to run this conference without help from our volunteers.
+Please check the [Volunteer](/volunteer) page for more details on how to volunteer!
 
 {{% /columns %}}
 
