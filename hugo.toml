@@ -15,7 +15,7 @@ pageRef = '/about'
 weight = 20
 
 [[menus.main]]
-name = 'CfP'
+name = 'Speaking'
 url = 'https://pretalx.com/pyladiescon-2024/cfp'
 weight = 30
 
