@@ -23,7 +23,4 @@ Sign up to volunteer with us! Read more on our [Volunteer](/volunteer) page.
 
 Call for proposals will open soon!
 
-In the meantime, you can stay up to date by:
-- Following us on various social media channels: [Mastodon](https://fosstodon.org/@pyladiescon), [Twitter/X](https://twitter.com/pyladiescon), [Instagram](https://instagram.com/pyladiescon), and [LinkedIn](https://www.linkedin.com/company/pyladiescon)
-- Subscribe to our [RSS Feed](https://conference.pyladies.com/index.xml)
 
