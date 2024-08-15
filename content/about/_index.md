@@ -74,7 +74,8 @@ To learn more,
 ## The Volunteers
 
 We would not be able to run this conference without help from our volunteers.
-Please check the [Volunteer](/volunteer) page for more details on how to volunteer!
+Please check the <a href="/volunteer" class="alt-link">Volunteer</a> page for
+more details on how to volunteer!
 
 {{% /columns %}}
 
