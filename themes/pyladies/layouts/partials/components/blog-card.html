@@ -3,11 +3,11 @@
   {{ if $image }}
     {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
   {{ end }}
-  <h1 class="mb-3 ">
+  <h2 class="mb-3 ">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h1>
+  </h2>
   <p class="mb-3 desc">
       written by {{ .Params.author }} on {{ .Params.date | time.Format ":date_long" }}
   </p>
