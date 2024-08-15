@@ -1,15 +1,13 @@
 {{ define "main" }}
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
   <div class="d-md-flex flex-md-equal my-md-3 ps-md-3">
-    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
   </div>
   <h1 class="d-md-flex flex-md-equal my-md-3 ps-md-3 ">
       {{ .Title }}
   </h1>
   <p class="d-md-flex flex-md-equal my-md-3 ps-md-3 mb-3 desc">
-      written by {{ .Params.author }}
+      written by {{ .Params.author }} on {{ .Date | time.Format ":date_long" }}
   </p>
   <div class="my-md-3 ps-md-3">
       {{ .Content }}
