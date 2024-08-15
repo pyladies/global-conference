@@ -10,6 +10,14 @@ p {
   font-weight: 300;
 }
 
+a {
+  color: var(--py-lady-pink);
+}
+
+a:hover {
+  color: black;
+}
+
 .alt-link {
   color: white;
 }
@@ -19,6 +27,10 @@ p {
 
 .lead a {
   color: white;
+}
+
+.lead a:hover {
+  color: black;
 }
 
 .desc {
