@@ -2,6 +2,9 @@
 title = 'Sponsors'
 draft = false
 layout = 3
+description = "Support PyLadies as we work to improve diversity by bringing fresh talent into the Python community and to support both seasoned and budding developersthrough workshops, community activities, and local advocacy.Supporting our first global conference will help PyLadies provide financialsupport to help more women around the world with training, mentorship, and aidto attend conferences and community events."
+image = "/img/about-photo-2.png" 
+imagealt = "Three recially diverse women sitting on a sofa each with a laptop on their lap and smiling."
 +++
 
 {{< pageheadersmall
