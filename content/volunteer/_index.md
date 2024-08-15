@@ -2,6 +2,9 @@
 title = 'Volunteer'
 draft = false
 layout = 1
+description = "We would not be able to run this conference without help from our volunteers. Below are several volunteer roles available. Please read the role description thoroughly to understand the responsibilities and the expected time commitment. Once you decided which role you would like to volunteer for, please fill in the form, and one of our organizers will reach out to you."
+image = "/img/about-photo-1.png" 
+imagealt = "Video call with 6 female participants with a diversity of hair styles and colours, skin tones and are all smiling."
 +++
 
 {{< pageheadersmall

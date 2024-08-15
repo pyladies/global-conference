@@ -1,5 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<meta property="og:title" content="{{ .Page.Title }}">
+<meta property="og:description" content="{{ .Page.Description }}">
+<meta property="og:type" content="{{ .Page.Type }}">
+<meta property="og:url" content="{{ .Page.Permalink }}">
+{{ if isset .Page.Params "image" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Page.Params.Image }}">
+{{ else }}
+<meta property="og:image" content="{{ .Site.BaseURL }}img/icon.png">
+{{ end }}
+{{ if isset .Page.Params "imagealt" }}
+<meta property="og:image:alt" content="{{ .Page.Params.Imagealt }}">
+{{ else }}
+<meta property="og:image:alt" content="PyLadiesCon Logo">
+{{ end }}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
