@@ -20,6 +20,9 @@ layout = 2
           <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
         </div>
+        <div class="w-50 mx-auto mt-2">
+          <a class="btn btn-outline-secondary btn-pink-gradient" href="https://pretalx.com/pyladiescon-2024/cfp" target="_blank">Call for proposal</a>
+        </div>
       </div>
       <div class="col-md-5 p-lg-1 mx-auto my-5">
         <img style="width: 60%;" src="img/banner.png">
