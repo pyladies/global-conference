@@ -1,7 +1,7 @@
 +++
 title = 'Call for Sponsors'
 date = 2024-08-16T20:26:21-05:00
-draft = true
+draft = false
 meta_title = "Help support this year's Global PyLadies Conference"
 description = "Help support this year's Global PyLadies Conference"
 tags = ["python", "community", "conference", "sponsorship", "pyladies"]
