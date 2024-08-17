@@ -9,7 +9,7 @@ layout = "news"
 categories = ["Blog Post",]
 image = ''
 imagealt = ''
-author: "Naomi" 
+author = "Naomi" 
 +++
 
 ## Join us! Become a sponsor of the second edition of the Global PyLadies conference!
