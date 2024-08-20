@@ -24,6 +24,7 @@ A new file will be created in the ``/content/news/`` directory with the followin
 title = 'Breaking News'
 date = 2024-08-15T11:01:52-07:00
 draft = true
+author = ''
 description = ''
 image = ''
 imagealt = ''
