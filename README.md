@@ -24,6 +24,7 @@ A new file will be created in the ``/content/news/`` directory with the followin
 title = 'Breaking News'
 date = 2024-08-15T11:01:52-07:00
 draft = true
+author = ''
 description = ''
 image = ''
 imagealt = ''
@@ -37,4 +38,5 @@ to fill these in correctly.
 
 If the ``image`` or ``imagealt`` are not set, it defaults to render the PyLadiesCon logo.
 
+Set the ``draft`` to ``false`` before creating a pull request. This way, the news can be deployed to the preview build.
 
