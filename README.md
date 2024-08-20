@@ -38,4 +38,5 @@ to fill these in correctly.
 
 If the ``image`` or ``imagealt`` are not set, it defaults to render the PyLadiesCon logo.
 
+Set the ``draft`` to ``false`` before creating a pull request. This way, the news can be deployed to the preview build.
 
