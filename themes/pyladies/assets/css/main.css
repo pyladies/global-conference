@@ -6,7 +6,7 @@
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -23,6 +23,22 @@ a:hover {
 }
 .alt-link:hover {
   color: black;
+}
+
+blockquote {
+  margin-left: 50px;
+  border-left: 5px solid var(--py-lady-pink);
+  padding: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  background: #f8f8f8;
+
+
+}
+
+blockquote p {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .lead a {
