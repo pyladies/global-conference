@@ -3,7 +3,7 @@ title = 'Cfp Outreach Kit'
 date = 2024-08-20T19:46:55-04:00
 draft = true
 author = 'Denny Perez'
-description = ''
+description = 'Dear PyLadies organizers, members, and supporters. We need your help in spreading the news of PyLadiesCon 2024. You, as one of our organizers, members, and supporters, can help reach out to individuals who could be a great speaker for the conference and who might have yet to hear of the conference. Your connection and introduction will help make our conference great.'
 image = ''
 imagealt = ''
 +++
