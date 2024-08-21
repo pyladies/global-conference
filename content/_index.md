@@ -3,7 +3,7 @@ title = 'Home'
 draft = false
 layout = 2
 description = "PyLadies Conference (PyLadiesCon) is the first Pyladies conference held– an exciting online and FREE event dedicated to empowerment, learning, and diversity within the Python community!  Date: December 6th-8th At PyLadiesCon, we're bringing the Python world right to your doorstep. Make sure to mark your calendars for the first weekend of December as we embark on a two-day journey that promises to be unforgettable."
-image = "/img/banner.png" 
+image = "/img/banner.png"
 imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-language | Multi-timezone."
 +++
 

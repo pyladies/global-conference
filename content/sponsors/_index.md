@@ -3,7 +3,7 @@ title = 'Sponsors'
 draft = false
 layout = 3
 description = "Support PyLadies as we work to improve diversity by bringing fresh talent into the Python community and to support both seasoned and budding developersthrough workshops, community activities, and local advocacy.Supporting our first global conference will help PyLadies provide financialsupport to help more women around the world with training, mentorship, and aidto attend conferences and community events."
-image = "/img/about-photo-2.png" 
+image = "/img/about-photo-2.png"
 imagealt = "Three recially diverse women sitting on a sofa each with a laptop on their lap and smiling."
 +++
 
@@ -44,7 +44,7 @@ to attend conferences and community events.
 
 To learn more and to join us as a sponsor, please contact us, and a member of our
 sponsorship team will get back to you soon.
-{{< rarrowlinkwhite "Get in touch" "mailto:sponsors@pyladies.com" >}}
+Please get in touch by {{< rarrowlinkwhite "writing to sponsors\@pyladies.com" "mailto:sponsors@pyladies.com" >}}
 
 ## The Volunteers
 
@@ -57,4 +57,8 @@ more details on how to volunteer!
 {{< pink >}}
 {{% sponsorstable %}}
 {{< /pink >}}
+
+<p style="text-align: center; margin-top: 50px;">
+<a style="width: 20rem;" class="btn btn-pink" href="mailto:sponsors@pyladies.com">Sponsor us now</a>
+</p>
 
