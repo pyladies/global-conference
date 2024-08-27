@@ -1,7 +1,7 @@
 baseURL = 'https://conference.pyladies.com'
 languageCode = 'en-us'
 title = 'PyLadiesCon 2024'
-theme = ["pyladies", "hugo-embed-pdf-shortcode"]
+theme = ["pyladies"]
 summaryLength = 10
 enableInlineShortcodes = true
 
@@ -54,3 +54,7 @@ weight = 60
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/anvithks/hugo-embed-pdf-shortcode"
