@@ -19,8 +19,8 @@ If you are new to public speaking and would love to get a friendly mentor to hel
 
 Currently, we have the following mentors:
 
-- Mariatta
-- Cheuk Ting Ho
+- [Mariatta](https://mariatta.ca)
+- [Cheuk Ting Ho](https://cheuk.dev)
 - Denny Perez (Spanish speaking)
 - Naomi Ceder 
 
@@ -30,4 +30,4 @@ Suppose you are an experienced speaker and would like to help mentor someone. In
 
 ## Technical support
 
-Since all of the speakers at PyLadiesCon 2024 are required to record their talk, we understand some of you may worry that your setup at home is not good enough for the recording or worry that you don't know how to record. We got your back! Check out our [speaker's guide here](). If you still need some help in knowing what to do, do not hesitate to [get in touch with us](mailto:pyladiescon@pyladies.com). If you think you need support in getting recording equipment, we have recording equipment grants available. Please also [contact us](mailto:pyladiescon@pyladies.com) for more information.
+Since all of the speakers at PyLadiesCon 2024 are required to record their talk, we understand some of you may worry that your setup at home is not good enough for the recording or worry that you don't know how to record. We got your back! Check out our [speaker's guide here](https://docs.google.com/document/d/1ivarWnqisA2kVIJL3Sn4XKo9obt3sADL7MTx1bPchvI/edit?usp=sharing). If you still need some help in knowing what to do, do not hesitate to [get in touch with us](mailto:pyladiescon@pyladies.com). If you think you need support in getting recording equipment, we have recording equipment grants available. Please also [contact us](mailto:pyladiescon@pyladies.com) for more information.
