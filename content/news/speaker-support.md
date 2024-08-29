@@ -15,11 +15,18 @@ Since there are only 2 weeks until the [Call for Proposal](https://pretalx.com/p
 
 ## Support for new speakers
 
-If you are new to public speaking and would love to get a friendly mentor to help you prepare your submission or your talk when you are accepted. Please contact us at [pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com) with the title **Looking for speaker mentor** We will try our best to find a mentor for you. All you need to do is tell us a bit about yourself (where you are based, what language you would like to speak with your mentor and what do you need help with) so that we know how we can meet your needs.
+If you are new to public speaking and would love to get a friendly mentor to help you prepare your submission or your talk when you are accepted. Please [fill in this form](https://docs.google.com/forms/d/e/1FAIpQLSfNCN0wBr_Su_LSiufaWWLUqW59wlIDHDihinui_iifGruabA/viewform). We will try our best to find a mentor for you.
+
+Currently, we have the following mentors:
+
+- Mariatta
+- Cheuk Ting Ho
+- Denny Perez (Spanish speaking)
+- Naomi Ceder 
 
 ## Offering your help
 
-Suppose you are an experienced speaker and would like to help mentor someone. In that case, you can also [email us](mailto:pyladiescon@pyladies.com) with the title **I want to be a speaker mentor** - tell us a bit about yourself (where you are based, what language you speak, and briefly describe your past speaking experience) so we can match you up with someone.
+Suppose you are an experienced speaker and would like to help mentor someone. In that case, you can also [fill in this form](https://docs.google.com/forms/d/e/1FAIpQLSfNCN0wBr_Su_LSiufaWWLUqW59wlIDHDihinui_iifGruabA/viewform). We will contact you when there is a match and we will add your name to the mentor list above.
 
 ## Technical support
 
