@@ -11,7 +11,7 @@ draft: false
 layout: news
 ---
 
-Since there are only 2 weeks until the [Call for Propocal](https://pretalx.com/pyladiescon-2024/cfp) closes, we do not want to you miss this speaking opportunity. Do you still need some encouragement in submitting a proposal? Maybe you need a bit more help? Don't worry! We have speaker support for those of you who need a bit more reassurance and encouragement!
+Since there are only 2 weeks until the [Call for Proposal](https://pretalx.com/pyladiescon-2024/cfp) closes, we do not want to you miss this speaking opportunity. Do you still need some encouragement in submitting a proposal? Maybe you need a bit more help? Don't worry! We have speaker support for those of you who need a bit more reassurance and encouragement!
 
 ## Support for new speakers
 
