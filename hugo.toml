@@ -54,7 +54,3 @@ weight = 60
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
-
-[module]
-  [[module.imports]]
-    path = "github.com/anvithks/hugo-embed-pdf-shortcode"

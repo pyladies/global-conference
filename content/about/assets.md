@@ -26,4 +26,4 @@ In [.png](/img/about-pyladiescon-slide-2.png) format.
 
 PDF presentation about PyLadiesCon, in [.pdf](/about-pyladiescon-slide.pdf) format, 2 pages.
 
-{{< embed-pdf url="/about-pyladiescon-slide.pdf" width="100px" >}}
+{{< googlePdfReader "1epGEAtkGxI6iU_qYY2wRHTqt8eOV4PuU" "About PyLadiesCon" >}}
