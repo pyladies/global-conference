@@ -21,8 +21,8 @@ Currently, we have the following mentors:
 
 - [Mariatta](https://mariatta.ca)
 - [Cheuk Ting Ho](https://cheuk.dev)
-- Denny Perez (Spanish speaking)
-- Naomi Ceder 
+- [Denny Perez](https://www.linkedin.com/in/dennyperez18/) (Spanish speaking)
+- [Naomi Ceder](https://naomiceder.tech/)
 
 ## Offering your help
 
