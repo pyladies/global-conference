@@ -1,8 +1,9 @@
 baseURL = 'https://conference.pyladies.com'
 languageCode = 'en-us'
 title = 'PyLadiesCon 2024'
-theme = "pyladies"
+theme = ["pyladies"]
 summaryLength = 10
+enableInlineShortcodes = true
 
 [[menus.main]]
 name = 'Home'
@@ -44,6 +45,10 @@ name = 'Volunteer'
 pageRef = '/volunteer'
 weight = 50
 
+[[menus.main]]
+name = 'Assets'
+pageRef = '/about/assets'
+weight = 60
 
 [markup]
     [markup.goldmark]
