@@ -24,6 +24,7 @@ Currently, we have the following mentors:
 - [Denny Perez](https://www.linkedin.com/in/dennyperez18/) (English and Spanish speaking)
 - [Naomi Ceder](https://naomiceder.tech/) (English, Spanish and Portuguese speaking)
 - [Lorena Mesa](https://www.linkedin.com/in/lorenamesa/) (English and Spanish speaking)
+- [Sayantika](https://www.linkedin.com/in/sayantika-banik/) (English speaking)
 
 ## Offering your help
 
