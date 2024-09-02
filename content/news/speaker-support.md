@@ -3,7 +3,7 @@ title: "Speaker Support for PyLadiesCon 2024"
 meta_title: "Speaker Support for PyLadiesCon 2024"
 description: "We have speaker support for those of you who need a bit more reassurance and encouragement!
 "
-date: 2024-08-28T05:00:00Z
+date: 2024-09-02T05:00:00Z
 categories: ["Blog Post",]
 author: "Cheuk"
 tags: ["python", "community", "conference", "public speaking", "pyladies"]
@@ -19,10 +19,12 @@ If you are new to public speaking and would love to get a friendly mentor to hel
 
 Currently, we have the following mentors:
 
-- [Mariatta](https://mariatta.ca)
-- [Cheuk Ting Ho](https://cheuk.dev)
-- [Denny Perez](https://www.linkedin.com/in/dennyperez18/) (Spanish speaking)
-- [Naomi Ceder](https://naomiceder.tech/)
+- [Mariatta](https://mariatta.ca) (English speaking)
+- [Cheuk Ting Ho](https://cheuk.dev) (English, Cantonese and Mandarin speaking)
+- [Denny Perez](https://www.linkedin.com/in/dennyperez18/) (English and Spanish speaking)
+- [Naomi Ceder](https://naomiceder.tech/) (English, Spanish and Portuguese speaking)
+- [Lorena Mesa](https://www.linkedin.com/in/lorenamesa/) (English and Spanish speaking)
+- [Sayantika](https://www.linkedin.com/in/sayantika-banik/) (English speaking)
 
 ## Offering your help
 
