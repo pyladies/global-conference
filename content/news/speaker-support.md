@@ -25,6 +25,7 @@ Currently, we have the following mentors:
 - [Naomi Ceder](https://naomiceder.tech/) (English, Spanish and Portuguese speaking)
 - [Lorena Mesa](https://www.linkedin.com/in/lorenamesa/) (English and Spanish speaking)
 - [Sayantika](https://www.linkedin.com/in/sayantika-banik/) (English speaking)
+- [Maria Jose Molina-Contreras](https://www.linkedin.com/in/mjmolinacontreras/) (English and Spanish speaking)
 
 ## Offering your help
 
