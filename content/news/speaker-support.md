@@ -11,7 +11,7 @@ draft: false
 layout: news
 ---
 
-*The first round of mentorship will be closed on 15th Sept, new rounds will be open again for confirmed speakers of PyLadiesCon 2024*
+*>>> The first round of mentorship will be closed on 15th Sept, new rounds will be open again for confirmed speakers of PyLadiesCon 2024 <<<*
 
 Since there are only 2 weeks until the [Call for Proposal](https://pretalx.com/pyladiescon-2024/cfp) closes, we do not want to you miss this speaking opportunity. Do you still need some encouragement in submitting a proposal? Maybe you need a bit more help? Don't worry! We have speaker support for those of you who need a bit more reassurance and encouragement!
 
