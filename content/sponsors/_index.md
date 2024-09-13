@@ -2,9 +2,15 @@
 title = 'Sponsors'
 draft = false
 layout = 3
+<<<<<<< HEAD
 description = "Support PyLadies as we work to improve diversity by bringing fresh talent into the Python community and to support both seasoned and budding developersthrough workshops, community activities, and local advocacy.Supporting our first global conference will help PyLadies provide financialsupport to help more women around the world with training, mentorship, and aidto attend conferences and community events."
 image = "/img/about-photo-2.png"
 imagealt = "Three recially diverse women sitting on a sofa each with a laptop on their lap and smiling."
+=======
+description = "Support PyLadies as we work to improve diversity by bringing fresh talent into the Python community and to support both seasoned and budding developers through workshops, community activities, and local advocacy. Supporting our first global conference will help PyLadies provide financial support to help more women around the world with training, mentorship, and aid to attend conferences and community events."
+image = "/img/about-photo-2.png" 
+imagealt = "Three racially diverse women sitting on a sofa each with a laptop on their lap and smiling."
+>>>>>>> sponsor_call
 +++
 
 {{< pageheadersmall
@@ -20,7 +26,7 @@ imagealt = "Three recially diverse women sitting on a sofa each with a laptop on
     a diversity of hair styles and colours, skin tones and are all smiling."/>
   </div>
   <div class="bg-white overflow-hidden">
-    <img class="w-100" src="/img/about-photo-2.png" alt="Three recially diverse women sitting on a sofa each with a
+    <img class="w-100" src="/img/about-photo-2.png" alt="Three racially diverse women sitting on a sofa each with a
     laptop on their lap and smiling." />
   </div>
 </div>
@@ -62,3 +68,16 @@ more details on how to volunteer!
 <a style="width: 20rem;" class="btn btn-pink" href="mailto:sponsors@pyladies.com">Sponsor us now</a>
 </p>
 
+=======
+
+&nbsp;
+
+
+## The Attendees
+
+The attendees of last year's conference represented companies and organizations
+from all sectors, and held positions the following types of positions:
+
+{{< pink >}}
+{{% attendeejobtable %}}
+{{< /pink >}}
