@@ -62,10 +62,7 @@ more details on how to volunteer!
 <a style="width: 20rem;" class="btn btn-pink" href="mailto:sponsors@pyladies.com">Sponsor us now</a>
 </p>
 
-=======
-
 &nbsp;
-
 
 ## The Attendees
 
