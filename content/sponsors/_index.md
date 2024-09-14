@@ -67,7 +67,7 @@ more details on how to volunteer!
 ## The Attendees
 
 The attendees of last year's conference represented companies and organizations
-from all sectors, and held positions the following types of positions:
+from all sectors, and held the following types of positions:
 
 {{< pink >}}
 {{% attendeejobtable %}}
