@@ -1,7 +1,7 @@
 ---
 title: "Thank you ❤️ PyLadiesCon 2024 received many proposals!"
 meta_title: "Call for Proposal of PyLadiesCon 2024 was closed and we have received almost 200 proposals!"
-description: "Call for Proposal of PyLadiesCon 2024 was closed on 15th September and we have received almost 200 proposaled! Thank you for all that has been submitted, in our minds you are super awesome and we would love to see your talk. However, the reviews will have a busy weeks ahead to review all the proposals and we will have tough decisions to make regarding which talks to accept. We aim to publish a tentative schedule by 8th October.
+description: "Call for Proposal of PyLadiesCon 2024 was closed on 15th September and we have received almost 200 proposals! Thank you for all that has been submitted, in our minds you are super awesome and we would love to see your talk. However, the reviews will have a busy weeks ahead to review all the proposals and we will have tough decisions to make regarding which talks to accept. We aim to publish a tentative schedule by 8th October.
 "
 date: 2024-09-17T05:00:00Z
 categories: ["Blog Post",]
