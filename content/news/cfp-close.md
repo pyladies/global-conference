@@ -34,6 +34,7 @@ Despite the effort to promote more diversity languages and the support of many P
 - PyLadies Santo Domingo
 - PyLadies São Carlos
 
+And thank you to everyone who supported our CfP by sharing our news and posts on social media. It is with your help that we're able to break this record.
 ### Sepaker mentorship ❤️
 
 We have also, for the first time, provided mentorships to those who are new in speaking at conferences and submitting proposals. The first round of submission has been closed on 15th September. We received 20 applications for finding a mentor, and we have onboarded 7 mentors. While we cannot assign everyone a mentor, we have matched some mentors to our mentee based on the language that they speak, their available timezone, and their expertise. Thank you for the following mentors who help bringing new speakers to the community:
