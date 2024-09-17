@@ -55,7 +55,8 @@ Other than selecting and scheduling talks, we will be planning other activities 
 
 To make PyLadiesCon a success and to support PyLadies, please consider talking to your employer about [sponsoring PyLaidescon 2024](https://conference.pyladies.com/sponsors/). PyLadiesCon is an annual gathering of all PyLadies globally, this is a great opportunity to give back to the community that is dedicated to supporting the underrepresented groups in the tech community.
 
-Last, we will recap the timeline leading to PyLadiesCon 2024, please look forward to the conference:
+Here's our timeline leading to PyLadiesCon 2024.
+Please look forward to the conference.
 
 - Deadline for CfP Reviews: 29th September
 - Publish of Schedule: 8th October
