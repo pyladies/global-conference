@@ -53,7 +53,7 @@ Other than selecting and scheduling talks, we will be planning other activities 
 
 ### We need your support
 
-To make PyLadiesCon a success and to support PyLadies, please consider talking to your employer about [sponsoring PyLaidescon 2024](https://conference.pyladies.com/sponsors/). PyLadiesCon is an annual gathering of all PyLadies globally, this is a great opportunity to give back to the community that is dedicated to supporting the underrepresented groups in the tech community.
+To make PyLadiesCon a success and to support PyLadies, please consider talking to your employer about [sponsoring PyLadiescon 2024](https://conference.pyladies.com/sponsors/). PyLadiesCon is an annual gathering of all PyLadies globally, this is a great opportunity to give back to the community that is dedicated to supporting the underrepresented groups in the tech community.
 
 Here's our timeline leading to PyLadiesCon 2024.
 Please look forward to the conference.
