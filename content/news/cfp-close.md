@@ -36,7 +36,7 @@ Despite the effort to promote more diversity languages and the support of many P
 
 ### Sepaker mentorship ❤️
 
-We have also, for the first time, provide mentorships to those who are new in speaking at conferences and submitting proposals. The first round of submittion has been closed on 15th September. We received 20 application for finding a mentor and we have on boarded 7 mentors. While we cannot assign everyone a mentor, we have match some mentors to our mentee based on the language that they speak, their avaliable timezone and their expertees. Thank you for the following mentors who help bringing new speakers to the communiy:
+We have also, for the first time, provided mentorships to those who are new in speaking at conferences and submitting proposals. The first round of submission has been closed on 15th September. We received 20 applications for finding a mentor, and we have onboarded 7 mentors. While we cannot assign everyone a mentor, we have matched some mentors to our mentee based on the language that they speak, their available timezone, and their expertise. Thank you for the following mentors who help bringing new speakers to the community:
 
 - [Mariatta](https://mariatta.ca) (English speaking)
 - [Cheuk Ting Ho](https://cheuk.dev) (English, Cantonese and Mandarin speaking)
