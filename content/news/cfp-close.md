@@ -24,7 +24,7 @@ This year we accept talks in multiple languages and we have received in total 19
 - 日本語: 2
 - 中文: 0
 
-Dispite the effort to promte more diversity languages and the support of many PyLadies Chapters, there are still not a lot of submission besides English and Español. In the future, more stratregic planning regarding which language we would like to invite folks to submit would be need to plan ahead. Never the less, a big thanks to the follow PyLadies Chapters to help us during the Call for Proposal periods:
+Despite the effort to promote more diversity languages and the support of many PyLadies Chapters, there are still not a lot of submissions besides English and Español. In the future, more strategic planning regarding which language we would like to invite folks to submit would be needed to plan ahead. Nevertheless, a big thanks to the following PyLadies Chapters for helping us during the Call for Proposal periods:
 
 - PyLadies Tokyo
 - PyLadies Berlin
