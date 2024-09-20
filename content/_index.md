@@ -24,7 +24,7 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
           <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
         </div>
         <div class="w-50 mx-auto mt-2">
-          The Call for Proposal (CfP) is <span style="font-weight: 900; text-decoration-line: underline;">closed</span>.
+          The Call for Proposal (CfP) is <span style="font-weight: 900; text-decoration-line: underline;">closed</span> thank you for the submissions.
         </div>
       </div>
       <div class="col-md-5 p-lg-1 mx-auto my-5">
