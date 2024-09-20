@@ -16,9 +16,14 @@ pageRef = '/about'
 weight = 20
 
 [[menus.main]]
+name = 'Code of Conduct'
+url = '/about/#code-of-conduct'
+weight = 30
+
+[[menus.main]]
 name = 'Speaking'
 url = 'https://pretalx.com/pyladiescon-2024/cfp'
-weight = 30
+weight = 40
 
 #[[menus.main]]
 #name = 'Speakers'
