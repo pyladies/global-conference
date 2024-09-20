@@ -6,6 +6,10 @@
   scroll-margin-top: 100px;
 }
 
+.header-section {
+  background: url(/img/PyLadiesCon-Header.png);
+}
+
 p {
   font-size: 1rem;
   font-weight: 300;

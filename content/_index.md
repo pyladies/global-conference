@@ -8,13 +8,12 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
 +++
 
 {{< rawhtml >}}
-<!-- TODO: Update banner -->
-<div style="background: #dedfe2;" class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
+<div class="header-section position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
     <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center">
       <div class="col-md-5 p-lg-3 mx-auto my-5">
         <h1 class="display-4 fw-normal pink">PyLadiesCon</h1>
         <h4 class="special-font pink">2024 Online</h4>
-        <p class="lead" style="font-weight: bolder;">
+        <p class="lead text-white" style="font-weight: bolder;">
           6th-8th December | Multi-language | Multi-timezone
         </p>
         <div class="social w-50 mx-auto pt-3">
@@ -23,7 +22,7 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
           <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
         </div>
-        <div class="w-50 mx-auto mt-2">
+        <div class="w-50 mx-auto mt-2 text-white">
           The Call for Proposal (CfP) is <span style="font-weight: 900; text-decoration-line: underline;">closed</span> thank you for the submissions.
         </div>
       </div>
