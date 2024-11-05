@@ -81,6 +81,73 @@ Be a part of our conference!
 
 {{% /mainrectangle %}}
 
+
+{{% mainrectangle %}}
+![Sponsors=icon-section](/img/sponsors-icon.png)
+
+Know the sponsors of our conference.
+
+##  Institutional Sponsor
+
+{{% logosrow %}}
+
+{{< sponsorlogo
+  "Python Software Foundation"
+  "https://python.org/psf-landing"
+  "institutional_psf.svg"
+  >}}
+
+{{% /logosrow %}}
+
+##  Booster Sponsor
+
+{{% logosrow %}}
+
+{{< sponsorlogo
+  "EuroPython Society"
+  "https://europython-society.eu"
+  "booster_eps.svg"
+  >}}
+
+{{< sponsorlogo
+  "Quansight"
+  "https://quansight.com"
+  "booster_quansight.png"
+  >}}
+
+{{% /logosrow %}}
+
+##  Partner Sponsor
+
+{{% logosrow %}}
+
+{{< sponsorlogo
+  "Six Feet Up"
+  "https://sixfeetup.com"
+  "partner_sixfeetup.png"
+  >}}
+
+{{% /logosrow %}}
+
+##  Community Partner
+
+{{% logosrow %}}
+
+{{< sponsorlogo
+  "Data Umbrella"
+  "https://www.dataumbrella.org"
+  "community_dataumbrella.png"
+  >}}
+
+{{% /logosrow %}}
+
+
+
+
+
+{{% /mainrectangle %}}
+
+
 {{% pinkrectangle %}}
 
 ![Contact us Icon class=icon-section](/img/contact-icon.png)
