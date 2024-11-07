@@ -586,3 +586,7 @@ h2 a {
 .pink-div a {
   color: white;
 }
+
+.social a i:hover {
+  color: white !important;
+}
