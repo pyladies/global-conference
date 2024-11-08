@@ -181,6 +181,5 @@ for finding your closest chapter!
 If you would like to donate to us, you can donate on
 <a href="https://psfmember.org/civicrm/contribute/transact/?reset=1&amp;id=6">this page</a>!
 
-Yes, donations are to a 501c3 and are therefore tax deductible within
-the United States of America.
+PyLadies is a fiscal sponsoree of the Python Software Foundation (Federal Tax ID number is 04-3594598).   Python Software Foundation is a public charity under section 501(c)(3) of the Internal Revenue Code.  Please consult your tax adviser to determine the tax deductibility of your gift to the Python Software Foundation.
 {{% /pinkrectangle %}}

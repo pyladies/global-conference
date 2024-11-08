@@ -120,7 +120,7 @@ more details on how to volunteer!
         "Georgi Ker"
         "/img/org/georgi.jpg"
         "Design Chair"
-        "Mother of 2 adults | Director @PSF | Fellow Member | Member of D&I Workgroup | 2020 PSF community service award | Manages over 80 designers at Awesomic, a Ukrainian startup"
+        "Mother of 2 adults | Director @PSF | Fellow Member | 2020 PSF community service award | PSF D&I Workgroup Chair | PyCon US Design  Lead since 2022"
         >}}
 
       {{< organizer
@@ -197,6 +197,13 @@ event are required to conform to the following Code of Conduct as set forth by
 the Python Software Foundation. Organizers will enforce this code throughout
 the event.
 
+The Python community is made up of members from around the globe with a diverse 
+set of skills, personalities, and experiences. It is through these differences 
+that our community experiences great successes and continued growth. When you're 
+working with members of the community, this Code of Conduct will help steer your 
+interactions and keep Python a positive, successful, and growing community.
+
+
 {{< togglebutton "community" "Our Community">}}
 {{% togglebutton-content "community" %}}
 
@@ -226,7 +233,7 @@ include:
 * **Gracefully accepting constructive criticism.** When we disagree, we are
   courteous in raising our issues.
 * **Using welcoming and inclusive language.** We’re accepting of all who wish
-* to take part in our activities, fostering an environment where anyone can
+  to take part in our activities, fostering an environment where anyone can
   participate and everyone can make a difference.
 
 {{% /togglebutton %}}
