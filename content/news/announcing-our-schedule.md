@@ -20,8 +20,10 @@ The conference will be held online on December 6-8, 2024. The program consists o
 hosted by speakers from around the world.
 
 Congratulations to all the accepted speakers and workshop hosts.
+In addition to the talks and workshops below, we will also have panel discussions and 6 keynote speakers.
 
 Please check back soon to learn how to register for the conference to attend these sessions.
+
 
 ## Talks
 
