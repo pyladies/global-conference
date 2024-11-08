@@ -1,3 +1,4 @@
 .venv
 public
 .hugo_build.lock
+.DS_Store
