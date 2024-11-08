@@ -369,7 +369,7 @@ h2 a {
   backdrop-filter: saturate(180%) blur(20px);
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,.8);
   background-color: white;
-  font-size: 1rem
+  font-size: 0.8rem
 }
 .site-header a {
   color: black;
