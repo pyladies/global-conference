@@ -20,20 +20,15 @@ name = 'Code of Conduct'
 url = '/about/#code-of-conduct'
 weight = 30
 
-[[menus.main]]
-name = 'Speaking'
-url = 'https://pretalx.com/pyladiescon-2024/cfp'
-weight = 40
-
 #[[menus.main]]
 #name = 'Speakers'
 #pageRef = '/speakers'
 #weight = 30
 
-#[[menus.main]]
-#name = 'Schedule'
-#pageRef = '/schedule'
-#weight = 40
+[[menus.main]]
+name = 'Schedule'
+pageRef = '/schedule'
+weight = 40
 
 [[menus.main]]
 name = 'Sponsors'
