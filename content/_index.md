@@ -114,6 +114,17 @@ Know the sponsors of our conference.
   "booster_quansight.png"
   >}}
 
+{{< sponsorlogo
+  "Quansight"
+  "https://pretix.com"
+  "booster_pretix.png"
+  >}}
+
+{{< sponsorlogo
+  "Quansight"
+  "https://numberly.com"
+  "booster_numberly.png"
+  >}}
 {{% /logosrow %}}
 
 ##  Partner Sponsor
