@@ -15,7 +15,6 @@ name = 'About'
 pageRef = '/about'
 weight = 20
 
-
 [[menus.main]]
 name = 'Code of Conduct'
 pageRef = '/about/#code-of-conduct'
@@ -44,10 +43,10 @@ name = 'Speakers'
 url = 'https://pretalx.com/pyladiescon-2024/speaker/'
 weight = 30
 
-#[[menus.main]]
-#name = 'Schedule'
-#pageRef = '/schedule'
-#weight = 40
+[[menus.main]]
+name = 'Schedule'
+pageRef = '/schedule'
+weight = 40
 
 [[menus.main]]
 name = 'Sponsors'
@@ -58,7 +57,6 @@ weight = 50
 name = 'News'
 pageRef = '/news'
 weight = 50
-
 
 
 [markup]
