@@ -127,6 +127,13 @@ Know the sponsors of our conference.
   >}}
 {{% /logosrow %}}
 
+{{< sponsorlogo
+  "Auth0"
+  "https://auth0.com/"
+  "booster_auth0.png"
+  >}}
+{{% /logosrow %}}
+
 ##  Partner Sponsor
 
 {{% logosrow %}}
@@ -151,11 +158,17 @@ Know the sponsors of our conference.
 
 {{% /logosrow %}}
 
+##  Media Partner
 
+{{% logosrow %}}
 
+{{< sponsorlogo
+  "PyPodcats"
+  "https://pypodcats.live/"
+  "media_pypodcats.png"
+  >}}
 
-
-{{% /mainrectangle %}}
+{{% /logosrow %}}
 
 
 {{% pinkrectangle %}}
