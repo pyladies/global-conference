@@ -6,7 +6,7 @@ imagealt: "Three recially diverse women sitting on a sofa each with a laptop on 
 ---
 
 {{< pageheadersmall
-  "Latests news about the conference"
+  "Latest news about the conference"
   ""
   "/img/about-icon-1.png"
   >}}
