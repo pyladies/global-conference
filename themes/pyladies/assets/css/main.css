@@ -590,3 +590,42 @@ h2 a {
 .social a i:hover {
   color: white !important;
 }
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #ddd;
+}
+/* Remove bullets from dropdown */
+.nav-item ul.dropdown-content {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+  margin: 0; /* Removes margin */
+}
+
+/* Optional: style dropdown list items */
+.dropdown-content li {
+  padding: 8px 16px;
+}

@@ -17,13 +17,31 @@ weight = 20
 
 [[menus.main]]
 name = 'Code of Conduct'
-url = '/about/#code-of-conduct'
-weight = 30
+pageRef = '/about/#code-of-conduct'
+parent = 'About'
+weight = 21
+
+[[menus.main]]
+name = 'Volunteer'
+pageRef = '/volunteer'
+parent = 'About'
+weight = 22
+
+[[menus.main]]
+name = 'Assets'
+pageRef = '/assets'
+parent = 'About'
+weight = 23
 
 #[[menus.main]]
-#name = 'Speakers'
-#pageRef = '/speakers'
-#weight = 30
+#name = 'Speaking'
+#url = 'https://pretalx.com/pyladiescon-2024/cfp'
+#weight = 40
+
+[[menus.main]]
+name = 'Speakers'
+url = 'https://pretalx.com/pyladiescon-2024/speaker/'
+weight = 30
 
 [[menus.main]]
 name = 'Schedule'
@@ -40,15 +58,6 @@ name = 'News'
 pageRef = '/news'
 weight = 50
 
-[[menus.main]]
-name = 'Volunteer'
-pageRef = '/volunteer'
-weight = 50
-
-[[menus.main]]
-name = 'Assets'
-pageRef = '/about/assets'
-weight = 60
 
 [markup]
     [markup.goldmark]

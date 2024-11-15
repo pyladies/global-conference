@@ -16,7 +16,7 @@ Renders a menu for the given menu ID.
       <img class="hamburger-logo" src="/img/bar-chart-2.png"/>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto"r->
+      <ul class="navbar-nav mx-auto">
         <a href="/" aria-label="PyLadiesCon">
           <img class="menu-logo" src="/img/icon.png"/>
         </a>
@@ -34,28 +34,30 @@ Renders a menu for the given menu ID.
 {{- define "partials/inline/menu/walk.html" }}
   {{- $page := .page }}
   {{- range .menuEntries }}
-    {{- $attrs := dict "href" .URL }}
+    {{- $isActive := "href" }}
     {{- if $page.IsMenuCurrent .Menu . }}
-      {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
-    {{- else if $page.HasMenuCurrent .Menu .}}
-      {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+      {{- $isActive = "active" }}
+    {{- else if $page.HasMenuCurrent .Menu . }}
+      {{- $isActive = "ancestor" }}
     {{- end }}
+
     {{- $name := .Name }}
     {{- with .Identifier }}
       {{- with T . }}
         {{- $name = . }}
       {{- end }}
     {{- end }}
-    <li class="nav-item px-4">
-      <a class="py-2 d-flex d-md-inline-block menu-font"
-        {{- range $k, $v := $attrs }}
-          {{- with $v }}
-            {{- printf " %s=%q" $k $v | safeHTMLAttr }}
-          {{- end }}
-        {{- end -}}
+
+    <!-- Dropdown class if there are children -->
+    <li class="nav-item px-4 {{ if .HasChildren }}dropdown{{ end }}">
+      <a href="{{ .URL }}" 
+         class="py-2 d-flex d-md-inline-block menu-font {{ $isActive }}"
+         {{ if eq $isActive "active" }} aria-current="page"{{ else if eq $isActive "ancestor" }} aria-current="true"{{ end }}
       >{{ $name }}</a>
+      
       {{- with .Children }}
-        <ul>
+        <!-- Dropdown content for submenu items -->
+        <ul class="dropdown-content">
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
         </ul>
       {{- end }}
