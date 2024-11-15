@@ -144,6 +144,12 @@ Know the sponsors of our conference.
   "partner_sixfeetup.png"
   >}}
 
+{{< sponsorlogo
+  "Willing Consulting"
+  "https://www.willingconsulting.com/"
+  "partner_willingconsulting.png"
+  >}}
+
 {{% /logosrow %}}
 
 ##  Community Partner
