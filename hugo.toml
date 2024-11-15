@@ -21,16 +21,22 @@ parent = 'About'
 weight = 21
 
 [[menus.main]]
+name = 'Code of Conduct'
+URL = '/about/#code-of-conduct'
+parent = 'About'
+weight = 22
+
+[[menus.main]]
 name = 'Volunteer'
 pageRef = '/volunteer'
 parent = 'About'
-weight = 22
+weight = 23
 
 [[menus.main]]
 name = 'Assets'
 pageRef = '/assets'
 parent = 'About'
-weight = 23
+weight = 24
 
 [[menus.main]]
 name = 'Speakers'
