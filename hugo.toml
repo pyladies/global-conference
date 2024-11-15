@@ -20,7 +20,6 @@ pageRef = '/about'
 parent = 'About'
 weight = 21
 
-
 [[menus.main]]
 name = 'Volunteer'
 pageRef = '/volunteer'
@@ -33,20 +32,15 @@ pageRef = '/assets'
 parent = 'About'
 weight = 23
 
-#[[menus.main]]
-#name = 'Speaking'
-#url = 'https://pretalx.com/pyladiescon-2024/cfp'
-#weight = 40
-
 [[menus.main]]
 name = 'Speakers'
 url = 'https://pretalx.com/pyladiescon-2024/speaker/'
 weight = 30
 
-#[[menus.main]]
-#name = 'Schedule'
-#pageRef = '/schedule'
-#weight = 40
+[[menus.main]]
+name = 'Schedule'
+pageRef = '/schedule'
+weight = 40
 
 [[menus.main]]
 name = 'Sponsors'
@@ -56,7 +50,7 @@ weight = 50
 [[menus.main]]
 name = 'News'
 pageRef = '/news'
-weight = 50
+weight = 60
 
 
 [markup]
