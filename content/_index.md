@@ -24,8 +24,11 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
           <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
         </div>
-        <div class="w-100 mt-2 text-start" style="color: white;">
-            Check the <a class="text-white" href="/schedule">Schedule!</a>
+        <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
+        <div class="w-100 mt-2 text-start">
+          <a href="https://pretix.eu/pyladiescon/2024">
+            <button type="button" class="btn btn-pink btn-block mb-2 rainbow rainbow-1" data-toggle="collapse">REGISTER</button>
+          </a>
         </div>
       </div>
 
