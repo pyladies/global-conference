@@ -1,8 +1,9 @@
 ---
 title: "Registration is now Open"
 meta_title: "Join us at PyLadiesCon 2024! Registration is now open"
-description: "We are happy to announce that the CfP (call for proposal) of PyLadies Con is now live! You 
-have around 1 month time before the CfP closes at September 15, 2024 (Anywhere on Earth.) So if you have any good ideas, great ideas, or awesome ideas, please start writing a proposal, we would like to hear from you.
+description: "We are thrilled to announce that registration for **PyLadiesCon 2024** is officially open!
+🎉 Join us for an exciting, inclusive, and global conference dedicated to empowering women and allies in the Python community.
+This year, we're bringing together Python enthusiasts worldwide to learn, share, and grow in a welcoming online environment.
 "
 date: 2024-11-15T05:00:00Z
 categories: ["Blog Post",]
