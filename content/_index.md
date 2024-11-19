@@ -41,9 +41,10 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
 
 {{< pinktitle "About the conference" >}}
 
-Attention all PyLadies community members! We’re excited to share that we are in
-the early stages of planning a PyLadies Conference (PyLadiesCon),
-a transformative event designed to promote diversity, learning, and empowerment
+Attention all PyLadies community members! We’re currently finishing up all the details to start our
+conference, stay tuned for future updates. In the meantime, check <a href="/schedule">our
+schedule</a>, and get <a href="https://pretix.eu/pyladiescon/2024">your tickets</a>!
+Our goal is to have a transformative event designed to promote diversity, learning, and empowerment
 within the Python community.  🎉
 
 Save the date! The conference will take place on December 6th-8th,
