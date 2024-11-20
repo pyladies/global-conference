@@ -59,12 +59,13 @@ imagealt = ''
 
 ### 社群媒體連結：
 
-- https://twitter.com/pyladiescon/
+- https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
 - https://www.instagram.com/pyladiescon/
-- https://fosstodon.org/@pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
-### 在社群媒體上發文時，請使用以下#主題標籤： 
+### 在社群媒體上發文時，請使用以下#主題標籤：
 
 > \#PyLadies, \#PyLadiesCon, and \#ThePSF
 

@@ -61,7 +61,7 @@ Vous pouvez nous aider de différentes manières
 3. Mettez en relation les conférenciers potentiels avec l'un de nos
    organisateurs de la conférence.
 
-Si vous avez les coordonnées d'un conférencier que nous devrions inviter, 
+Si vous avez les coordonnées d'un conférencier que nous devrions inviter,
 partagez-les avec nous par courriel: [pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com).
 
 Nos membres et notre comité de programme seront ravis de répondre à toutes vos
@@ -85,9 +85,10 @@ disponibles sur Slack ou par courriel :
 
 ### Nos identifiants sur les réseaux sociaux:
 
-- https://twitter.com/pyladiescon/
+- https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
 - https://www.instagram.com/pyladiescon/
-- https://fosstodon.org/@pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
 ### Lorsque vous publiez sur les réseaux sociaux, utilisez les hashtags:

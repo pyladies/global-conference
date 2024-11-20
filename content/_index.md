@@ -20,9 +20,10 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
         </p>
         <div class="social w-100 mx-auto pt-3 text-start">
           <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
+          <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fab fa-bluesky fa-2x px-2" aria-hidden="true"></i></a>
           <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
         </div>
         <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
         <div class="w-100 mt-2 text-start">
@@ -189,7 +190,9 @@ Know the sponsors of our conference.
 Email us at
 <a href="mailto:pyladiescon@pyladies.com">pyladiescon@pyladies.com</a>
 
-Follow us on <a href="https://twitter.com/pyladiescon">Twitter</a>
+Follow us on <a href="https://fosstodon.org/@pyladiescon">Mastodon</a>,
+<a href="https://bsky.app/profile/pyladiescon.bsky.social">BlueSky</a> or
+<a href="https://twitter.com/pyladiescon">Twitter</a>.
 
 To connect with other PyLadies members through Slack, join
 <a href="https://slackin.pyladies.com">slackin.pyladies.com</a>

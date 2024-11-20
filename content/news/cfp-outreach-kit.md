@@ -79,9 +79,10 @@ organizers. We are available on Slack or through email at
 
 ### Our social media handles are:
 
-- https://twitter.com/pyladiescon
-- https://www.instagram.com/pyladiescon/
 - https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
+- https://www.instagram.com/pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
 ### When posting on social media, use the hashtags:

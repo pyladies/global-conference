@@ -67,10 +67,10 @@ connosco por email: [pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com)
 Os membros do comité da organização terão todo o gosto em ajudar a responder a
 questões sobre o PyLadies, a conferência e a própria proposta de palestra. Por
 favor, em caso de dúvidas envie um email para
-[pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com) será um prazer 
+[pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com) será um prazer
 ajudar a esclarecer.
 
-## Informação adicional 
+## Informação adicional
 
 ### Links relevantes por partilhar:
 
@@ -80,9 +80,10 @@ ajudar a esclarecer.
 
 ### Nossas Redes Sociais:
 
-- https://twitter.com/pyladiescon/
+- https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
 - https://www.instagram.com/pyladiescon/
-- https://fosstodon.org/@pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
 ### Ao publicar nas redes sociais, utilize as hashtags:
