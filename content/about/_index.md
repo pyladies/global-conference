@@ -197,10 +197,10 @@ event are required to conform to the following Code of Conduct as set forth by
 the Python Software Foundation. Organizers will enforce this code throughout
 the event.
 
-The Python community is made up of members from around the globe with a diverse 
-set of skills, personalities, and experiences. It is through these differences 
-that our community experiences great successes and continued growth. When you're 
-working with members of the community, this Code of Conduct will help steer your 
+The Python community is made up of members from around the globe with a diverse
+set of skills, personalities, and experiences. It is through these differences
+that our community experiences great successes and continued growth. When you're
+working with members of the community, this Code of Conduct will help steer your
 interactions and keep Python a positive, successful, and growing community.
 
 
@@ -290,7 +290,7 @@ including warning the offender or expulsion from the community and community
 events with no refund of event tickets.
 
 The full list of consequences for inappropriate behavior is listed in
-[the Enforcement Procedures](/enforcement).
+[the Enforcement Procedures](/coc/enforcement).
 
 Thank you for helping make this a welcoming, friendly community for everyone.
 {{% /togglebutton-content %}}
@@ -359,14 +359,13 @@ The organizing and Code of Conduct team will be happy to assist any attendee to
 feel safe for the duration of the conference.  We value your attendance.
 
 ## Procedure for handling incidents
-<a href="coc-reporting.html">Procedure For Reporting Code of Conduct Incidents</a>
-<a href="coc-enforcement.html">Enforcement procedures</a>
+* [Procedure For Reporting Code of Conduct Incidents](/coc/reporting)
+* [Enforcement procedures](/coc/enforcement)
 
 ## License
 
-This Code of Conduct is licensed under the <a
-href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
-Attribution-ShareAlike 3.0 Unported License.</a>
+This Code of Conduct is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported
+License](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ## Attribution
 
