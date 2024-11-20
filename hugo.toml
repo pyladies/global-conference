@@ -39,6 +39,12 @@ parent = 'About'
 weight = 24
 
 [[menus.main]]
+name = 'Mentored Sprint'
+pageRef = '/sprints'
+parent = 'About'
+weight = 24
+
+[[menus.main]]
 name = 'Speakers'
 url = 'https://pretalx.com/pyladiescon-2024/speaker/'
 weight = 30
