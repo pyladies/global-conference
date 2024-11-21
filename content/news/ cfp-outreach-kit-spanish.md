@@ -33,16 +33,16 @@ Pueden ayudarnos de diversas maneras
 
 > “Hola {nombre}, estamos buscando ponentes para PyLadiesCon. Tu charla
 > {ejemplo de charla} fue realmente interesante. ¿Podrías enviarla aquí?
-> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)“  
->   
+> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)“
+>
 > “Hola {nombre}, ¿te interesaría dar una charla en PyLadiesCon? Por favor,
 > envía tu propuesta aquí
-> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”  
->   
+> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
+>
 > “Hola {nombre}, PyLadiesCon está buscando ponentes, y creo que serías
 > excelente para ello. Aquí te dejo más información:
-> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”  
->   
+> [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
+>
 > “Hola {nombre}, vi tu publicación/proyecto sobre {algo}. Creo que sería una
 > buena idea para una charla en PyLadiesCon. ¿Podrías enviarlo como charla?
 > [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
@@ -79,9 +79,10 @@ electrónico en pyladiescon@pyladies.com.
 
 ### Nuestras redes sociales son:
 
-- https://twitter.com/pyladiescon/
+- https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
 - https://www.instagram.com/pyladiescon/
-- https://fosstodon.org/@pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
 ### Al publicar en redes sociales, usen los hashtags:

@@ -68,12 +68,14 @@ PyLadiesCon 運営チームは、PyLadiesそのもの、本カンファレンス
 
 ### PyLadiesCon のSNSアカウント:
 
-- https://twitter.com/pyladiescon/
+- https://fosstodon.org/@pyladiescon
+- https://bsky.app/profile/pyladiescon.bsky.social
 - https://www.instagram.com/pyladiescon/
-- https://fosstodon.org/@pyladiescon/
+- https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
 
-### SNSで投稿する場合はぜひ下記ハッシュタグをご利用ください: 
+
+### SNSで投稿する場合はぜひ下記ハッシュタグをご利用ください:
 
 > \#PyLadies, \#PyLadiesCon, and \#ThePSF
 
