@@ -15,5 +15,8 @@
 <meta property="og:image:alt" content="PyLadiesCon Logo">
 {{ end }}
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

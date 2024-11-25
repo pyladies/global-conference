@@ -5,6 +5,9 @@ theme = ["pyladies"]
 summaryLength = 10
 enableInlineShortcodes = true
 
+[outputs]
+home = ["HTML", "RSS"]
+
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
