@@ -85,7 +85,7 @@ more details on how to volunteer!
 {{< pink >}}
 <!-- Organisers carousel -->
 <div class="d-md-flex flex-md-equal w-100 ps-md-3 bg-pink px-5">
-  <div class="bg-pink mr-md-3 pt-3 px-3 mx-5 py-md-5 px-md-5">
+  <div class="bg-pink mr-md-3 pt-3 px-3 py-md-5 px-md-5">
     <div class="row">
       {{< organizer
         "Mariatta"
@@ -147,7 +147,7 @@ more details on how to volunteer!
 {{< rawhtml >}}
 <div class="d-md-flex flex-md-equal w-100">
     <img class="w-100" src="/img/about-photo-3.png" alt="A black woman sitting in front of a server room while working on a laptop.">
-  </div>
+</div>
 {{< /rawhtml >}}
 
 

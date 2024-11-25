@@ -10,29 +10,28 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
 {{< rawhtml >}}
 <!-- TODO: Update banner -->
 <div style="background-image: url('/img/pyladies-wallpaper.png'); background-size: cover; background-position: center;" class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-start">
-    <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center justify-content-start">
-      <div class="col-md-5 p-lg-3 mx-auto my-5">
-        <h1 class="display-4 fw-normal pink">PyLadiesCon</h1>
-        <h4 class="special-font pink">2024 Online</h4>
-        <p class="lead" style="font-weight: bolder;color: white;">
-          6th-8th December<br>
-          Multi-language | Multi-timezone
-        </p>
-        <div class="social w-100 mx-auto pt-3 text-start">
-          <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
-          <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fab fa-bluesky fa-2x px-2" aria-hidden="true"></i></a>
-          <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
-        </div>
-        <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
-        <div class="w-100 mt-2 text-start">
-          <a href="https://pretix.eu/pyladiescon/2024">
-            <button type="button" class="btn btn-pink btn-block mb-2 rainbow rainbow-1" data-toggle="collapse">REGISTER</button>
-          </a>
-        </div>
+  <div class="d-md-flex flex-md-equal w-75 my-md-3 mx-auto align-items-center justify-content-start">
+    <div class="col-md-5 p-lg-3 mx-auto my-5">
+      <h1 class="display-4 fw-normal pink">PyLadiesCon</h1>
+      <h4 class="special-font pink">2024 Online</h4>
+      <p class="lead" style="font-weight: bolder;color: white;">
+        6th-8th December<br>
+        Multi-language | Multi-timezone
+      </p>
+      <div class="social w-100 mx-auto pt-3 text-start">
+        <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fab fa-bluesky fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
       </div>
-
+      <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
+      <div class="w-100 mt-2 text-start">
+        <a href="https://pretix.eu/pyladiescon/2024">
+          <button type="button" class="btn btn-pink btn-block mb-2 rainbow rainbow-1" data-toggle="collapse">REGISTER</button>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 {{< /rawhtml >}}
@@ -129,13 +128,13 @@ Know the sponsors of our conference.
   "https://numberly.com"
   "booster_numberly.png"
   >}}
-{{% /logosrow %}}
 
 {{< sponsorlogo
   "Auth0"
   "https://auth0.com/"
   "booster_auth0.png"
   >}}
+
 {{% /logosrow %}}
 
 ##  Partner Sponsor
@@ -179,6 +178,8 @@ Know the sponsors of our conference.
   >}}
 
 {{% /logosrow %}}
+
+{{% /mainrectangle %}}
 
 
 {{% pinkrectangle %}}
