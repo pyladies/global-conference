@@ -17,4 +17,4 @@ Finding lost about where to get started?
 
 Join mentored sprint at PyLadies Con where there will be project leaders online to help getting you started. We do **NOT** expect any experience from you, all you need is patience and an open mind to learn.
 
-For details about the sprint, please check out the [sprint page here](/sprints).
+For details about the sprint, please check out the [sprint page here](/about/sprints).
