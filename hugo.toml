@@ -9,11 +9,6 @@ enableInlineShortcodes = true
 home = ["HTML", "RSS"]
 
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
 name = 'About'
 weight = 20
 
