@@ -46,7 +46,7 @@ We’re excited to welcome you to our conference.  Join us online
 for a transformative event designed to promote diversity, learning, and empowerment
 within the Python community.  🎉
 
-PyLadiesCon will take place on December 6th-8th. Review our <a href="</schedule">full schedule</a>.
+PyLadiesCon will take place on December 6th-8th. Review our <a href="/schedule">full schedule</a>.
 where we’ll gather together for a weekend filled with insightful talks,
 engaging panels, and collaborative networking opportunities.
 
