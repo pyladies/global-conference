@@ -14,7 +14,7 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
     <div class="col-md-5 p-lg-3 mx-auto my-5">
       <h1 class="display-4 fw-normal pink">PyLadiesCon</h1>
       <h4 class="special-font pink">2024 Online</h4>
-      <p class="lead" style="font-weight: bolder;color: white;">
+      <p class="lead" style="font-weight: bold;color: white;">
         6th-8th December<br>
         Multi-language | Multi-timezone
       </p>
