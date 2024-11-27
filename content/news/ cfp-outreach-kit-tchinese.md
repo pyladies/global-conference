@@ -34,12 +34,13 @@ imagealt = ''
 > “Hi {姓名}，我看到了您關於 {舉例} 的部落格文章/項目。我認為這會是一個很好的 PyLadiesCon 演講主題。您可以提交為演講嗎？
 > [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
 
-2. 在社群媒體上分享 PyLadiesCon CFP 的消息（Twitter/X、LinkedIn、Mastodon、Instagram、Facebook 等）
+2. 在社群媒體上分享 PyLadiesCon CFP 的消息（Twitter/X、LinkedIn、Mastodon、Instagram、Facebook、Youtube 等）
 
 - [部落格文章](https://conference.pyladies.com/news/cfp_open/)
 - [Twitter](https://x.com/pyladiescon/status/1824179923713659336)
 - [Mastodon](https://fosstodon.org/@pyladiescon/112967895199872463)
 - [LinkedIn](https://www.linkedin.com/posts/pyladiescon_pyladiescon-python-pyladies-activity-7229947209079795712-egx8?utm_source=share&utm_medium=member_desktop)
+- [Youtube](https://www.youtube.com/@PyLadiesGlobal)
 
 3. 直接向 PyLadiesCon 2024 大會推薦潛在講者。
 
@@ -64,6 +65,7 @@ imagealt = ''
 - https://www.instagram.com/pyladiescon/
 - https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
+- https://www.youtube.com/@PyLadiesGlobal
 
 ### 在社群媒體上發文時，請使用以下#主題標籤：
 

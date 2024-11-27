@@ -1,6 +1,6 @@
 ---
 title: 'News'
-description: "Get news about PyLadiesCon by following us on social media (Mastodon, Twitter/X, Instagram, and LinkedIn and subscribing to our RSS Feed."
+description: "Get news about PyLadiesCon by following us on social media (Mastodon, Twitter/X, Instagram, LinkedIn and Youtube and subscribing to our RSS Feed."
 image: "/img/about-photo-2.png" 
 imagealt: "Three recially diverse women sitting on a sofa each with a laptop on their lap and smiling."
 ---
