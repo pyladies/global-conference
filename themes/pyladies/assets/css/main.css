@@ -655,3 +655,7 @@ h2 a {
   }
 }
 
+.social-icon {
+    width: 32px;
+    margin: 4px;
+}
