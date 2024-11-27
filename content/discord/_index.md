@@ -26,11 +26,13 @@ conferences, and has shown a good level of customization, interactions, and reac
 about [Discord](https://discord.com).
 
 We are providing our server to host all the interactions of the people attending the second year of
-PyLadiesCon, so we really **encourage you to join** and discover our talks, activities, open spaces,
+PyLadiesCon. We really **encourage you to join** and discover our talks, activities, open spaces,
 sprints, tutorials, resources, and more!
 
+[Register now](https://pretix.eu/pyladiescon/2024/) to PyLadiesCon to get access to our Discord server. 
+
 For Discord users, joining our server is just joining a new server! but if **you are new to
-Discord**, don't worry, we got you cover. As a first step, you need to [create an
+Discord**, don't worry, we got you covered. As a first step, you need to [create an
 account](https://discord.com/register). You an also do this while joining the server for the first
 time.
 
@@ -48,7 +50,7 @@ time.
 
 ## Registration step
 
-Once you enter the server, you will not see many channels, because you need to register
+Once you enter the Discord server, you will not see many channels, because you need to register
 with your **conference ticket**.
 
 Check the `#registration` channel, and you will see the following message:
@@ -57,11 +59,11 @@ Check the `#registration` channel, and you will see the following message:
 <img src="/img/discord_screenshots/register.png" class="img-fluid" />
 {{< /rawhtml >}}
 
-all the instructions can be found there, and they consist on:
+all the instructions can be found there, and they consist of:
 
 * Getting your conference ticket at hand. The email should have the subject `[PyLdiesCon 2024] Your
-  order: XXXXX` where the `X` are different letters. On that email you find a URL to get the details
-  of your ticket. From your ticket you need the **exact** way you wrote your name, and the `X`s code.
+  order: NNNNN` where the `N` are different letters. On that email you find a URL to get the details
+  of your ticket. From your ticket you need the **exact** way you wrote your name, and the `N`s code.
 
 * Click on the **Register here 👈** button, and you will get the following dialog:
 
@@ -102,7 +104,7 @@ The Talks, Keynotes, and Panels will be transmitted via YouTube, so you will hav
 * Watch them within Discord.
 
 The interaction will be **only on Discord** so we encourage you to stay around and join the
-**media channels** in order to watch the videos, because the chat will be disable on YouTube.
+**media channels** in order to watch the videos, because the chat will be disabled on YouTube.
 
 As you might have seen in our schedule, we have a **Main Room** and one for **Activities and Open
 Spaces**, which will be equivalent to the `main-room` and `activities-room`.
