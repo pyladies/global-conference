@@ -32,13 +32,13 @@ weight = 23
 
 [[menus.main]]
 name = 'Assets'
-pageRef = '/assets'
+pageRef = '/about/assets'
 parent = 'About'
 weight = 24
 
 [[menus.main]]
 name = 'Mentored Sprint'
-pageRef = '/sprints'
+pageRef = '/about/sprints'
 parent = 'About'
 weight = 24
 
@@ -58,9 +58,14 @@ pageRef = '/sponsors'
 weight = 50
 
 [[menus.main]]
+name = '•Discord'
+pageRef = '/discord'
+weight = 60
+
+[[menus.main]]
 name = 'News'
 pageRef = '/news'
-weight = 60
+weight = 70
 
 
 [markup]
