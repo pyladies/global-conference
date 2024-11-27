@@ -47,12 +47,13 @@ You can help us in a variety of ways
 > be a good talk idea for PyLadiesCon. Can you submit it as a talk?
 > [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
 
-2. Share news about PyLadiesCon CFP on social media (Twitter/X, LinkedIn, Mastodon, Instagram, Facebook, etc).
+2. Share news about PyLadiesCon CFP on social media (Twitter/X, LinkedIn, Mastodon, Instagram, Facebook, Youtube, etc).
 
     - [Official blog post](https://conference.pyladies.com/news/cfp_open/)
     - [Post on X](https://x.com/pyladiescon/status/1824179923713659336)
     - [Toot on Mastodon](https://fosstodon.org/@pyladiescon/112967895199872463)
     - [Post on LinkedIn](https://www.linkedin.com/posts/pyladiescon_pyladiescon-python-pyladies-activity-7229947209079795712-egx8)
+    - [Youtube](https://www.youtube.com/@PyLadiesGlobal)
 
 3. Connect potential speakers with one of our conference organizers
 
@@ -84,6 +85,7 @@ organizers. We are available on Slack or through email at
 - https://www.instagram.com/pyladiescon/
 - https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
+- https://www.youtube.com/@PyLadiesGlobal
 
 ### When posting on social media, use the hashtags:
 

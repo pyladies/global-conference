@@ -43,12 +43,13 @@ PyLadies のオーガナイザー、メンバー、サポーターの 1 人と�
 > でトークするのに良いアイデアだと思いました。ぜひスピーカーとしてCfP出していただけませんか?
 > [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
 
-2. PyLadiesCon CFP に関する情報をソーシャル メディア (Twitter/X、LinkedIn、Mastodon、Instagram、Facebook など) で共有してください。
+2. PyLadiesCon CFP に関する情報をソーシャル メディア (Twitter/X、LinkedIn、Mastodon、Instagram、Facebook, Youtube, など) で共有してください。
 
 - [Blog post](https://conference.pyladies.com/news/cfp_open/)
 - [Twitter](https://x.com/pyladiescon/status/1824179923713659336)
 - [Mastodon](https://fosstodon.org/@pyladiescon/112967895199872463)
 - [LinkedIn](https://www.linkedin.com/posts/pyladiescon_pyladiescon-python-pyladies-activity-7229947209079795712-egx8?utm_source=share&utm_medium=member_desktop)
+- [Youtube](https://www.youtube.com/@PyLadiesGlobal)
 
 3. スピーカー候補をPyLadiesConオーガナイザーへ直接繋いでいただいてもかまいません。
 
@@ -73,6 +74,7 @@ PyLadiesCon 運営チームは、PyLadiesそのもの、本カンファレンス
 - https://www.instagram.com/pyladiescon/
 - https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
+- https://www.youtube.com/@PyLadiesGlobal
 
 
 ### SNSで投稿する場合はぜひ下記ハッシュタグをご利用ください:

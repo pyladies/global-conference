@@ -19,11 +19,12 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
         Multi-language | Multi-timezone
       </p>
       <div class="social w-100 mx-auto pt-3 text-start">
-        <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
-        <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fab fa-bluesky fa-2x px-2" aria-hidden="true"></i></a>
-        <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://fosstodon.org/@pyladiescon"><img class="social-icon" src="/img/icons/mastodon.svg" /></a>
+        <a href="https://bsky.app/profile/pyladiescon.bsky.social"><img class="social-icon" src="/img/icons/bluesky.svg" /></a>
+        <a href="https://instagram.com/pyladiescon"><img class="social-icon" src="/img/icons/instagram.svg" /></a>
+        <a href="https://www.linkedin.com/company/pyladiescon"><img class="social-icon" src="/img/icons/linkedin.svg" /></a>
+        <a href="https://twitter.com/pyladiescon"><img class="social-icon" src="/img/icons/x.svg" /></a>
+        <a href="https://www.youtube.com/@PyLadiesGlobal"><img class="social-icon" src="/img/icons/youtube.svg" /></a>
       </div>
       <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
       <div class="w-100 mt-2 text-start">
@@ -46,7 +47,7 @@ We’re excited to welcome you to our conference.  Join us online
 for a transformative event designed to promote diversity, learning, and empowerment
 within the Python community.  🎉
 
-PyLadiesCon will take place on December 6th-8th. Review our <a href="</schedule">full schedule</a>.
+PyLadiesCon will take place on December 6th-8th. Review our <a href="/schedule">full schedule</a>.
 where we’ll gather together for a weekend filled with insightful talks,
 engaging panels, and collaborative networking opportunities.
 
@@ -192,8 +193,9 @@ Email us at
 <a href="mailto:pyladiescon@pyladies.com">pyladiescon@pyladies.com</a>
 
 Follow us on <a href="https://fosstodon.org/@pyladiescon">Mastodon</a>,
-<a href="https://bsky.app/profile/pyladiescon.bsky.social">BlueSky</a> or
-<a href="https://twitter.com/pyladiescon">Twitter</a>.
+<a href="https://bsky.app/profile/pyladiescon.bsky.social">BlueSky</a>,
+<a href="https://twitter.com/pyladiescon">Twitter</a> or
+<a href="https://www.youtube.com/@PyLadiesGlobal">Youtube</a>.
 
 To connect with other PyLadies members through Slack, join
 <a href="https://slackin.pyladies.com">slackin.pyladies.com</a>
