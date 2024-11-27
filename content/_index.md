@@ -20,7 +20,7 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
       </p>
       <div class="social w-100 mx-auto pt-3 text-start">
         <a href="https://fosstodon.org/@pyladiescon"><i class="fab fa-mastodon fa-2x px-2" aria-hidden="true"></i></a>
-        <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fab fa-bluesky fa-2x px-2" aria-hidden="true"></i></a>
+        <a href="https://bsky.app/profile/pyladiescon.bsky.social"><i class="fas fa-cloud fa-2x px-2" aria-hidden="true"></i></a>
         <a href="https://instagram.com/pyladiescon"><i class="fab fa-instagram fa-2x px-2" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/company/pyladiescon"><i class="fab fa-linkedin fa-2x px-2" aria-hidden="true"></i></a>
         <a href="https://twitter.com/pyladiescon"><i class="fab fa-twitter fa-2x px-2" aria-hidden="true"></i></a>
