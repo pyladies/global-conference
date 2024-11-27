@@ -51,12 +51,13 @@ Vous pouvez nous aider de différentes manières
 > [https://pretalx.com/pyladiescon-2024/cfp](https://pretalx.com/pyladiescon-2024/cfp)”
 
 2. Partagez des nouvelles sur le CFP de PyLadiesCon sur les réseaux sociaux
-   (Twitter, LinkedIn, Mastodon, Instagram, Facebook, etc.).
+   (Twitter, LinkedIn, Mastodon, Instagram, Facebook, Youtube, etc.).
 
 - [Article de blog](https://conference.pyladies.com/news/cfp_open/)
 - [Twitter](https://x.com/pyladiescon/status/1824179923713659336)
 - [Mastodon](https://fosstodon.org/@pyladiescon/112967895199872463)
 - [LinkedIn](https://www.linkedin.com/posts/pyladiescon_pyladiescon-python-pyladies-activity-7229947209079795712-egx8?utm_source=share&utm_medium=member_desktop)
+- [Youtube](https://www.youtube.com/@PyLadiesGlobal)
 
 3. Mettez en relation les conférenciers potentiels avec l'un de nos
    organisateurs de la conférence.
@@ -90,6 +91,7 @@ disponibles sur Slack ou par courriel :
 - https://www.instagram.com/pyladiescon/
 - https://twitter.com/pyladiescon
 - https://www.linkedin.com/groups/12870459/
+- https://www.youtube.com/@PyLadiesGlobal
 
 ### Lorsque vous publiez sur les réseaux sociaux, utilisez les hashtags:
 
