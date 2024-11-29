@@ -28,4 +28,5 @@ Below is the list of projects that will be participating in the sprint. If you a
 e.g. ```<<Project name with link to project repo>> (contact: <<@DiscordHandle>>, active timezone: <<AMER/EMEA/APAC>>)```
 
 - [Nawhals](https://github.com/narwhals-dev/narwhals) (contact: @Cheukting, active timezone: EMEA)
+- [Python Doc ES](https://github.com/python/python-docs-es/) (contact: @sofide, active timezone: GMT-3)
 - [Skrub](https://skrub-data.org/) (contact: @jeromedockes, active timezone: EMEA)
