@@ -30,3 +30,4 @@ e.g. ```<<Project name with link to project repo>> (contact: <<@DiscordHandle>>,
 - [Nawhals](https://github.com/narwhals-dev/narwhals) (contact: @Cheukting, active timezone: EMEA)
 - [Python Doc ES](https://github.com/python/python-docs-es/) (contact: @sofide, active timezone: GMT-3)
 - [Skrub](https://skrub-data.org/) (contact: @jeromedockes, active timezone: EMEA)
+- [Fairlearn](https://github.com/fairlearn/fairlearn) (contact: @tamaraatanasoska active timezone EMEA)
