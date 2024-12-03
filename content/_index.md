@@ -136,6 +136,12 @@ Know the sponsors of our conference.
   "booster_auth0.png"
   >}}
 
+{{< sponsorlogo
+  "Black Python Devs"
+  "https://blackpythondevs.com/"
+  "booster_blackpythondevs.png"
+  >}}
+
 {{% /logosrow %}}
 
 ##  Partner Sponsor
