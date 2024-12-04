@@ -150,6 +150,12 @@ Know the sponsors of our conference.
   "partner_willingconsulting.png"
   >}}
 
+  {{< sponsorlogo
+  "Plotly"
+  "https://plotly.com/"
+  "partner_plotly.png"
+  >}}
+
 {{% /logosrow %}}
 
 ##  Community Partner
