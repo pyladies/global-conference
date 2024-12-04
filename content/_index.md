@@ -153,7 +153,7 @@ Know the sponsors of our conference.
   {{< sponsorlogo
   "Plotly"
   "https://plotly.com/"
-  "partner_plotly.png"
+  "partner_plotly2.png"
   >}}
 
 {{% /logosrow %}}
