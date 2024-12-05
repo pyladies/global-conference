@@ -142,6 +142,12 @@ Know the sponsors of our conference.
   "booster_blackpythondevs.png"
   >}}
 
+{{< sponsorlogo
+  "Ada Marie"
+  "https://weareadamarie.com/"
+  "booster_adamarie.png"
+  >}}
+
 {{% /logosrow %}}
 
 ##  Partner Sponsor
