@@ -13,10 +13,10 @@ imagealt = "Three racially diverse women sitting on a sofa each with a laptop on
   "/img/schedule-icon.png"
   >}}
 
-# Preliminary version
+# PyLadiesCon Schedule 2024
 
-The current schedule is not final and it will probably change in the following days.
-Additionally, new activities might be added before the conference.
+Below is the finalized schedule for the conference happening between 6-8 Dec 2024.
+Some prerecorded videos might not be shown on this list but they will be broadcast during breaks.   
 
 {{< rawhtml >}}
   <!-- begin pretalx -->
