@@ -22,6 +22,10 @@ Here are a few important details on how to join and participate.
 
 Check the full [conference schedule](https://conference.pyladies.com/schedule) to find out when the talks, keynotes, panels, and workshops will be happening
 
+### Register for the conference
+
+First of all, please [register](https://pretix.eu/pyladiescon/2024/) for the conference to get access to all the sessions.
+
 ### How to watch the talks
 
 Our sessions are streamed on YouTube on [this playlist](https://www.youtube.com/playlist?list=PLOItnwPQ-eHxWh6Af6xRuKprSk_OBU0cL). 
@@ -35,7 +39,7 @@ For sessions that are conducted live (like the keynotes, and panel discussions),
 ### Join us on Discord
 
 This is our main communication channel where you will be able to engage with other attendees.
- Please read [this page](https://conference.pyladies.com/discord/) for details on how to join.
+ After [registering](https://pretix.eu/pyladiescon/2024/) to the conference, you will have full access to Discord. Please read [this page](https://conference.pyladies.com/discord/) for details on how to join.
 
 Use the Discord ``#main-room`` channel to chat and discuss the talks with other audiences. Many of our speakers will be around to answer questions about their talk asynchronously.
 
@@ -55,7 +59,12 @@ The sprint orientation starts on Dec 6th at 20:40 UTC and the sprint itself will
 
 ### Donate to PyLadiesCon
 
-There is still time to [donate](https://pretix.eu/pyladiescon/2024/) to PyLadiesCon. Our event is free, however you can further support our mission by donating. You can donate by selecting the "General Donation (not an entry ticket)" option. We have created a special Discord role for those who have donated through our registration process, where you get a special 💰 (moneybag) emoji next to your name on Discord. If you have donated and don't see this emoji on Discord, please let us know and we'll get that sorted out.
+There is still time to [donate](https://pretix.eu/pyladiescon/2024/) to PyLadiesCon. Our event is free, however you can further support our mission by
+donating. You can add a donation as an "add-on" item during registration.
+If you have already registered before, you can donate by selecting the
+"General Donation (not an entry ticket)" option.
+
+We have created a special Discord role for those who have donated through our registration process, where you get a special 💰 (moneybag) emoji next to your name on Discord. If you have donated and don't see this emoji on Discord, please let us know and we'll get that sorted out.
 
 ### Donation Goals
 
