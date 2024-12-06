@@ -18,13 +18,13 @@ Get ready for 24 hours of engaging sessions at PyLadiesCon 2024!
 
 Here are a few important details on how to join and participate.
 
-### Our conference schedule
-
-Check the full [conference schedule](https://conference.pyladies.com/schedule) to find out when the talks, keynotes, panels, and workshops will be happening
-
 ### Register for the conference
 
 First of all, please [register](https://pretix.eu/pyladiescon/2024/) for the conference to get access to all the sessions.
+
+### Our conference schedule
+
+Check the full [conference schedule](https://conference.pyladies.com/schedule) to find out when the talks, keynotes, panels, and workshops will be happening
 
 ### How to watch the talks
 
