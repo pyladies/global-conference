@@ -57,6 +57,11 @@ The sprint orientation starts on Dec 6th at 20:40 UTC and the sprint itself will
 
 There is still time to [donate](https://pretix.eu/pyladiescon/2024/) to PyLadiesCon. Our event is free, however you can further support our mission by donating. You can donate by selecting the "General Donation (not an entry ticket)" option. We have created a special Discord role for those who have donated through our registration process, where you get a special 💰 (moneybag) emoji next to your name on Discord. If you have donated and don't see this emoji on Discord, please let us know and we'll get that sorted out.
 
+### Donation Goals
+
+At  the time of writing, we've raised $1,000.00 in donations through our conference registration. Thank you!!! 🙌
+Can you help us make it to **$2,000.00**?
+
 ### Looking for a job/have a job posting?
 
 Use the ``#job-board`` forum for that!
