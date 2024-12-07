@@ -26,7 +26,7 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
         <a href="https://twitter.com/pyladiescon"><img class="social-icon" src="/img/icons/x.svg" /></a>
         <a href="https://www.youtube.com/@PyLadiesGlobal"><img class="social-icon" src="/img/icons/youtube.svg" /></a>
       </div>
-      <div class="w-100 mt-2 text-start" style=color:#fff>Check the <a class=text-white href=/schedule>Schedule!</a></div>
+      <div class="w-100 mt-2 text-start" style=color:#fff>Watch the <a class=text-white href="https://www.youtube.com/playlist?list=PLOItnwPQ-eHxWh6Af6xRuKprSk_OBU0cL">sessions!</a></div>
       <div class="w-100 mt-2 text-start">
         <a href="https://pretix.eu/pyladiescon/2024">
           <button type="button" class="btn btn-pink btn-block mb-2 rainbow rainbow-1" data-toggle="collapse">DONATE</button>
@@ -38,52 +38,20 @@ imagealt = "Website banner of PyLadiesCon 2024 Online. 6th-8th December | Multi-
 {{< /rawhtml >}}
 
 {{% mainrectangle %}}
-![About Icon class=icon-section](/img/about-icon.png)
 
-{{< pinktitle "About the conference" >}}
+{{< pinktitle "PyLadiesCon Wraps Up!" >}}
 
-Attention all PyLadies community members! Our conference <a href="https://pretix.eu/pyladiescon/2024">registration</a> is now open.
-We’re excited to welcome you to our conference.  Join us online
-for a transformative event designed to promote diversity, learning, and empowerment
+Thanks you for joining us at PyLadiesCon 2024, 
+a transformative event designed to promote diversity, learning, and empowerment
 within the Python community.  🎉
 
-PyLadiesCon will take place on December 6th-8th. Review our <a href="/schedule">full schedule</a>.
-where we’ll gather together for a weekend filled with insightful talks,
-engaging panels, and collaborative networking opportunities.
+We are grateful to have you at our conference. With your support,
+this year we break our the conference stats from last year!
 
-* {{< rarrowlink "Read More" "/about" >}}
-* {{< rarrowlink "Code of Conduct" "/about" >}}
 
-{{% /mainrectangle %}}
-
-{{% mainrectangle %}}
-![Join us Icon class=icon-section](/img/details-icon.png)
-
-{{< pinktitle "Join us!" >}}
-
-Be a part of our conference!
-
-{{% darkcards %}}
-
-{{< darkcard
-  "Be a Volunteer"
-  "Join us in shaping this remarkable event that aims to empower women in the Python community and beyond. Your involvement will make a difference and provide invaluable networking opportunities and personal growth."
-  >}}
-
-{{< darkcard
-  "Make a difference!"
-  "Join the spirit of the PyLadies community, which promotes diversity and inclusion in the Python programming language community."
-  >}}
-
-{{< darkcard
-  "Meet PyLadies from all over the world"
-  "Join us in shaping this remarkable event that aims to empower women in the Python community and beyond. Your involvement will make a difference and provide invaluable networking opportunities and personal growth."
-  >}}
-
-{{% /darkcards %}}
+* {{< rarrowlink "PyLadiesCon Recap" "/news/pyladiescon-ends" >}}
 
 {{% /mainrectangle %}}
-
 
 {{% mainrectangle %}}
 ![Sponsors=icon-section](/img/sponsors-icon.png)
