@@ -1,8 +1,7 @@
 ---
 title: "PyLadiesCon Wraps Up!"
 meta_title: "PyLadiesCon Wraps Up!"
-description: "We're excited to welcome you at PyLadiesCon 2024 and kick-off all of our keynotes, talks, panels, and workshops.
-Get ready for 24 hours of engaging sessions at PyLadiesCon 2024! 
+description: "We are grateful to have you at our conference. With your support, this year we break our conference stats from last year!
 "
 date: 2024-12-07T12:00:00-07:00
 categories: ["Blog Post",]
@@ -15,7 +14,7 @@ layout: news
 
 Thanks for joining us at PyLadiesCon!
 
-We are grateful to have you at our conference. With your support, this year we break all the conference stats from last year!
+We are grateful to have you at our conference. With your support, this year we break our the conference stats from last year!
 
 
 Here are some interesting stats from PyLadiesCon compared to last year:
