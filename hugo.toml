@@ -57,10 +57,10 @@ name = 'Sponsors'
 pageRef = '/sponsors'
 weight = 50
 
-[[menus.main]]
-name = '•Discord'
-pageRef = '/discord'
-weight = 60
+# [[menus.main]]
+# name = '•Discord'
+# pageRef = '/discord'
+# weight = 60
 
 [[menus.main]]
 name = 'News'
