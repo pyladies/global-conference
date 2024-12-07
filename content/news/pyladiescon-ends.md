@@ -263,3 +263,4 @@ donors, volunteers, and our core organizers.
 - Python en Español 
 - PyPodcats
 
+Thank you for making this event memorable! See you next year!
