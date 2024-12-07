@@ -677,3 +677,11 @@ h3 {
     width: 32px;
     margin: 4px;
 }
+
+table {
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #333;
+  padding: 0 .2em;
+}
