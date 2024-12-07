@@ -259,7 +259,7 @@ donors, volunteers, and our core organizers.
 - Willing Consulting
 - Plotly
 - Data Umbrella
-- PyLadies En Espanol
-- Python En Espanol
+- PyLadies en Español 
+- Python en Español 
 - PyPodcats
 
