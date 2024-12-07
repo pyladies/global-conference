@@ -245,3 +245,21 @@ donors, volunteers, and our core organizers.
 - Naomi Ceder
 - Cristián Maureira-Fredes
 
+### Sponsors and Partners
+
+- The PSF
+- EuroPython Society
+- Quansight
+- pretix
+- numberly
+- Auth0 by Okta
+- Black Python Devs
+- AdaMarie
+- Six Feet Up
+- Willing Consulting
+- Plotly
+- Data Umbrella
+- PyLadies En Espanol
+- Python En Espanol
+- PyPodcats
+
