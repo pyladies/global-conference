@@ -1,0 +1,18 @@
+---
+import Social from "@/components/Social.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { render } from "astro:content";
+
+const { doc } = Astro.props;
+const { title, meta_title, description } = doc.data;
+const { Content } = await render(doc);
+---
+
+<section class="section">
+  <div class="container">
+    <h1 set:html={markdownify(title)} class="page-heading-docs h1 mb-8" />
+    <div class="content">
+      <Content />
+    </div>
+  </div>
+</section>

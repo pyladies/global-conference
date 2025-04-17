@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "PyLadiesCon Blog & Documentation",
+    "base_url": "https://conference.pyladies.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_width": "48",
+    "logo_height": "48",
+    "logo_text": "PyLadiesCon"
+  },
+
+  "settings": {
+    "pagination": 7,
+    "pagination_docs": 10,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher modified by PyLadiesCon",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "PyLadiesCon Blog & Documentation"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2025 a theme by [Themefisher](https://themefisher.com) | Modified by PyLadiesCon"
+  }
+}

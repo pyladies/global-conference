@@ -1,9 +1,0 @@
-<div class="rowcolumn">
-{{ range split .Inner "<--->" }}
-<div class="pinkcolumn mx-5">
-{{ printf "<div class=\"markdown-inner\">" | htmlUnescape | safeHTML }}
-{{ . | safeHTML }}
-{{ printf "</div>" | htmlUnescape | safeHTML }}
-</div>
-{{ end }}
-</div>
