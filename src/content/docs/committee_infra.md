@@ -1,7 +1,8 @@
 ---
-title: "Tech and Infrastructure WG"
-meta_title: ""
-description: ""
+title: "Infrastructure Committee"
+meta_title: "Infrastructure Committee"
+description: "Team in charge of the infra in the conference including website,
+bots, ticketing system, streaming, etc."
 draft: false
 ---
 

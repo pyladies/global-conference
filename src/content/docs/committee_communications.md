@@ -1,7 +1,7 @@
 ---
 title: "Communications Committee"
-meta_title: ""
-description: ""
+meta_title: "Communications Committee"
+description: "Team in charge of all the internal and external communications"
 draft: false
 ---
 

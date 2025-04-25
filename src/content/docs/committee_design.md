@@ -1,7 +1,7 @@
 ---
-title: "Design and Social Media Committee"
-meta_title: ""
-description: ""
+title: "Design Committee"
+meta_title: "Design Committee"
+description: "Team in charge of the creation of all the conference assets"
 draft: false
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Volunteers Committee"
-meta_title: ""
-description: ""
+meta_title: "Volunteers Committee"
+description: "Team in charge of calling for volunteers, the logistics of the
+process and coordination of the helpers during the event."
 draft: false
 ---
 
