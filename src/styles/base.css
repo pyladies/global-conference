@@ -55,3 +55,7 @@ strong {
 img {
   @apply inline-block;
 }
+
+li {
+  @apply leading-5;
+}
