@@ -23,6 +23,12 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.2.1
         version: 3.3.0
+      '@fontsource-variable/orbitron':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/blinker':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@tailwindcss/vite':
         specifier: ^4.0.14
         version: 4.1.4(vite@6.3.2(@types/node@18.19.86)(jiti@2.4.2)(lightningcss@1.29.2)(sass@1.86.3)(yaml@2.7.1))
@@ -423,6 +429,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/orbitron@5.2.5':
+    resolution: {integrity: sha512-Ld1kRvd8I2rQuZ/j2NBgZjQI9x1iRRp2hXcMXncyzzHV6HefOA44Psb/GrjtdyFQ6c3+yDsiNIm2bCn/AnhaSw==}
+
+  '@fontsource/blinker@5.2.5':
+    resolution: {integrity: sha512-HY2XaDYTeNqLa7rIRn+ukAdlcZ5dee2orzKY6ZAClSUO61huyL3uyPYmbgYM4hs/RS9l6DkBs3LlxemYZI4chQ==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2989,6 +3001,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.25.2':
     optional: true
+
+  '@fontsource-variable/orbitron@5.2.5': {}
+
+  '@fontsource/blinker@5.2.5': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
