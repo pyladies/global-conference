@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "PyLadiesCon Blog & Documentation",
-    "base_url": "https://conference.pyladies.com",
+    "base_url": "https://2025.conference.pyladies.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",

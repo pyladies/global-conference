@@ -1,4 +1,5 @@
 ---
+import { render } from "astro:content";
 import DocSingle from "@/layouts/DocSingle.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -13,16 +14,27 @@ import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
 export async function getStaticPaths() {
   const docs = await getSinglePage("docs");
 
-  const paths = docs.map((doc) => ({
+  const headings = await Promise.all(
+   docs.map(async (doc) => {
+      const data = await render(doc);
+      return data.headings;
+    })
+  );
+
+  return docs.map((doc, index) => ({
     params: {
       single: doc.id,
     },
-    props: { doc },
+    props: { doc, headings: headings[index] },
   }));
-  return paths;
 }
 
-const { doc } = Astro.props;
+type Props = {
+  post: CollectionEntry<'blog'>;
+  headings: MarkdownHeading[];
+};
+
+const { doc, headings } = Astro.props;
 const { title, meta_title, description } = doc.data;
 
 // Docs
@@ -68,7 +80,7 @@ const docs = await getSinglePage("docs");
         </section>
       </div>
       <div class="col-span-4 mb-4 md:px-8">
-        <DocSingle doc={doc} />
+        <DocSingle doc={doc} headings={headings}/>
       </div>
     </div>
   </div>
