@@ -22,7 +22,10 @@ const authorsCollection = defineCollection({
     description: z.string().optional(),
     social: z
       .object({
-        facebook: z.string().url().optional(),
+        bluesky: z.string().url().optional(),
+        github: z.string().url().optional(),
+        linkedin: z.string().url().optional(),
+        mastodon: z.string().url().optional(),
         twitter: z.string().url().optional(),
         instagram: z.string().url().optional(),
       })
