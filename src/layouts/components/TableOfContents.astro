@@ -16,7 +16,7 @@ const filteredHeadings = headings.filter((heading) => heading.depth <= 3);
     {
       filteredHeadings.map((heading) => (
         <li class={`${heading.depth === 3 && "pl-5"}`}>
-          <a href={`#${heading.slug}`}>{heading.text} {heading.depth}</a>
+          <a href={`#${heading.slug}`}>{heading.text}</a>
         </li>
       ))
     }
