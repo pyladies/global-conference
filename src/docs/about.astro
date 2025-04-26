@@ -1,0 +1,45 @@
+---
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
+
+const entry = (await getEntry("about", "-index")) as CollectionEntry<"about">;
+const { Content } = await render(entry);
+const { title, meta_title, image} = entry.data;
+---
+
+<Base title={title} meta_title={meta_title} image={image}>
+  <section class="section">
+    <div class="container">
+      <div class="row md:gx-4">
+        <div class="sm:col-5 md:col-4">
+          {
+            image && (
+              <div class="img-cover mb-8">
+                <Image
+                  src={image}
+                  width={295}
+                  height={395}
+                  alt={title}
+                  class="rounded-lg w-full"
+                />
+              </div>
+            )
+          }
+        </div>
+        <div class="sm:col-7 md:col-8">
+          <h1 set:html={markdownify(title)} class="h3 mb-8" />
+
+          <div class="content">
+            <Content />
+          </div>
+          <a href="/contact" class="btn btn-primary text-white py-2"
+            >Get In Touch</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

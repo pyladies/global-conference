@@ -1,42 +1,17 @@
-# PyLadiesCon Web 2024
+# PyLadiesCon website
 
-Website for the conference based in Hugo.
+This repository contains the content for the main PyLadiesCon website
+that serve as an index for the many resources that the conference has;
+including the blog, the documentation, and each year website version
 
-After installing Hugo, you can serve the page by running:
-
-```
-hugo server --buildDrafts
-```
-
-
-## Writing News entries
-
-On the terminal, create a news entry by typing: (Replace ``breaking-news`` with your desired filename).
+## Development
 
 ```
-hugo new content content/news/breaking-news.md
+pnpm install
+pnpm dev
 ```
 
-A new file will be created in the ``/content/news/`` directory with the following front matter set by default.
+## Theme
 
-```
-+++
-title = 'Breaking News'
-date = 2024-08-15T11:01:52-07:00
-draft = true
-author = ''
-description = ''
-image = ''
-imagealt = ''
-+++
-```
-
-Fill in all the fields above.
-
-The frontmatter ``description``, ``image``, ``imagealt`` are used to generate opengraph meta tags. It is important
-to fill these in correctly.
-
-If the ``image`` or ``imagealt`` are not set, it defaults to render the PyLadiesCon logo.
-
-Set the ``draft`` to ``false`` before creating a pull request. This way, the news can be deployed to the preview build.
-
+This is a modification of the [Bookworm Light
+astro](https://github.com/themefisher/bookworm-light-astro) theme.

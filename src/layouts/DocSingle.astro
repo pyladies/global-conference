@@ -1,0 +1,24 @@
+---
+import Social from "@/components/Social.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { render } from "astro:content";
+import TableOfContents from "@/layouts/components/TableOfContents.astro";
+
+type Props = {
+  docs: CollectionEntry<"docs">[];
+};
+
+const { doc, headings } = Astro.props;
+const { title, meta_title, description } = doc.data;
+const { Content } = await render(doc);
+---
+
+<section class="section">
+  <div class="container">
+    <h1 set:html={markdownify(title)} class="page-heading-docs h2 mb-8" />
+    <TableOfContents headings={headings} />
+    <div class="content">
+      <Content />
+    </div>
+  </div>
+</section>

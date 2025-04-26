@@ -1,0 +1,88 @@
+---
+import { render } from "astro:content";
+import DocSingle from "@/layouts/DocSingle.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import dateFormat from "@/lib/utils/dateFormat";
+import { Image } from "astro:assets";
+
+import { sortByDate } from "@/lib/utils/sortFunctions";
+import { humanize, slugify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+import { BiCalendarEdit, BiCategoryAlt } from "react-icons/bi";
+
+export async function getStaticPaths() {
+  const docs = await getSinglePage("docs");
+
+  const headings = await Promise.all(
+   docs.map(async (doc) => {
+      const data = await render(doc);
+      return data.headings;
+    })
+  );
+
+  return docs.map((doc, index) => ({
+    params: {
+      single: doc.id,
+    },
+    props: { doc, headings: headings[index] },
+  }));
+}
+
+type Props = {
+  post: CollectionEntry<'blog'>;
+  headings: MarkdownHeading[];
+};
+
+const { doc, headings } = Astro.props;
+const { title, meta_title, description } = doc.data;
+
+// Docs
+const docs = await getSinglePage("docs");
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+>
+<section class="section">
+  <div class="container-docs">
+    <div class="grid grid-cols-5">
+      <div class="hidden lg:flex">
+        <section class="section pt-2 bg-gray-100 rounded-lg text-sm">
+          <div class="p-5">
+            <p class="flex my-8 text-black font-bold">
+            <svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6 2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-2v-2h2a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2h-8v16h5v2H7a1 1 0 1 1 0-2h1V2H6Z" clip-rule="evenodd"/></svg>Documentation
+            </p>
+            <ul class="list-none">
+            {
+            docs.map((_doc) => (
+              _doc.id === doc.id ? (
+              <li>
+                <a class="flex items-center text-primary p-2 rounded-lg hover:bg-primary hover:text-white group"
+                  href={`${_doc.id}`}>
+                  <span class="ms-3">{ _doc.data.title }</span>
+                </a>
+              </li>
+              ) : (
+              <li>
+                <a class="flex items-center text-black p-2 rounded-lg hover:bg-primary hover:text-white group"
+                  href={`${_doc.id}`}>
+                  <span class="ms-3">{ _doc.data.title }</span>
+                </a>
+              </li>
+              )
+            ))
+            }
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="col-span-4 mb-4 md:px-8">
+        <DocSingle doc={doc} headings={headings}/>
+      </div>
+    </div>
+  </div>
+</section>
+</Base>

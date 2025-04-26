@@ -1,0 +1,32 @@
+---
+import Base from "@/layouts/Base.astro";
+import Default from "@/layouts/Default.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const docs = await getSinglePage("docs");
+
+  const paths = docs.map((doc) => ({
+    params: {
+      regular: doc.id.replace(/\.(md|mdx)$/, ""),
+    },
+    props: { doc },
+  }));
+  return paths;
+}
+
+const { doc } = Astro.props;
+const { title, meta_title, description, image } = page.data;
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
+>
+  {
+    <Default data={doc} />
+  }
+</Base>

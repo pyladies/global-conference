@@ -1,30 +1,12 @@
 [build]
-  publish = "public"
-  command = "hugo --gc --minify"
+publish = "dist"
+command = "yarn build"
 
-  [build.environment]
-    HUGO_VERSION = "0.119.0"
+[[headers]]
+for = "/*" # This defines which paths this specific [[headers]] block will cover.
 
-[context.production.environment]
-  HUGO_ENV           = "production"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-  command = "hugo --gc --minify --enableGitInfo"
-
-  [context.split1.environment]
-    HUGO_ENV = "production"
-
-[context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.next.environment]
-  HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-  from   = "/npmjs/*"
-  to     = "/npmjs/"
-  status = 200
+[headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+Referrer-Policy = "same-origin"
+Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
