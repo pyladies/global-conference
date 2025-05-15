@@ -61,14 +61,14 @@ const docs = await getSinglePage("docs");
               _doc.id === doc.id ? (
               <li>
                 <a class="flex items-center text-primary p-2 rounded-lg hover:bg-primary hover:text-white group"
-                  href={`${_doc.id}`}>
+                  href={`/docs/${_doc.id}`}>
                   <span class="ms-3">{ _doc.data.title }</span>
                 </a>
               </li>
               ) : (
               <li>
                 <a class="flex items-center text-black p-2 rounded-lg hover:bg-primary hover:text-white group"
-                  href={`${_doc.id}`}>
+                  href={`/docs/${_doc.id}`}>
                   <span class="ms-3">{ _doc.data.title }</span>
                 </a>
               </li>
