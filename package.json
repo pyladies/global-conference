@@ -19,6 +19,7 @@
     "@tailwindcss/vite": "^4.0.14",
     "astro": "5.5.2",
     "astro-auto-import": "^0.4.4",
+    "astro-embed": "^0.9.0",
     "astro-font": "^1.0.0",
     "date-fns": "^4.1.0",
     "fuse.js": "^7.1.0",
