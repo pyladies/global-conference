@@ -2,7 +2,7 @@
 title: Georgi
 meta_title: "About Georgi"
 image: /images/authors/georgi.jpg
-description: this is meta description
+description: About Georgi 
 social:
   linkedin: https://www.linkedin.com/in/georgiker/
   github: https://github.com/georgically
