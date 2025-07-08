@@ -12,3 +12,5 @@ social:
 
 Abigail is an Open Source Researcher, Programs and Community Manager from Ghana, who loves the power that Open Source an put in people’s hands and 
 wants to help create more awareness, through community building, advocacy and research.
+
+When she is not contributing to open source, she is advocating for the next generation of women in STEM.
