@@ -1,6 +1,6 @@
 ---
 title: Abigail Dogbe
-meta_title: ""
+meta_title: "About Abigail Dogbe"
 image: /images/authors/abigail.jpg
 description: this is meta description
 social:
