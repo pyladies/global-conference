@@ -2,7 +2,7 @@
 title: Abigail Dogbe
 meta_title: "About Abigail Dogbe"
 image: /images/authors/abigail.jpg
-description: this is meta description
+description: "About Abigail"
 social:
   linkedin: https://www.linkedin.com/in/abigail-mesrenyame-dogbe/
   X: https://x.com/MesrenyameDogbe
