@@ -1,7 +1,7 @@
 ---
 title: "Workflow: Blog posts"
 meta_title: "Workflow: Blog posts"
-description: "Workflow for request and submit a blog post"
+description: "Workflow for requesting and submiting a blog post"
 draft: false
 ---
 
@@ -14,14 +14,14 @@ draft: false
 * **Who:** Any team member
 * **Where:** GitHub ([PyLadiesCon repo](https://github.com/global-conference] – Pull request)
 
-Create a Pull Request entitled: `Blog Post: [Proposed Title]`
+Create a Pull Request with the title: `Blog Post: [Proposed Title]`
 and assign to: Denny (Communications Lead).
 
 The content should be in a markdown file in the
 [src/content/posts](https://github.com/pyladies/global-conference/tree/main/src/content/posts)
 directory.
 
-You can see other as an example,
+You can see other files in the directory as an example,
 but the most important thing is to include the following information
 at the beginning of the file:
 
@@ -43,9 +43,9 @@ Here you start writing your post
 ```
 
 Please be mindful that the `date` needs to be updated,
-and a optional header can also be updated in the
+and an optional header can also be updated in the
 [public/images/posts](https://github.com/pyladies/global-conference/tree/main/public/images/posts)
-directory, or you can request it in the next step
+directory, or you can request it in the next step.
 
 Please indicate if the content is ready or needs to be finished.
 
