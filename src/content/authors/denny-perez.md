@@ -1,8 +1,8 @@
 ---
 title: Denny Pérez
-meta_title: ""
+meta_title: "About Denny"
 image: /images/authors/denny.jpg
-description: this is meta description
+description: About Denny
 social:
   twitter: https://twitter.com/dennyperez18
   github: https://github.com/DennyPerez18
