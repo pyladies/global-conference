@@ -1,8 +1,8 @@
 ---
 title: Naomi Ceder
-meta_title: ""
+meta_title: "About Naomi"
 image: /images/authors/naomi.jpg
-description: this is meta description
+description: About Naomi
 social:
   linkedin: https://www.linkedin.com/in/naomiceder
   bluesky: https://bsky.app/profile/naomiceder.tech
