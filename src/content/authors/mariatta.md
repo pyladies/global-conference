@@ -1,8 +1,8 @@
 ---
 title: Mariatta
-meta_title: ""
+meta_title: "About Mariatta"
 image: /images/authors/mariatta.jpg
-description: this is meta description
+description: About Mariatta
 social:
   bluesky: https://bsky.app/profile/mariatta.ca
   mastodon: https://fosstodon.org/@mariatta
