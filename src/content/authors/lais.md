@@ -1,5 +1,5 @@
 ---
-title: Laís
+title: Laís Carvalho
 meta_title: "About Laís"
 image: /images/authors/lais.webp
 description: About Laís
