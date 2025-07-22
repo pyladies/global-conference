@@ -9,9 +9,8 @@ social:
   linkedin: https://www.linkedin.com/in/dennyperez18/
 ---
 
-I'm Denny Pérez, a Software Quality Analyst at Nventive. I'm originally from
-the Dominican Republic and currently based in Canada. I graduated with a degree
-in Accounting from the Autonomous University of Santo Domingo and currently
+Denny Pérez, a Software Quality Analyst at Nventive; currently based in Canada. 
+I graduated with a degree in Accounting from the Autonomous University of Santo Domingo and currently
 have over 10 years of professional experience in finance.
 
 In 2015, my life took a transformative turn when I immigrated to Canada.
