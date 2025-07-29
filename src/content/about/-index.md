@@ -1,6 +1,6 @@
 ---
 title: "The Global PyLadies Conference"
-meta_title: "About"
+meta_title: "About PyLadiesCon"
 image: "/images/author.png"
 draft: false
 ---

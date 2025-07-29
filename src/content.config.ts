@@ -60,6 +60,7 @@ const docsCollection = defineCollection({
     image: z.string().optional(),
     layout: z.string().optional(),
     draft: z.boolean().optional(),
+    weight: z.number().optional(),
   }),
 });
 
