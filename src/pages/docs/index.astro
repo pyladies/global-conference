@@ -11,6 +11,14 @@ const docs = await getSinglePage("docs");
 const sortedPosts = sortByWeight(docs);
 const totalPages = Math.ceil(docs.length / config.settings.pagination_docs);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination_docs);
+
+const resources = [
+  {
+    "title": "Astro",
+    "url": "https://astro.build",
+    "description": "The framework for this website, in case you want to contribute to it."
+  }
+]
 ---
 
 <Base title={"PyLadiesCon Documentation"}>
@@ -23,8 +31,35 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination_docs);
       <p class="p-5 text-black">
       This is the index of all the documentation pages we have gathered related to the organization and processes of PyLadiesCon.
       </p>
+      <!--
+      This first part is for the documents that are found in src/content/docs
+      and will be listed automatically.
+      -->
       <Docs docs={currentPosts} />
       <Pagination section={"docs"} currentPage={1} totalPages={totalPages} />
+
+      <!--
+      This second part is for the content that the `resources` variable on the top of this
+      document has inside. These are not actual mdx files, but simplified URL-based content
+      -->
+      <h2 class="text-3xl p-5">Voluntering Resources</h2>
+      <div class="flex flex-col">
+      {
+        resources.map((resource) => (
+            <div class="p-1 pl-5">
+              <a href={resource.url}
+                 class="flex flex-col pl-5 shadow-sm hover:bg-red-100">
+                <div class="flex flex-col justify-between p-2 leading-normal">
+                  <h3 class="mb-1 text-xl font-bold text-black">{resource.title}</h5>
+                  <p class="mb-2 font-normal text-gray-800">
+                  {resource.description}
+                  </p>
+                </div>
+              </a>
+            </div>
+        ))
+      }
+      </div>
     </div>
   </section>
 </Base>
