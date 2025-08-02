@@ -21,7 +21,7 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination_docs);
       <h1 set:text={markdownify("Documentation")} class="text-center h2" />
       </div>
       <p class="p-5">
-      Here you will find all the documentation related our organization and processes.
+      Here you will find all the documentation related to our organization and processes.
       </p>
       <Docs docs={currentPosts} />
       <Pagination section={"docs"} currentPage={1} totalPages={totalPages} />
