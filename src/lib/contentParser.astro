@@ -11,6 +11,7 @@ type PageData = {
   description?: string;
   image?: string;
   draft?: boolean;
+  weight?: int;
 };
 
 export const getSinglePage = async <C extends CollectionKey>(

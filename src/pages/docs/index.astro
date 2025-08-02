@@ -4,27 +4,62 @@ import Docs from "@/layouts/Docs.astro";
 import Base from "@/layouts/Base.astro";
 import Pagination from "@/layouts/components/Pagination.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
-import { sortByDate } from "@/lib/utils/sortFunctions";
+import { sortByWeight } from "@/lib/utils/sortFunctions";
 import { markdownify } from "@/lib/utils/textConverter";
 
 const docs = await getSinglePage("docs");
-const sortedPosts = sortByDate(docs);
+const sortedPosts = sortByWeight(docs);
 const totalPages = Math.ceil(docs.length / config.settings.pagination_docs);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination_docs);
+
+const resources = [
+  {
+    "title": "Astro",
+    "url": "https://astro.build",
+    "description": "The framework for this website, in case you want to contribute to it."
+  }
+]
 ---
 
-<Base title={"docs"}>
+<Base title={"PyLadiesCon Documentation"}>
   <section class="section">
     <div class="container">
       <div class="flex items-center">
         <svg class="w-10 h-10 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6 2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-2v-2h2a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2h-8v16h5v2H7a1 1 0 1 1 0-2h1V2H6Z" clip-rule="evenodd"/></svg>
       <h1 set:text={markdownify("Documentation")} class="text-center h2" />
       </div>
-      <p class="p-5">
-      Here you will find all the documentation related to our organization and processes.
+      <p class="p-5 text-black">
+      This is the index of all the documentation pages we have gathered related to the organization and processes of PyLadiesCon.
       </p>
+      <!--
+      This first part is for the documents that are found in src/content/docs
+      and will be listed automatically.
+      -->
       <Docs docs={currentPosts} />
       <Pagination section={"docs"} currentPage={1} totalPages={totalPages} />
+
+      <!--
+      This second part is for the content that the `resources` variable on the top of this
+      document has inside. These are not actual mdx files, but simplified URL-based content
+      -->
+      <h2 class="text-3xl p-5">Voluntering Resources</h2>
+      <div class="flex flex-col">
+      {
+        resources.map((resource) => (
+            <div class="p-1 pl-5">
+              <a href={resource.url}
+                 class="flex flex-col pl-5 shadow-sm hover:bg-red-100">
+                <div class="flex flex-col justify-between p-2 leading-normal">
+                  <h3 class="mb-1 text-xl font-bold text-black">{resource.title}</h5>
+                  <p class="mb-2 font-normal text-gray-800">
+                  {resource.description}
+                  </p>
+                </div>
+              </a>
+            </div>
+        ))
+      }
+      </div>
     </div>
   </section>
 </Base>
