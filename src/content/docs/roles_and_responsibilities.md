@@ -3,6 +3,7 @@ title: "Roles and Responsibilities"
 meta_title: ""
 description: "Description of the working groups"
 draft: false
+weight: 2
 ---
 
 ## General Team member responsibilities
