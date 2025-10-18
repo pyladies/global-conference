@@ -1,5 +1,5 @@
 ---
-title: Denny Pérez
+title: Denny Perez
 meta_title: "About Denny"
 image: /images/authors/denny.jpg
 description: About Denny
@@ -9,7 +9,7 @@ social:
   linkedin: https://www.linkedin.com/in/dennyperez18/
 ---
 
-Denny Pérez, a Software Quality Analyst at Nventive; currently based in Canada. 
+Denny Perez, a Software Quality Analyst at Nventive; currently based in Canada.
 I graduated with a degree in Accounting from the Autonomous University of Santo Domingo and currently
 have over 10 years of professional experience in finance.
 
