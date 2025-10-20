@@ -31,16 +31,15 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 ## What You need to Submit
 
-1. A recorded video of your presentaion in `mp4`, `mkv` or `mov` format, maximum 20 minutes long
+1. A recorded video of your presentation in `mp4`, `mkv` or `mov` format, maximum **15 minutes** long
 2. Optional: A transcript of your talk in a text file. (`.srt`) format.
 
 
 ## Recording Your Presentation
 
-All the talks are required to be recorded and should be **maximum 20 minutes long**,
-any length between 15 minutes to 20 minutes is good.
+All the talks are required to be recorded and should be **maximum 15 minutes long**.
 
-If your video is longer than 20 minutes, we will cut it at 20 minutes without notifying.
+If your video is longer than 15 minutes, we will only take the first 15 minutes, and cut the rest.
 We sincerely request that you check your video and do the necessary edits before submitting.
 
 If you are a Panelist or a Keynote Speaker, you do not need to record anything. Your session will be conducted live
@@ -50,7 +49,7 @@ on the scheduled conference time.
 
 1. Ensure your presentation is created in widescreen format(16:9 format) and recorded in `mp4`, `mkv` or `mov`.
 
-2. The duration of your presentation should not exceed 20 minutes.
+2. The duration of your presentation should not exceed 15 minutes.
 
 3. Name your file under your registered name (example: Mary_Long )
 
@@ -72,7 +71,7 @@ You will need to access the folder using a Google Account. If you have trouble a
 
 #### Presentation Content
 
-Each talk is allotted not more than **20** minutes. Please check that your video is shorter than 20 minutes!
+Each talk is allotted not more than **15** minutes. Please check that your video is shorter than 15 minutes!
 We have had to cut videos in the past that were too long, so please be sure to check the recording before submitting.
 
 If you accept the Q&A, it will be conducted live on Discord. Attendees are able to either send their questions in the channel
