@@ -1,14 +1,16 @@
 ---
-import Social from "@/components/Social.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { render } from "astro:content";
 import TableOfContents from "@/layouts/components/TableOfContents.astro";
+import type { CollectionEntry } from "astro:content";
+import type { MarkdownHeading } from "astro";
 
 type Props = {
-  docs: CollectionEntry<"docs">[];
+  doc: CollectionEntry<"docs">;
+  headings: MarkdownHeading[];
 };
 
-const { doc, headings } = Astro.props;
+const { doc, headings } = Astro.props as Props;
 const { title, meta_title, description } = doc.data;
 const { Content } = await render(doc);
 ---

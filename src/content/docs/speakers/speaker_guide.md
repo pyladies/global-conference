@@ -4,6 +4,7 @@ meta_title: "Speaker Guide"
 description: "Guide and Resources for Speakers"
 draft: false
 weight: 1
+section: "speakers"
 ---
 
 

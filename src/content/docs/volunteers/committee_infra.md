@@ -5,6 +5,7 @@ description: "Team in charge of the infra in the conference including website,
 bots, ticketing system, streaming, etc."
 draft: false
 weight: 4
+section: "volunteers"
 ---
 
 ## Roles
