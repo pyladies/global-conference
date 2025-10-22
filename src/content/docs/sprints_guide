@@ -1,0 +1,58 @@
+---
+title: "Sprints Guide"
+meta_title: "Sprints Guide"
+description: "Guide and Resources for Organizers and assistants"
+draft: true
+weight: 1
+---
+
+# Sprints guide for PyLadies Conference 2025
+
+##As conference assistant:
+
+**What is a Sprint?**
+Sprint are informal coding sessions, and knoweldge sharing where people gather together to work on Open-Source projects, 
+suggest changes in existing libraries solve problems.
+A Sprint is an opportunity for learning and self-development while contributing to Open Source projects.
+
+**How will the sprint work at PyladiesCon?**
+During the conference, we will conduct mentored Sprint sessions where projects will be presented. 
+You can then join the specific Discord channel to coordinate, work on, or ask questions about particular issues.
+
+**What do I need to do to assist in the Sprint?**
+First, secure your conference ticket, and then attend the mentored Sprint session. 
+If your timezone prevents participation synchronously, you can still check out the proposed projects and join the Discord channel.
+
+**When and Where?**
+The Sprint will take place after the talks and panels: 
+TBD: Sunday 7th of December
+TBD: Add time to timezones
+
+**Where can I find the projects in advance?**
+TBD: link to website
+
+##As Sprint Organizer:
+
+**Open-Source Projects**
+Anyone can submit a project for the sprints, although sprints are typically submitted by project maintainers or frequent contributors.
+
+To submit a project for the sprints here:
+
+TBD: ADD FORM
+
+**Who can run a sprint?**
+If you're reading this text, the answer is likely you!
+
+**First time runing a Sprint?**
+
+1. Set clear objectives and desired outcomes for the Sprint.
+2. Gather all essential materials.
+3. Create issues of varying levels (beginner, documentation, etc.) on GitHub to make participation accessible.
+
+Recommended resources:
+- https://opensourceevents.github.io/
+- http://open-advice.org/
+
+
+
+
