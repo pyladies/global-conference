@@ -48,4 +48,9 @@ export default defineConfig({
     extendDefaultPlugins: true,
     highlighter: getHighlighter,
   },
+  redirects: {
+    "/docs/committee_[slug]": "/docs/volunteers/committee_[slug]",
+    "/docs/roles_and_responsibilities": "/docs/volunteers/roles_and_responsibilities",
+    "/docs/speaker_guide": "/docs/speakers/speaker_guide",
+  }
 });
