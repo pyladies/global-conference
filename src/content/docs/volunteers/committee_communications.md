@@ -4,6 +4,7 @@ meta_title: "Communications Committee"
 description: "Team in charge of all the internal and external communications"
 draft: false
 weight: 5
+section: "volunteers"
 ---
 
 ## Roles

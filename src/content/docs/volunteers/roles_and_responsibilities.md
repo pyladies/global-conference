@@ -4,6 +4,7 @@ meta_title: ""
 description: "Description of the working groups"
 draft: false
 weight: 2
+section: "volunteers"
 ---
 
 ## General Team member responsibilities
