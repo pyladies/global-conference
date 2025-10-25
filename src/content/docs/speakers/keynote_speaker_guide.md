@@ -82,7 +82,7 @@ Examples:
 
 ### Ring light or light panel
 
-- Proper lightning can improve video quality
+- Proper lighting can improve video quality
 
 ### Instructions on how to use your Smartphone for video recording/streaming
 
