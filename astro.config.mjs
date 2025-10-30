@@ -49,6 +49,7 @@ export default defineConfig({
     highlighter: getHighlighter,
   },
   redirects: {
+    "/docs/committee_coc": "/docs/volunteers/coc",
     "/docs/committee_communications": "/docs/volunteers/committee_communications",
     "/docs/committee_design": "/docs/volunteers/committee_design",
     "/docs/committee_finance": "/docs/volunteers/committee_finance",
