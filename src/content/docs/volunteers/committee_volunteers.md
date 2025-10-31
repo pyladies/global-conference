@@ -4,6 +4,8 @@ meta_title: "Volunteers Committee"
 description: "Team in charge of calling for volunteers, the logistics of the
 process and coordination of the helpers during the event."
 draft: false
+weight: 7
+section: "volunteers"
 ---
 
 *Role: Volunteers Coordinator*

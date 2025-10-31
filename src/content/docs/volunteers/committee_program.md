@@ -4,6 +4,8 @@ meta_title: "Program Committee"
 description: "Team in charge of the call for proposals for talks, sprints,
 workshops, panels and the interaction with speakers"
 draft: false
+weight: 8
+section: "volunteers"
 ---
 
 ## Roles
