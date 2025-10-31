@@ -12,9 +12,10 @@ const SECTION_LABELS: Record<string, string> = {
   volunteers: "Volunteer Guides",
   speakers: "Speaker Guides",
   resources: "Resources",
+  sponsorship: "Sponsorship Guides"
 };
 
-const SECTION_ORDER = ["speakers", "volunteers", "resources"] as const;
+const SECTION_ORDER = ["speakers", "volunteers", "sponsorship", "resources"] as const;
 
 const resolveSectionKey = (doc: CollectionEntry<"docs">): string => {
   // use explicit section if available
