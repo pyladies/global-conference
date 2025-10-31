@@ -11,11 +11,12 @@ export type DocsSection = {
 const SECTION_LABELS: Record<string, string> = {
   volunteers: "Volunteer Guides",
   speakers: "Speaker Guides",
-  resources: "Resources",
-  sponsorship: "Sponsorship Guides"
+  sponsorship: "Sponsorship Guides",
+  website: "Website Guides",
+  resources: "Resources"
 };
 
-const SECTION_ORDER = ["speakers", "volunteers", "sponsorship", "resources"] as const;
+const SECTION_ORDER = ["speakers", "volunteers", "sponsorship", "website", "resources"] as const;
 
 const resolveSectionKey = (doc: CollectionEntry<"docs">): string => {
   // use explicit section if available
