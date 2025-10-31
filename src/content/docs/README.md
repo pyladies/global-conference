@@ -1,6 +1,8 @@
 ---
-draft: true
-title: "Documentation Inception"
+draft: false
+title: "Documentation Inception: How to Create and Manage Docs"
+description: "A guide on how to create and manage documentation within the project"
+section: "website"
 ---
 
 # Documentation
