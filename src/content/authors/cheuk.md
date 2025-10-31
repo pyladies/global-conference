@@ -1,8 +1,8 @@
 ---
 title: Cheuk
-meta_title: ""
+meta_title: "About Cheuk"
 image: /images/authors/cheuk.jpg
-description: this is meta description
+description: About Cheuk
 social:
   linkedin: https://www.linkedin.com/in/cheukting-ho
   github: https://github.com/Cheukting

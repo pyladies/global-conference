@@ -3,6 +3,8 @@ title: "Design Committee"
 meta_title: "Design Committee"
 description: "Team in charge of the creation of all the conference assets"
 draft: false
+weight: 6
+section: "volunteers"
 ---
 
 ## Roles

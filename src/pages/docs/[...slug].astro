@@ -1,0 +1,96 @@
+---
+import { render } from "astro:content";
+import DocSingle from "@/layouts/DocSingle.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import { groupDocsBySection, resolveDocSlug } from "@/lib/utils/docsHelpers";
+import type { CollectionEntry } from "astro:content";
+import type { MarkdownHeading } from "astro";
+
+export async function getStaticPaths() {
+  const docs = await getSinglePage("docs");
+
+  const headings = await Promise.all(
+    docs.map(async (doc) => {
+      const data = await render(doc);
+      return data.headings;
+    })
+  );
+
+  return docs.map((doc, index) => ({
+    params: {
+      slug: resolveDocSlug(doc),
+    },
+    props: { doc, headings: headings[index] },
+  }));
+}
+
+type Props = {
+  doc: CollectionEntry<"docs">;
+  headings: MarkdownHeading[];
+};
+
+const { doc, headings } = Astro.props as Props;
+const { title, meta_title, description } = doc.data;
+
+const docs = await getSinglePage("docs");
+const groupedDocs = groupDocsBySection(docs);
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+>
+  <section class="section">
+    <div class="container-docs">
+      <div class="grid grid-cols-5">
+        <div class="hidden lg:flex">
+          <section class="section pt-2 bg-gray-100 rounded-lg text-sm">
+            <div class="p-5">
+              <p class="flex my-8 text-black font-bold">
+                <svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6 2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-2v-2h2a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2h-8v16h5v2H7a1 1 0 1 1 0-2h1V2H6Z" clip-rule="evenodd"/></svg>Documentation
+              </p>
+              <div class="flex flex-col gap-6">
+                {
+                  groupedDocs.map((section) => (
+                    <div>
+                      <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500">
+                        {section.title}
+                      </p>
+                      <ul class="list-none">
+                        {
+                          section.docs.map((_doc) => {
+                            const targetSlug = resolveDocSlug(_doc);
+                            const isActive = targetSlug === resolveDocSlug(doc);
+                            return (
+                              <li class="mb-1">
+                                <a
+                                  class={isActive 
+                                    ? "flex items-center p-2 rounded-lg transition text-primary font-semibold bg-primary/5"
+                                    : "flex items-center p-2 rounded-lg transition text-black hover:bg-primary hover:text-white"
+                                  }
+                                  href={`/docs/${targetSlug}`}
+                                  aria-current={isActive ? "page" : undefined}
+                                >
+                                  <span class="ms-3">{_doc.data.title}</span>
+                                </a>
+                              </li>
+                            );
+                          })
+                        }
+                      </ul>
+                    </div>
+                  ))
+                }
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-span-4 mb-4 md:px-8">
+          <DocSingle doc={doc} headings={headings} />
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

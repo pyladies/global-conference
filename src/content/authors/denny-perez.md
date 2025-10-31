@@ -1,17 +1,16 @@
 ---
-title: Denny Pérez
-meta_title: ""
+title: Denny Perez
+meta_title: "About Denny"
 image: /images/authors/denny.jpg
-description: this is meta description
+description: About Denny
 social:
   twitter: https://twitter.com/dennyperez18
   github: https://github.com/DennyPerez18
   linkedin: https://www.linkedin.com/in/dennyperez18/
 ---
 
-I'm Denny Pérez, a Software Quality Analyst at Nventive. I'm originally from
-the Dominican Republic and currently based in Canada. I graduated with a degree
-in Accounting from the Autonomous University of Santo Domingo and currently
+Denny Perez, a Software Quality Analyst at Nventive; currently based in Canada.
+I graduated with a degree in Accounting from the Autonomous University of Santo Domingo and currently
 have over 10 years of professional experience in finance.
 
 In 2015, my life took a transformative turn when I immigrated to Canada.
