@@ -1,7 +1,8 @@
 ---
-title: "PSF/PyLadies Sponsorship Contract and Invoice Process"
-meta_title: "PSF/PyLadiesCon workflow"
+title: "PSF/PyLadies Sponsorship Invoicing Workflow"
+meta_title: "PSF/PyLadiesCon Sponsorship Workflow"
 description: "The process when a company wants to sponsor the conference"
+section: "sponsorship"
 draft: false
 ---
 
