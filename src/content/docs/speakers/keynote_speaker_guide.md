@@ -236,10 +236,12 @@ please contact us at pyladiescon@pyladies.com. We will do our best to support yo
 
 Currently, we have the following mentors:
 
-- Mariatta (English speaking)
-- Denny Perez (English and Spanish speaking)
-- Lorena Mesa (English and Spanish speaking)
-- Maria Jose Molina-Contreras (English and Spanish speaking)
+- [Lorena Mesa](https://www.linkedin.com/in/lorenamesa) (English and Spanish speaking)
+- [Stefanie Molin](https://www.linkedin.com/in/stefanie-molin/) (English and Spanish speaking)
+- [Rose Oketch](https://www.linkedin.com/in/rose-adhiambo-6b4b47159/) (English and Spanish speaking)
+- [Denny Perez](https://www.linkedin.com/in/dennyperez18/) (English and Spanish speaking)
+- [Maria Jose Molina-Contreras](https://www.linkedin.com/in/mjmolinacontreras/) (English and Spanish speaking)
+- [Mariatta](https://www.linkedin.com/in/mariatta) (English speaking)
 
 ## Thank you
 
