@@ -38,13 +38,26 @@ Anyone can submit a project for the sprints, although sprints are typically subm
 
 To submit a project for the sprints here:
 
-TBD: ADD FORM
+https://github.com/pyladies/global-conference-2025/blob/main/src/pages/en/sprints.astro
 
-**Who can run a sprint?**
-If you're reading this text, the answer is likely you!
+And modify this section with your information:
+
+const sprintsData = [
+//{
+//    name: "Project 1",
+//    project_url: "https://github.com/myossp/project2",
+//    project_doc_url: "https://docs.myossproject.com",
+//    description: "This is an example project that will help you contribute to an OSS initiative!",
+//    level: "Beginner friendly, Some math knowledge",
+//    languages: "Python, Rust",
+//  },
+];
+
+**What worked very well in the past?**
+Create issue that could be "first time contribution friendly" and assign assign tags to your issues.
+
 
 **First time runing a Sprint?**
-
 1. Set clear objectives and desired outcomes for the Sprint.
 2. Gather all essential materials.
 3. Create issues of varying levels (beginner, documentation, etc.) on GitHub to make participation accessible.
