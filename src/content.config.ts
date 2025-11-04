@@ -60,7 +60,9 @@ const docsCollection = defineCollection({
     image: z.string().optional(),
     layout: z.string().optional(),
     draft: z.boolean().optional(),
+    section: z.string().optional(),
     weight: z.number().optional(),
+    url: z.string().url().optional(), // only for external links
   }),
 });
 

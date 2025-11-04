@@ -1,28 +1,61 @@
 ---
-import { markdownify } from "@/lib/utils/textConverter";
-import { Image } from "astro:assets";
-import type { CollectionEntry } from "astro:content";
-import { BsArrowRightCircle } from "react-icons/bs";
+import { groupDocsBySection, resolveDocSlug } from "@/lib/utils/docsHelpers";
 
-const { docs, headings } = Astro.props;
+const { docs } = Astro.props;
+const sections = groupDocsBySection(docs);
+
+const tabId = (key: string) => `section-${key.replace(/[^a-z0-9]+/gi, "-")}`;
+const externalLinkIcon = "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14";
 ---
-<div class="row">
-  <h2 class="text-3xl p-5">Volunteering Guide</h2>
-  <div class="flex flex-col">
-  {
-    docs.map((doc) => (
-        <div class="p-1 pl-5">
-          <a href={`/docs/${doc.id}`}
-             class="flex flex-col pl-5 shadow-sm hover:bg-red-100">
-            <div class="flex flex-col justify-between p-2 leading-normal">
-              <h3 class="mb-1 text-xl font-bold text-black">{doc.data.title}</h5>
-              <p class="mb-2 font-normal text-gray-800">
-              {doc.data.description}
-              </p>
-            </div>
-          </a>
-        </div>
-    ))
-  }
+{sections.length === 0 ? (
+  <div class="p-5">
+    <p class="text-lg text-gray-700">No documentation entries available yet.</p>
   </div>
-</div>
+) : (
+  <div class="space-y-10">
+    <nav class="flex flex-wrap gap-3 px-5">
+      {sections.map((section) => (
+        <a
+          class="inline-flex items-center rounded-full bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-primary hover:text-white"
+          href={`#${tabId(section.key)}`}
+        >
+          {section.title}
+        </a>
+      ))}
+    </nav>
+
+    {sections.map((section) => (
+      <section id={tabId(section.key)} class="row">
+        <h2 class="text-3xl px-5 pb-1 text-black">{section.title}</h2>
+        <div class="flex w-full flex-col">
+          {section.docs.map((doc) => (
+            <div class="p-1 pl-5">
+              <a
+                href={doc.data.url || `/docs/${resolveDocSlug(doc)}`}
+                target={doc.data.url ? "_blank" : undefined}
+                rel={doc.data.url ? "noopener noreferrer" : undefined}
+                class="flex flex-col rounded-md border border-gray-100 bg-white pl-5 shadow-sm transition hover:border-primary/40 hover:bg-red-100"
+              >
+                <div class="flex flex-col justify-between p-3 leading-normal">
+                  <h3 class="mb-1 text-xl font-bold text-black">
+                    {doc.data.title}
+                    {doc.data.url && (
+                      <svg class="inline-block ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={externalLinkIcon} />
+                      </svg>
+                    )}
+                  </h3>
+                  {doc.data.description && (
+                    <p class="mb-2 font-normal text-gray-800">
+                      {doc.data.description}
+                    </p>
+                  )}
+                </div>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+)}

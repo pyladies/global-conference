@@ -4,6 +4,7 @@ meta_title: ""
 description: "Description of the working groups"
 draft: false
 weight: 2
+section: "volunteers"
 ---
 
 ## General Team member responsibilities
@@ -107,7 +108,7 @@ Read more about this in [Financing, sponsorship](/docs/finance_committee)
     * Credentials and login
 * Ticket management system
 
-The people in charge of the website is in charge of:
+The people in charge of the website are in charge of:
 * Design and develop the website
 * Update the content accordingly the state of the conference
 * Development of the site based on the designs provided by the designer or

@@ -4,6 +4,7 @@ meta_title: "Finance and Sponsorship Committee"
 description: "Team in charge of the budget and sponsorship of the confenrence"
 draft: false
 weight: 3
+section: "volunteers"
 ---
 
 
