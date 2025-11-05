@@ -48,4 +48,15 @@ export default defineConfig({
     extendDefaultPlugins: true,
     highlighter: getHighlighter,
   },
+  redirects: {
+    "/docs/committee_coc": "/docs/volunteers/coc",
+    "/docs/committee_communications": "/docs/volunteers/committee_communications",
+    "/docs/committee_design": "/docs/volunteers/committee_design",
+    "/docs/committee_finance": "/docs/volunteers/committee_finance",
+    "/docs/committee_infra": "/docs/volunteers/committee_infra",
+    "/docs/committee_program": "/docs/volunteers/committee_program",
+    "/docs/committee_volunteers": "/docs/volunteers/committee_volunteers",
+    "/docs/roles_and_responsibilities": "/docs/volunteers/roles_and_responsibilities",
+    "/docs/speaker_guide": "/docs/speakers/speaker_guide",
+  }
 });

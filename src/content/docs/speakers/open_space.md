@@ -4,6 +4,7 @@ meta_title: "Open Spaces Guide"
 description: "Guide and Resources for participating in an Open Space Session"
 draft: false
 weight: 1
+section: "speakers"
 ---
 
 # Open Space guide for PyLadies Conference 2025
