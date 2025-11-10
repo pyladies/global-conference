@@ -32,7 +32,7 @@ They should also provide necessary training or orientation to volunteers, if
 required, to ensure they are equipped with the knowledge and resources to
 fulfill their roles effectively.
 
-* Coordination During the Event:
+* **Coordination During the Event:**
 The Volunteers Coordinator plays a crucial role in managing the availability
 and coordination of volunteers during the conference. They should create
 a schedule or program that outlines each volunteer's shift timings and roles
