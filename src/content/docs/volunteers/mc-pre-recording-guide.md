@@ -143,12 +143,3 @@ This is an important subject that resonates with all of us. Let’s give a warm 
 
 Thank you, *8[Speaker’s Name]**, for that engaging presentation.
 Your insights into **[Topic]** have given us a fresh perspective and plenty to think about.
-
-
-
-
-
-
-
-
-
