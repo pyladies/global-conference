@@ -10,7 +10,7 @@ section: "volunteers"
 
 ## Roles
 
-### Volunteers Co-ordinator
+### Volunteers Coordinator
 
 * **Call for Volunteers:**
 The Volunteers Coordinator is responsible for managing the recruitment and
