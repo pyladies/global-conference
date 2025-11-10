@@ -63,5 +63,3 @@ The MC for pre-recorded talks introduce and close pre-recorded talks at PyLadies
 - Upload recordings to the correct Google Drive folder and mark completion in the “MC Recording Management” sheet.
 
 For more information on the how-to guide, please check: https://conference.pyladies.com/docs/volunteers/mc-pre-recording-guide
-
-
