@@ -12,7 +12,7 @@ section: "volunteers"
 
 ### Volunteers Co-ordinator
 
-* Call for Volunteers:
+* **Call for Volunteers:**
 The Volunteers Coordinator is responsible for managing the recruitment and
 selection process of volunteers for the PyLadies Con conference. They should
 create a call for volunteers, which includes the requirements, expectations,
