@@ -55,7 +55,7 @@ organizers.
 
 The MC for pre-recorded talks introduce and close pre-recorded talks at PyLadiesCon with warmth, clarity, and community spirit.
 
-* Responsibilities
+**Responsibilities**
 - Record short intro and outro videos for assigned talks.
 - Introduce the speaker, talk title, and a brief highlight of the topic.
 - Deliver intros/outros in a friendly, professional tone — under 1 minute each.
@@ -63,3 +63,17 @@ The MC for pre-recorded talks introduce and close pre-recorded talks at PyLadies
 - Upload recordings to the correct Google Drive folder and mark completion in the “MC Recording Management” sheet.
 
 For more information on the how-to guide, please check: https://conference.pyladies.com/docs/volunteers/mc-pre-recording-guide
+
+### Video Caption Analyst
+
+The Video Caption Analyst reviews and verifies AI-generated captions for PyLadiesCon talks, ensuring accessibility, accuracy, and clarity across all recorded sessions.
+
+**Responsibilities**
+- Review AI-generated captions for assigned talks and MC videos.
+- Check for accuracy in spelling, grammar, speaker names, and technical terms.
+- Correct punctuation, phrasing, and readability for smooth flow.
+- Save and upload the verified caption files in the appropriate Google Drive folder.
+- Update completion status in the “Captioning/Translation Management” sheet.
+
+For more information on the how-to guide, please check:
+https://conference.pyladies.com/docs/volunteers/video-caption-analyst-guide
