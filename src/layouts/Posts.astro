@@ -47,6 +47,9 @@ const { className, posts, fluid } = Astro.props;
                   .includes(slugify(author.data.title))
               )
               .map((author) => (
+                author.data.sponsor ? (
+                    <span>{author.data.title} @{author.data.company}</span>
+                ) : (
                 <a
                   href={`/authors/${slugify(author.data.title)}`}
                   class="flex items-center hover:text-primary font-medium"
@@ -62,6 +65,7 @@ const { className, posts, fluid } = Astro.props;
                   )}
                   <span>{author.data.title}</span>
                 </a>
+                )
               ))}
           </li>
           <li class="mr-5 flex items-center flex-wrap font-medium">

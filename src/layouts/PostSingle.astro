@@ -33,6 +33,9 @@ const { title, description, authors, categories, image, date, tags } =
                     .includes(slugify(author.data.title))
                 )
                 .map((author) => (
+                  author.data.sponsor ? (
+                    <span>{author.data.title} @{author.data.company}</span>
+                  ) : (
                   <a
                     href={`/authors/${slugify(author.id)}`}
                     class="flex items-center hover:text-primary font-medium"
@@ -48,6 +51,7 @@ const { title, description, authors, categories, image, date, tags } =
                     )}
                     <span>{author.data.title}</span>
                   </a>
+                  )
                 ))
             }
           </li>
