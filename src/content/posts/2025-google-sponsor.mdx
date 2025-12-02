@@ -1,0 +1,41 @@
+---
+title: "Beyond the Hype: AI is just an API"
+meta_title: "Beyond the Hype: AI is just an API"
+description: "We often talk about Large Language Models (LLMs) as if they are magic. But when you strip away the hype, they are just software. They are APIs."
+date: 2025-11-26T05:00:00Z
+image: "/images/posts/2025-google-sponsor.png"
+categories: ["Blog Post",]
+authors: ["Anna Eilering"]
+tags: ["python", "community", "conference", "pyladies", "google"]
+draft: false
+---
+
+We often talk about Large Language Models (LLMs) as if they are magic. But when you strip away the hype, they are just software. They are APIs. And like any API, you can control them with standard Python tools.
+
+In fact, the "magic" often fits in fewer than 10 lines of code:
+
+```python
+from google import genai
+from google.genai.types import HttpOptions
+
+# Initialize the API
+client = genai.Client(http_options=HttpOptions(api_version="v1"))
+
+# Load the model and prompt it
+response = client.models.generate_content(
+    model="gemini-2.5-flash",
+    contents="What makes the PyLadies community so awesome?",
+)
+
+print(response.text)
+```
+
+That’s it. No wizardry, just engineering.
+
+At Google, we build for builders. From the creation of TensorFlow and JAX to the Gemini API and Vertex AI, our goal is to make these tools a seamless part of your existing Python stack. The [**Google Open Source Programs Office (OSPO)**](http://opensource.google) is dedicated to supporting the ecosystem that makes this possible.
+
+We believe everyone belongs at the table where these tools are being built. That is why Google is proud to sponsor **PyLadiesCon 2025**. We are here to ensure diverse voices are shaping this new "API era" of AI, moving beyond the hype to build the future.
+
+**AI is just a tool, the most important variable isn't the model—it's the people using it.**
+
+Want to learn more? Catch [my talk](https://2025.conference.pyladies.com/en/session/beyond-the-hype-llms-aren-t-magic/) on treating LLMs as APIs during PyLadiesCon 2025. In the meantime, grab an [API key](https://ai.google.dev/gemini-api/docs/pricing) and try running the code above yourself. Let’s build the future, one line of Python at a time.  

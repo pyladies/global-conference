@@ -20,6 +20,8 @@ const authorsCollection = defineCollection({
     meta_title: z.string().optional(),
     image: z.string().optional(),
     description: z.string().optional(),
+    sponsor: z.boolean().optional(),
+    company: z.string().optional(),
     social: z
       .object({
         bluesky: z.string().url().optional(),
@@ -78,7 +80,6 @@ const pagesCollection = defineCollection({
     draft: z.boolean().optional(),
   }),
 });
-
 
 // Export collections
 export const collections = {
