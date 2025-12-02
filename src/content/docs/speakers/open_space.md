@@ -29,6 +29,10 @@ we kindly ask you to submit your Open Space proposal to [Pretalx](https://pretal
 Please keep in mind that we won't be approving any Open Spaces if they don't
 align with our Code of Conduct.
 
+## What Languages can you speak in the Open Space?
+
+PyLadiesCon is global & multilingual!
+We welcome Open Spaces in English, Español, Português, Deutsch, 日本語, 中文, and more.
 
 ## Where will the Open Spaces take place?
 
