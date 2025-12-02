@@ -24,16 +24,8 @@ conference attendees.
 
 ## How to organize an Open Space?
 
-To help us manage the logistics of the Open Spaces better, we kindly ask you to
-send as an email (pyladiescon@pyladies.com) if you're planning on leading one
-during the conference, with the following information:
-
-* Name of the Open Space
-* Description of the topic to discuss
-* Desired time slot (Please use https://time.is/UTC for the time)
-* Name of the person in charge
-* Email of the person in charge
-
+If you're planning on leading an open space during PyLadiesCon,
+we kindly ask you to submit your Open Space proposal to [Pretalx](https://pretalx.com/pyladiescon-2025/cfp?access_code=GJG3WCSWNSESYNDUBMD7ZXVWAZKFXBHDopenspaces).
 Please keep in mind that we won't be approving any Open Spaces if they don't
 align with our Code of Conduct.
 
