@@ -34,7 +34,7 @@ check out the proposed projects and join the Discord channel.
 
 The Sprint will take place after the talks and panels:
 
-* TBD: Sunday 7th of December
+* Sunday 7th of December
 * TBD: Add time to timezones
 
 ### Where can I find the projects in advance?
@@ -67,16 +67,17 @@ const sprintsData = [
     description: "This is an example project that will help you contribute to an OSS initiative!",
     level: "Beginner friendly, some math knowledge",
     languages: "Python, Rust",
+    maintainers_discord: ["username1", "username2"]
   },
 ];
 ```
 
 ### What worked very well in the past?
 
-Create issue that could be "first time contribution friendly" and assign assign
+Create issue that could be "first time contribution friendly" and assign
 tags to your issues.
 
-### First time runing a Sprint?
+### First time running a Sprint?
 
 1. Set clear objectives and desired outcomes for the Sprint.
 2. Gather all essential materials.
