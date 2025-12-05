@@ -35,7 +35,7 @@ check out the proposed projects and join the Discord channel.
 The Sprint will take place after the talks and panels:
 
 * Sunday 7th of December
-* TBD: Add time to timezones
+* 8am - 11:59pm UTC
 
 ### Where can I find the projects in advance?
 
