@@ -1,3 +1,7 @@
+---
+title: "Infrastructure Diagram"
+---
+
 ```mermaid
 flowchart TB
     subgraph External["External Services"]

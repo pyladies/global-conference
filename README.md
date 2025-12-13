@@ -6,9 +6,9 @@ including the blog, the documentation, and static website for each year.
 
 ## Services Overview
 
-The following diagram shows how the PyLadiesCon services interact with each other and with external services like Pretalx, Discord, and YouTube.
+The following Mermaid diagram shows how the PyLadiesCon services interact with each other and with external services like Pretalx, Discord, and YouTube.
 
-![Infrastructure Overview](INFRASTRUCTURE_DIAGRAM.md)
+See it rendered here: [Infrastructure Diagram](./src/content/docs/resources/infrastructure-diagram.md)
 
 ## Development
 
