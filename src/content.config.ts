@@ -70,6 +70,7 @@ const docsCollection = defineCollection({
 
 // Pages collection schema
 const pagesCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/pages" }),
   schema: z.object({
     id: z.string().optional(),
     title: z.string(),
