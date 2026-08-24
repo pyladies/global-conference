@@ -20,8 +20,8 @@ const { title, description, authors, categories, image, date, tags } =
 
 <section class="section">
   <div class="site-container">
-    <article class="row justify-center">
-      <div class="md:col-10 text-center">
+    <article>
+      <div class="mx-auto text-center md:w-10/12">
         <h1 set:html={markdownify(title)} class="h2" />
         <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
           <li class="mx-3">
@@ -81,7 +81,7 @@ const { title, description, authors, categories, image, date, tags } =
         </ul>
       </div>
 
-      <div class="col-12 mt-8 mb-2">
+      <div class="mt-8 mb-2">
         {
           image && (
             <Image
@@ -95,7 +95,7 @@ const { title, description, authors, categories, image, date, tags } =
         }
       </div>
 
-      <div class="md:col-10">
+      <div class="mx-auto md:w-10/12">
         <div class="content mb-16 text-left">
           <Content />
           <hr>

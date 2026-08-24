@@ -25,7 +25,7 @@ const externalLinkIcon = "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M
     </nav>
 
     {sections.map((section) => (
-      <section id={tabId(section.key)} class="row">
+      <section id={tabId(section.key)}>
         <h2 class="text-3xl px-5 pb-1 text-black">{section.title}</h2>
         <div class="flex w-full flex-col">
           {section.docs.map((doc) => (

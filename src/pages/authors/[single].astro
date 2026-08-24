@@ -49,10 +49,10 @@ const currentPosts = sortPostsByDate.filter((post) => {
         <div class="site-container">
           <h2 class="mb-8 text-center h3">Recent Posts</h2>
           <div
-            class={`row gy-4 ${currentPosts.length < 3 ? "justify-center" : ""}`}
+            class={`grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 ${currentPosts.length < 3 ? "justify-center" : ""}`}
           >
             {currentPosts.map((post) => (
-              <div class="col-12 sm:col-6 lg:col-4">
+              <div>
                 {post.data.image && (
                   <a
                     href={`/${post.id}`}

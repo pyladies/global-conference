@@ -1,6 +1,50 @@
 @import "tailwindcss";
-@plugin "../tailwind-plugin/tw-theme.mjs";
-@plugin "../tailwind-plugin/tw-bs-grid.mjs";
+
+/* Design tokens. Colors and heading sizes used to be computed at build time
+   by a Tailwind plugin (src/tailwind-plugin/tw-theme.mjs) from
+   src/config/theme.json, but Tailwind v4 generates utilities (bg-, text-,
+   border-, font-, text-h*, etc.) for anything declared here natively, so
+   the plugin was just reimplementing built-in behavior. Font family is
+   still sourced from theme.json (see Base.astro), since astro-font needs
+   it at request time to build the Google Fonts URL.
+
+   Heading sizes follow base=16px, scale=1.2 (h(n) = scale^(7-n) * 1rem,
+   the "-sm" variants are the mobile/base size at *0.8, swapped for the
+   full size at md: in base.css/components.css). Recompute by hand if that
+   scale ever needs to change.
+
+   This block must come before any @import below - @apply in those files
+   resolves against tokens declared earlier in the flattened stylesheet, not
+   against the whole file as one unit. */
+@theme {
+  /* Generic fallback only - astro-font (Base.astro) injects the real value
+     ('Mulish', sourced from theme.json) at request time, later in <head>,
+     so it always wins. Declared here so the .font-primary utility exists
+     and there's a sane default before that happens. */
+  --font-primary: sans-serif;
+
+  --color-primary: #ee264d;
+  --color-body: #fff;
+  --color-border: #d5d5d5;
+  --color-light: #fafafa;
+  --color-dark: #152035;
+  --color-text: #747577;
+  --color-text-dark: #152035;
+  --color-text-light: #a1a5ae;
+
+  --text-h1: 2.985984rem;
+  --text-h1-sm: 2.388787rem;
+  --text-h2: 2.48832rem;
+  --text-h2-sm: 1.990656rem;
+  --text-h3: 2.0736rem;
+  --text-h3-sm: 1.65888rem;
+  --text-h4: 1.728rem;
+  --text-h4-sm: 1.3824rem;
+  --text-h5: 1.44rem;
+  --text-h5-sm: 1.152rem;
+  --text-h6: 1.2rem;
+}
+
 @plugin "@tailwindcss/forms";
 @plugin "@tailwindcss/typography";
 

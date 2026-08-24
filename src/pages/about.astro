@@ -13,8 +13,8 @@ const { title, meta_title, image } = entry.data;
 <Base title={title} meta_title={meta_title} image={image}>
   <section class="section">
     <div class="site-container">
-      <div class="row md:gx-4">
-        <div class="sm:col-5 md:col-4">
+      <div class="grid grid-cols-2 gap-x-8 sm:grid-cols-12">
+        <div class="sm:col-span-5 md:col-span-4">
           {
             image && (
               <div class="img-cover mb-8">
@@ -29,7 +29,7 @@ const { title, meta_title, image } = entry.data;
             )
           }
         </div>
-        <div class="sm:col-7 md:col-8">
+        <div class="sm:col-span-7 md:col-span-8">
           <h1 set:html={markdownify(title)} class="h3 mb-8" />
 
           <div class="content">
