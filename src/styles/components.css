@@ -5,12 +5,12 @@
 
 /* container */
 .container {
-  @apply max-w-[1000px]! px-4! md:px-8! mx-auto;
+  @apply w-[80%]! max-w-[2000px]! px-4! md:px-8! mx-auto;
 }
 
 /* container-docs */
 .container-docs {
-  @apply max-w-[1280px]! px-4! md:px-8! mx-auto;
+  @apply w-[80%]! max-w-[2000px]! px-4! md:px-8! mx-auto;
 }
 
 /* page heading */
@@ -86,7 +86,7 @@
 
 /* content style */
 .content {
-  @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:rounded-lg prose-blockquote:border-primary prose-blockquote:bg-light prose-blockquote:px-7 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:leading-8 prose-pre:px-6 prose-pre:py-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
+  @apply prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h3-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h4-sm prose-h3:mt-4 prose-h3:text-h5-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:rounded-lg prose-blockquote:border-primary prose-blockquote:bg-light prose-blockquote:px-7 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:leading-8 prose-pre:px-6 prose-pre:py-5 md:prose-h1:text-h3 md:prose-h2:text-h4 md:prose-h3:text-h5;
 }
 
 /* tab */

@@ -44,9 +44,9 @@ const groupedDocs = groupDocsBySection(docs);
 >
   <section class="section">
     <div class="container-docs">
-      <div class="grid grid-cols-5">
-        <div class="hidden lg:flex">
-          <section class="section pt-2 bg-gray-100 rounded-lg text-sm">
+      <div class="grid grid-cols-1 gap-x-8 lg:grid-cols-[220px_1fr] xl:grid-cols-[260px_1fr] 2xl:grid-cols-[320px_1fr]">
+        <div class="hidden lg:flex w-full">
+          <section class="section pt-2 bg-gray-100 rounded-lg text-sm w-full">
             <div class="p-5">
               <p class="flex my-8 text-black font-bold">
                 <svg class="w-6 h-6 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6 2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-2v-2h2a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2h-8v16h5v2H7a1 1 0 1 1 0-2h1V2H6Z" clip-rule="evenodd"/></svg>Documentation
@@ -87,7 +87,7 @@ const groupedDocs = groupDocsBySection(docs);
             </div>
           </section>
         </div>
-        <div class="col-span-4 mb-4 md:px-8">
+        <div class="mb-4">
           <DocSingle doc={doc} headings={headings} />
         </div>
       </div>
