@@ -7,6 +7,10 @@
 @import "./safe.css";
 @import "./utilities.css";
 
+@theme {
+    --color-pinkpyladies: #ee264d;
+}
+
 @layer base {
   @import "./base.css";
 }
