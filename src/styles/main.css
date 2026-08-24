@@ -43,6 +43,14 @@
   --text-h5: 1.44rem;
   --text-h5-sm: 1.152rem;
   --text-h6: 1.2rem;
+
+  /* Extra breakpoint for ultra-wide screens (e.g. the blog grid going to 3
+     columns). Registered here rather than used as an arbitrary min-[2500px]:
+     variant, because Tailwind only sorts named breakpoints into the correct
+     mobile-first cascade order - an arbitrary one-off can end up emitted
+     *before* sm:/md:/etc. in the stylesheet, and lose to them since their
+     media conditions are also still true at this width. */
+  --breakpoint-3xl: 2500px;
 }
 
 @plugin "@tailwindcss/forms";
