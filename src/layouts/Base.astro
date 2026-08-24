@@ -14,16 +14,10 @@ import '@fontsource/blinker';
 
 // font families
 const pf = theme.fonts.font_family.primary;
-const sf = theme.fonts.font_family.secondary;
 
-let fontPrimary, fontSecondary;
+let fontPrimary;
 if (theme.fonts.font_family.primary) {
   fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-}
-if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
 }
@@ -75,15 +69,6 @@ const { title, meta_title, description, image, noindex, canonical } =
           fallback: "sans-serif",
           cssVariable: "font-primary",
           googleFontsURL: `https://fonts.googleapis.com/css2?family=${pf}&display=swap`,
-        },
-        {
-          src: [],
-          preload: false,
-          display: "swap",
-          name: fontSecondary!,
-          fallback: "sans-serif",
-          cssVariable: "font-secondary",
-          googleFontsURL: `https://fonts.googleapis.com/css2?family=${sf}&display=swap`,
         },
       ]}
     />

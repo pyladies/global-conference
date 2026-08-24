@@ -12,11 +12,6 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 /* form style */
-.form-inputs * {
-  @apply mb-5 leading-10;
-}
-
-.form-input,
-.form-textarea {
+.form-input {
   @apply rounded-md border-border py-3 text-text focus:border-primary focus:ring-transparent;
 }

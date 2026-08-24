@@ -10,10 +10,10 @@ type Props = {
 const { authors } = Astro.props;
 ---
 
-<div class="row justify-center">
+<div class="grid grid-cols-1 gap-x-8 sm:grid-cols-2 md:grid-cols-3 justify-center">
   {
     authors.map((author) => (
-      <div class="col-12 mb-8 sm:col-6 md:col-4">
+      <div class="mb-8">
         {author.data.image && (
           <div class="mb-4">
             <Image

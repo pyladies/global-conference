@@ -19,9 +19,9 @@ const { main }: { main: NavigationLink[] } = menu;
 ---
 
 <header class="header pt-6">
-  <nav class="navbar container">
+  <nav class="relative flex max-w-[1260px] flex-wrap items-center justify-between site-container">
     <!-- logo -->
-    <div class="order-0">
+    <div class="order-none">
       <Logo />
     </div>
     <!-- navbar toggler -->
@@ -52,23 +52,26 @@ const { main }: { main: NavigationLink[] } = menu;
 
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto"
+      class="order-3 hidden w-full text-center md:order-1 md:flex md:w-auto md:text-left"
     >
       {
         main.map((menu) => (
           <>
             {menu.hasChildren ? (
-              <li class="nav-item nav-dropdown group relative cursor-pointer">
-                <span class="nav-link inline-flex items-center">
+              <li class="group relative mx-1 cursor-pointer">
+                <span class="inline-flex items-center p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4">
                   {menu.name}
                   <svg class="h-5 w-5 fill-current" viewBox="0 0 20 20">
                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                   </svg>
                 </span>
-                <ul class="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
+                <ul class="z-10 hidden rounded-lg bg-white px-6 py-3 shadow-[0_10px_30px_rgba(22,28,45,0.1)] transition group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
                   {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
-                      <a href={child.url} class="nav-dropdown-link">
+                    <li class="mb-1">
+                      <a
+                        href={child.url}
+                        class="block min-w-[150px] py-1 text-[17px] font-semibold text-dark transition hover:text-primary"
+                      >
                         {child.name}
                       </a>
                     </li>
@@ -76,8 +79,11 @@ const { main }: { main: NavigationLink[] } = menu;
                 </ul>
               </li>
             ) : (
-                <li class="nav-item">
-                  <a href={menu.url} class="nav-link block">
+                <li class="mx-1">
+                  <a
+                    href={menu.url}
+                    class="block p-3 text-lg font-semibold text-dark transition hover:text-primary md:p-4"
+                  >
                     {menu.name}
                   </a>
                 </li>
