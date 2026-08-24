@@ -19,7 +19,7 @@ const { title, description, authors, categories, image, date, tags } =
 ---
 
 <section class="section">
-  <div class="container">
+  <div class="site-container">
     <article class="row justify-center">
       <div class="md:col-10 text-center">
         <h1 set:html={markdownify(title)} class="h2" />
@@ -141,7 +141,7 @@ const { title, description, authors, categories, image, date, tags } =
 {
   similarPosts.length > 0 && (
     <section class="section pt-0">
-      <div class="container">
+      <div class="site-container">
         <h2 class="mb-8 text-center h3">Similar Posts</h2>
         <SimilarPosts posts={similarPosts.slice(0, 3)} />
       </div>

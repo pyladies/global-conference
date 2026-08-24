@@ -62,12 +62,14 @@ const calculateFontSizes = (base, scale) => {
 };
 const fontSizes = calculateFontSizes(baseSize, scale);
 
+// Note: --font-* variables are intentionally not declared here. astro-font's
+// <AstroFont> (see Base.astro) injects them at runtime from the same
+// theme.json, and does so later in <head>, so it's the one that actually
+// wins; declaring them here too was dead weight. The .font-* utility classes
+// below still reference var(--font-*) and rely on astro-font providing it.
 const fontVars = {};
 Object.entries(fontSizes).forEach(([key, value]) => {
   fontVars[`--text-${key}`] = value;
-});
-Object.entries(fontFamilies).forEach(([key, font]) => {
-  fontVars[`--font-${key}`] = font;
 });
 
 const baseVars = { ...fontVars, ...defaultVars };

@@ -3,14 +3,11 @@
   @apply py-20;
 }
 
-/* container */
-.container {
-  @apply w-[80%]! max-w-[2000px]! px-4! md:px-8! mx-auto;
-}
-
-/* container-docs */
-.container-docs {
-  @apply w-[80%]! max-w-[2000px]! px-4! md:px-8! mx-auto;
+/* site-container: named to avoid colliding with Tailwind's own built-in
+   `.container` utility (which ships its own width/max-width rules and would
+   otherwise force every property here to be marked `!important` to win) */
+.site-container {
+  @apply w-[80%] max-w-[2000px] px-4 md:px-8 mx-auto;
 }
 
 /* page heading */
@@ -36,14 +33,6 @@
   }
   img {
     @apply object-cover;
-  }
-}
-
-/* author-image */
-.author-image {
-  @apply mr-2 align-top;
-  img {
-    @apply max-h-[25px] max-w-[25px] rounded-full;
   }
 }
 
@@ -79,7 +68,7 @@
   li {
     @apply inline-block;
     a {
-      @apply block p-3 transition transition duration-300 hover:text-primary;
+      @apply block p-3 transition duration-300 hover:text-primary;
     }
   }
 }
@@ -95,31 +84,15 @@
 }
 
 .tab-nav {
-  @apply flex border-b border-border bg-light;
-  @apply m-0;
-  @apply list-none;
+  @apply m-0 flex list-none border-b border-border bg-light;
 }
 
 .tab-nav-item {
-  @apply cursor-pointer border-b-[3px] border-border py-2 text-lg text-dark opacity-80;
-  @apply my-0;
-  @apply px-8;
+  @apply my-0 cursor-pointer border-b-[3px] border-border px-8 py-2 text-lg text-dark opacity-80;
 }
 
 .tab-nav-item.active {
   @apply border-b-[3px] border-dark opacity-100;
-}
-
-.tab-content-panel {
-  @apply p-8;
-}
-
-.tab-content-panel p {
-  @apply mb-0;
-}
-
-.tab-content-panel.active {
-  @apply block;
 }
 
 /* accordion */
@@ -161,7 +134,7 @@
 }
 
 .notice-head p {
-  @apply font-secondary text-xl font-semibold text-dark;
+  @apply font-primary text-xl font-semibold text-dark;
 }
 
 .notice-body {
@@ -173,23 +146,19 @@
 }
 
 .notice.note {
-  @apply text-[#1B83E2];
-  @apply border-current;
+  @apply border-current text-[#1B83E2];
 }
 
 .notice.tip {
-  @apply text-[#40D294];
-  @apply border-current;
+  @apply border-current text-[#40D294];
 }
 
 .notice.info {
-  @apply text-[#E3A72C];
-  @apply border-current;
+  @apply border-current text-[#E3A72C];
 }
 
 .notice.warning {
-  @apply text-[#DB2C23];
-  @apply border-current;
+  @apply border-current text-[#DB2C23];
 }
 
 /* footer */

@@ -9,7 +9,7 @@ const { Content } = await render(entry);
 
 <Base title={entry.data.title}>
   <section class="section">
-    <div class="container">
+    <div class="site-container">
       <div class="flex h-[40vh] items-center justify-center">
         <div class="text-center">
           <h1 class="mb-4" set:html={markdownify(entry.data.title)} />
