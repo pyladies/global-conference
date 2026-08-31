@@ -25,6 +25,9 @@ jobs:
       # as well makes pnpm/action-setup fail with ERR_PNPM_BAD_PM_VERSION.
       - name: Install, build, and upload your site
         uses: withastro/action@v3
+        with:
+          # This action defaults to Node 20, but pnpm 11 requires Node >= 22.13.
+          node-version: 24
 
   deploy:
     needs: build
