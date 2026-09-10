@@ -17,9 +17,22 @@ async function getHighlighter() {
   return highlighter;
 }
 
+// Production is served from GitHub Pages, and Netlify only ever builds pull
+// request previews, so these variables are absent from the production build.
+// The CONTEXT guard keeps it that way even if production ever moves to Netlify:
+// DEPLOY_PRIME_URL would be set there too, and would quietly replace the custom
+// domain. DEPLOY_PRIME_URL is stable for the life of a pull request, unlike
+// DEPLOY_URL, which changes with every commit.
+const isNetlifyPreview =
+  process.env.CONTEXT === "deploy-preview" ||
+  process.env.CONTEXT === "branch-deploy";
+const previewUrl = isNetlifyPreview ? process.env.DEPLOY_PRIME_URL : undefined;
+
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "https://conference.pyladies.com",
+  site:
+    previewUrl ||
+    (config.site.base_url ? config.site.base_url : "https://conference.pyladies.com"),
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   vite: { plugins: [tailwindcss()] },
