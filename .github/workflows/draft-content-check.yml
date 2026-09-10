@@ -1,0 +1,113 @@
+name: Draft content check
+
+# Reminds authors to flip `draft: false` before content is meant to publish.
+# Draft content renders in the Netlify deploy preview but is left out of the
+# production build, so merging a draft is safe: it just stays invisible.
+#
+# The logic lives in scripts/check-draft-content.mjs and is unit tested, so
+# this file only wires it up. The script's exit code is the pass/fail marker.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  unit-tests:
+    name: Script unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # The scripts use only the Node standard library, so there are no
+      # dependencies to install.
+      - name: Run the tests
+        run: node --test "scripts/**/*.test.mjs"
+
+  draft-content-check:
+    name: Draft content check
+    needs: unit-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the pull request
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Fetch the base branch
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: git fetch --no-tags --depth=1 origin "$BASE_REF"
+
+      # Exit 1 means a draft was found: record it and carry on, so the comment
+      # below still gets posted before the job fails at the end. Exit 2 means
+      # the check itself could not run, which is a real failure right here.
+      - name: Check for draft content
+        id: check
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set +e
+          node scripts/check-draft-content.mjs \
+            --base "origin/$BASE_REF" \
+            --comment-body comment-body.md \
+            --github-output "$GITHUB_OUTPUT"
+          status=$?
+          set -e
+
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+          if [ "$status" -ge 2 ]; then
+            echo "::error::The draft content check could not run (exit $status)."
+            exit "$status"
+          fi
+
+      # Pull requests opened from a fork get a read-only token and cannot
+      # comment, so a failure here must not take the whole check down with it.
+      - name: Post or update the reminder comment
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          FOUND: ${{ steps.check.outputs.found }}
+          MARKER: "<!-- draft-content-check -->"
+        run: |
+          set -euo pipefail
+
+          existing=$(gh api "repos/$REPO/issues/$PR_NUMBER/comments" --paginate \
+            --jq ".[] | select(.body | startswith(\"$MARKER\")) | .id" | head -n 1)
+
+          if [ -n "$existing" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$existing" \
+              -F body=@comment-body.md >/dev/null
+            echo "Updated comment $existing."
+          elif [ "$FOUND" = "true" ]; then
+            gh api -X POST "repos/$REPO/issues/$PR_NUMBER/comments" \
+              -F body=@comment-body.md >/dev/null
+            echo "Posted a new comment."
+          else
+            echo "Nothing to report and no existing comment to update."
+          fi
+
+      - name: Fail while draft content is present
+        if: steps.check.outputs.status == '1'
+        run: |
+          echo "::error::This pull request contains content marked draft: true."
+          echo "It will not appear on the live site when merged."
+          echo "Flip draft: false if it should publish. See the comment on the pull request."
+          exit 1
