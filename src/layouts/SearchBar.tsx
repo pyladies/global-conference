@@ -90,9 +90,9 @@ export default function SearchBar({ searchList }: Props) {
         </div>
       )}
 
-      <div className="row">
+      <div className="grid grid-cols-1 gap-x-8 sm:grid-cols-2">
         {searchResults?.map(({ item }) => (
-          <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
+          <div key={item.slug} className="mb-8">
             {item.data.image && (
               <a
                 href={`/${item.slug}`}

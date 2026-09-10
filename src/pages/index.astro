@@ -4,11 +4,11 @@ import Base from "@/layouts/Base.astro";
 
 const cards = [
   {
-    "title": "PyLadiesCon 2025",
+    "title": "PyLadiesCon 2026",
     "description": "Visit this year's website and learn more about the conference. More information soon!",
-    "button_url": "https://2025.conference.pyladies.com/en/",
-    "button_text": "Tell me more!",
-    "classes": "max-w-full p-6 border bg-red-100 border-gray-200 rounded-lg shadow-sm col-span-2 text-center",
+    "button_url": "#",
+    "button_text": "Coming Soon",
+    "classes": "max-w-full p-6 border bg-blue-200 border-gray-200 rounded-lg shadow-sm col-span-2 text-center",
   },
   {
     "title": "Stay up to date",
@@ -28,6 +28,12 @@ const cards = [
 
 const previousEvents = [
   {
+    "title": "2025 Conference Website",
+    "description": "Visit this year's website and learn more about the conference. More information soon!",
+    "button_url": "https://2025.conference.pyladies.com/en/",
+    "button_text": "Go to 2025 site",
+  },
+  {
     "title": "2024 Conference Website",
     "description": "Visit 2024 website and learn more about the past conference.",
     "button_url": "https://2024.conference.pyladies.com",
@@ -45,7 +51,7 @@ const previousEvents = [
 
 <Base>
   <section class="section py-px pt-10">
-    <div class="container">
+    <div class="site-container">
       <h2 class="pb-10 text-center">Welcome to PyLadiesCon</h2>
         <div class="grid grid-cols-2 gap-3">
         {
@@ -71,7 +77,7 @@ const previousEvents = [
   </section>
 
   <section class="section py-px pt-5">
-    <div class="container">
+    <div class="site-container">
       <h3 class="pb-10">Previous versions</h3>
       <div class="grid grid-cols-2 gap-3">
 

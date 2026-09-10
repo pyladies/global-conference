@@ -15,12 +15,8 @@ const { title, meta_title, description } = doc.data;
 const { Content } = await render(doc);
 ---
 
-<section class="section">
-  <div class="container">
-    <h1 set:html={markdownify(title)} class="page-heading-docs h2 mb-8" />
-    <TableOfContents headings={headings} />
-    <div class="content">
-      <Content />
-    </div>
-  </div>
-</section>
+<h1 set:html={markdownify(title)} class="page-heading-docs h2 mb-8" />
+<TableOfContents headings={headings} />
+<div class="content">
+  <Content />
+</div>

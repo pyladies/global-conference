@@ -19,9 +19,9 @@ const { title, description, authors, categories, image, date, tags } =
 ---
 
 <section class="section">
-  <div class="container">
-    <article class="row justify-center">
-      <div class="md:col-10 text-center">
+  <div class="site-container">
+    <article>
+      <div class="mx-auto text-center md:w-10/12">
         <h1 set:html={markdownify(title)} class="h2" />
         <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
           <li class="mx-3">
@@ -81,7 +81,7 @@ const { title, description, authors, categories, image, date, tags } =
         </ul>
       </div>
 
-      <div class="col-12 mt-8 mb-2">
+      <div class="mt-8 mb-2">
         {
           image && (
             <Image
@@ -89,13 +89,13 @@ const { title, description, authors, categories, image, date, tags } =
               height={500}
               width={1000}
               alt={title}
-              class="rounded-lg"
+              class="rounded-lg mx-auto block"
             />
           )
         }
       </div>
 
-      <div class="md:col-10">
+      <div class="mx-auto md:w-10/12">
         <div class="content mb-16 text-left">
           <Content />
           <hr>
@@ -141,7 +141,7 @@ const { title, description, authors, categories, image, date, tags } =
 {
   similarPosts.length > 0 && (
     <section class="section pt-0">
-      <div class="container">
+      <div class="site-container">
         <h2 class="mb-8 text-center h3">Similar Posts</h2>
         <SimilarPosts posts={similarPosts.slice(0, 3)} />
       </div>
