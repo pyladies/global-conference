@@ -35,6 +35,14 @@ export interface Props {
 // distructure frontmatters
 const { title, meta_title, description, image, noindex, canonical } =
   Astro.props;
+
+// Social cards need absolute URLs, and the host is not always the production
+// one: astro.config.mjs points `site` at the Netlify preview when building a
+// pull request, so a preview advertises its own images instead of production
+// URLs that do not exist yet.
+const siteUrl = Astro.site ?? new URL(config.site.base_url);
+const socialImage = new URL(image ?? config.metadata.meta_image, siteUrl).href;
+const pageUrl = new URL(Astro.url.pathname, siteUrl).href;
 ---
 
 <!doctype html>
@@ -119,10 +127,7 @@ const { title, meta_title, description, image, noindex, canonical } =
       )}
     />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
+    <meta property="og:url" content={pageUrl} />
 
     <!-- twitter-title -->
     <meta
@@ -141,20 +146,10 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
 
     <!-- og-image -->
-    <meta
-      property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
+    <meta property="og:image" content={socialImage} />
 
     <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
+    <meta name="twitter:image" content={socialImage} />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
