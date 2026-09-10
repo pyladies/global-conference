@@ -11,7 +11,8 @@
     "dev-verbose": "astro dev --verbose",
     "build": "astro build",
     "preview": "astro preview",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "test": "node --test \"scripts/**/*.test.mjs\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
