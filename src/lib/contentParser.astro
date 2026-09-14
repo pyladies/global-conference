@@ -21,7 +21,17 @@ export const getSinglePage = async <C extends CollectionKey>(
 
   const removeIndex = allPages.filter((data) => data.id.match(/^(?!-)/));
 
+  // Drafts stay hidden in production, but render in the dev server and in Netlify's
+  // deploy previews and branch deploys, so a draft post can be reviewed in its PR.
+  // CONTEXT is set by Netlify: "production", "deploy-preview" or "branch-deploy".
+  const netlifyContext = import.meta.env.CONTEXT ?? process.env.CONTEXT ?? "";
+  const showDrafts =
+    import.meta.env.DEV ||
+    netlifyContext === "deploy-preview" ||
+    netlifyContext === "branch-deploy";
+
   const removeDrafts = removeIndex.filter((data) => {
+    if (showDrafts) return true;
     const pageData = data.data as PageData;
     return pageData.draft !== true;
   });
