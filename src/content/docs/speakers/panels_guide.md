@@ -7,7 +7,7 @@ weight: 1
 section: "speakers"
 ---
 
-# Panels guide for PyLadies Conference 2026
+# Panels guide for PyLadiesCon 2026
 
 Thank you for joining a panel at PyLadiesCon! This guide covers what to expect and how to
 prepare, since panels are being pre-recorded this year instead of running live.
