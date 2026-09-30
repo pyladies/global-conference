@@ -7,7 +7,7 @@ weight: 1
 section: "speakers"
 ---
 
-# PyJam guide for PyLadies Conference 2026
+# PyJam guide for PyLadiesCon 2026
 
 Thank you for your interest in PyJam, our new track showcasing the musicians, performers and
 artists in the Python community! This guide covers what to expect and how to prepare, from
