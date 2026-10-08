@@ -61,9 +61,9 @@ built-in mic and camera on a laptop are usually the weakest link in a video call
 access to an external microphone or webcam, please use it.
 
 For detailed equipment recommendations (webcams, microphones, lighting), see the
-[Equipment Recommendation section](https://conference.pyladies.com/docs/speakers/speaker_guide/#equipment-recommendation)
-of our Speaker Guide. If you don't have adequate equipment, we may be able to help, see the
-[Video Recording Support section](https://conference.pyladies.com/docs/speakers/speaker_guide/#video-recording-support)
+[Equipment section](https://conference.pyladies.com/docs/speakers/video_guide/#equipment)
+of our Video guide. If you don't have adequate equipment, we may be able to help, see the
+[Video Recording Support section](https://conference.pyladies.com/docs/speakers/video_guide/#video-recording-support)
 for our Speaker Equipment Grant.
 
 A few other things help the session go smoothly:
