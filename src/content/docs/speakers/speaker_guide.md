@@ -43,8 +43,12 @@ All the talks are required to be recorded and should be **maximum 15 minutes lon
 If your video is longer than 15 minutes, we will only take the first 15 minutes, and cut the rest.
 We sincerely request that you check your video and do the necessary edits before submitting.
 
-If you are a Panelist or a Keynote Speaker, you do not need to record anything. Your session will be conducted live
+If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live
 on the scheduled conference time.
+
+If you are a Panelist, your panel will now be pre-recorded, our team will schedule and run a
+recording session with all panelists, so you don't need to record anything on your own either.
+See the [Panels Guide](https://conference.pyladies.com/docs/speakers/panels_guide/) for details.
 
 ### Checklist before you submit your video to PyLadiesCon
 
