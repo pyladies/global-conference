@@ -8,7 +8,7 @@ section: "speakers"
 ---
 
 
-# Speaker guide for PyLadies Conference 2025
+# Speaker guide for PyLadies Conference 2026
 
 Congratulations on speaking at the PyLadies Conference! We are excited about your talk. To make your talk successful,
 we have put together this guide so you will know what to expect and the technical requirements to deliver your talk.
@@ -19,11 +19,11 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 ## Important Dates to Remember
 
-- Ensure your photo and bio are up to date on Pretalx by **November 7, 2025**.
+- Ensure your photo and bio are up to date on Pretalx by **November 6, 2026**.
 
 - **Review the talk schedule** once we publish it.
 
-- Submit your video to Google Drive by **November 7, 2025**
+- Submit your video to Google Drive by **November 6, 2026**
 
 - Check if you would like to participate in Q&A session with session moderator ASAP.
 
@@ -401,7 +401,7 @@ Please submit the transcript in `.srt` format along with your video.
 # Speaker Cancellation
 
 If you have to withdraw your presentation for any reason,
-please do so by **November 6, 2025** at the latest and contact pyladiesCon@pyladies.com
+please do so by **November 6, 2026** at the latest and contact pyladiesCon@pyladies.com
 
 If you have to withdraw **after the deadline**, kindly include a brief remark on the reason you have to withdraw
 your presentation. Your remark will be considered when the decision about the no-show status is made.
@@ -414,7 +414,7 @@ prevents you from submitting your video on time, please contact us immediately s
 Our volunteers need time to process and review all the videos before the conference, and we will also be translating
 and transcribing your videos. Any delay in submission will affect our ability to prepare your video for the event.
 
-If we do not receive your video by the end of **November 7, 2025**, we will consider that you have withdrawn your talk
+If we do not receive your video by the end of **November 6, 2026**, we will consider that you have withdrawn your talk
 and will remove it from the schedule.
 
 # Speaker Mentors
