@@ -123,7 +123,7 @@ broadcast, let us know when you apply. We can't guarantee a particular slot, but
 best to accommodate you.
 
 Videos will be made publicly available afterwards on the
-[PyLadies YouTube channel](https://www.youtube.com/c/PyLadiesCon).
+[PyLadies YouTube channel](https://www.youtube.com/@PyLadiesGlobal).
 
 ## Join us when your performance is broadcast
 
