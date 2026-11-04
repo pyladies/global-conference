@@ -39,6 +39,7 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 
 ## Recording Your Presentation
+Sponsors: Please confirm your talk length with the sponsorship committee, as it depends on your sponsorship package. Videos that run over the allotted time will be edited down by our post-production team.
 
 If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live on the scheduled conference time.
 
