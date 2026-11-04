@@ -23,7 +23,7 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 - **Review the talk schedule** once we publish it.
 
-- Submit your video to Google Drive by **November 21, 2026**
+- Submit your video to the [PyLadies Portal](https://portal.pyladies.com/) by **November 21, 2026**
 
 - Check if you would like to participate in Q&A session with session moderator ASAP.
 
@@ -32,19 +32,13 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 ## What You need to Submit
 
-1. A recorded video of your presentation in `mp4`, `mkv` or `mov` format, maximum **15 minutes** long
+1. A recorded video of your presentation in `mp4`, `mkv` or `mov` format.
 2. Optional: A transcript of your talk in a text file. (`.srt`) format.
 
 
 ## Recording Your Presentation
 
-All the talks are required to be recorded and should be **maximum 15 minutes long**.
-
-If your video is longer than 15 minutes, we will only take the first 15 minutes, and cut the rest.
-We sincerely request that you check your video and do the necessary edits before submitting.
-
-If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live
-on the scheduled conference time.
+If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live on the scheduled conference time.
 
 If you are a Panelist, your panel will now be pre-recorded, our team will schedule and run a
 recording session with all panelists, so you don't need to record anything on your own either.
@@ -54,29 +48,25 @@ See the [Panels Guide](https://conference.pyladies.com/docs/speakers/panels_guid
 
 1. Ensure your presentation is created in widescreen format(16:9 format) and recorded in `mp4`, `mkv` or `mov`.
 
-2. The duration of your presentation should not exceed 15 minutes.
+2. Please confirm the duration of your presentation as it depends on the sponsorship package.
 
 3. Name your file under your registered name (example: Mary_Long )
 
-4. Submit your video to GDrive. You will receive an email to the shared GDrive folder.
+4. Submit your video to the [PyLadiesCon Portal](https://portal.pyladies.com/). You will receive an email on submission and you can review, delete and transcribe the video via the [PyLadiesCon Portal](https://portal.pyladies.com/).
 
 ### Recording Settings
 
 #### Uploading Video
 
-The videos will be uploaded to Google Drive with restricted access. It does not support Power Point presentations with
-recorded audio. Please record in either `mp4`, `mkv` or `mov` only.
+You can find instructions on how to submit your videos to the [PyLadiesCon Portal](https://portal.pyladies.com/) via the following blog post: 
 
-You will receive an email with the link to the PyLadiesCon GDrive folder specifically for you.
+- **[Send Us Your Video Through the PyLadiesCon Portal](https://conference.pyladies.com/2026-video-uploads/)**
 
 If you cannot upload your video this way, please contact PyLadiesCon organizer: [pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com)
 
-You will need to access the folder using a Google Account. If you have trouble accessing the folder, please get in touch.
-
-
 #### Presentation Content
 
-Each talk is allotted not more than **15** minutes. Please check that your video is shorter than 15 minutes!
+Please check your video time allocated with your liaison!
 We have had to cut videos in the past that were too long, so please be sure to check the recording before submitting.
 
 If you accept the Q&A, it will be conducted live on Discord. Attendees are able to either send their questions in the channel
@@ -274,7 +264,7 @@ iPhone with macbook
 # Video Recording Support
 
 If you don’t have adequate equipment to deliver your talk, or if you need to purchase a new mic or camera,
-we can help! Submit your request for our Speaker Equipment Grant by through [this form](https://forms.gle/L5xgYk4yvTD9C7r56).
+we can help! Submit your request for our Speaker Equipment Grant by through [this form](https://forms.gle/jFCyv5kgN22FgV6C8).
 
 We may be able to recommend some equipment to purchase and reimburse you the cost of the equipment.
 
