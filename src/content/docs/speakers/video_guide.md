@@ -251,7 +251,7 @@ recording videos. If you do not have a good webcam, we highly recommend this opt
 
 If you don't have adequate equipment, or if you need to purchase a new mic or camera, we can
 help! Submit your request for our Speaker Equipment Grant through
-[this form](https://forms.gle/L5xgYk4yvTD9C7r56).
+[this form](https://forms.gle/iHBJBXy6887iRgLF9).
 
 We may be able to recommend some equipment to purchase and reimburse you the cost of the
 equipment. This will be approved on a case-by-case basis.
