@@ -26,7 +26,7 @@ The workshop takes place online and live on discord. Interested participants wil
 choose to join the workshop via discord, there will be announcements on how and when
 the workshops will take place.
 
-During the conference, each workshop will have its own discord channel for interested
+During the conference, each workshop will have its own Discord channel for interested
 participants to join.
 
 ### What do I need to participate in the workshop?
