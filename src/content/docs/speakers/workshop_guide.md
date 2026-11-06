@@ -32,7 +32,7 @@ participants to join.
 ### What do I need to participate in the workshop?
 
 1. Secure your conference ticket (please check [PyLadiesCon website](https://2026.conference.pyladies.com) for updates).
-1. Once ticket is registered, join PyLadiesCon discord server and follow the instructions.
+1. Once ticket is registered, join PyLadiesCon Discord server and follow the instructions.
 1. Join the workshop you are interested on discord. This information will be announced on discord.
 
 
