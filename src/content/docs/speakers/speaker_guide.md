@@ -19,7 +19,7 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 ## Important Dates to Remember
 
-- Ensure your photo and bio are up to date on Pretalx by **November 21, 2026**.
+- Ensure your photo and bio are up to date on the PyLadiesCon Portal by **November 21, 2026**.
 
 - **Review the talk schedule** once we publish it.
 
