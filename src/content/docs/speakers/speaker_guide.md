@@ -8,7 +8,7 @@ section: "speakers"
 ---
 
 
-# Speaker guide for PyLadies Conference 2025
+# Speaker guide for PyLadies Conference 2026
 
 Congratulations on speaking at the PyLadies Conference! We are excited about your talk. To make your talk successful,
 we have put together this guide so you will know what to expect and the technical requirements to deliver your talk.
@@ -19,11 +19,11 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 ## Important Dates to Remember
 
-- Ensure your photo and bio are up to date on Pretalx by **November 7, 2025**.
+- Ensure your photo and bio are up to date on the PyLadiesCon Portal by **November 21, 2026**.
 
 - **Review the talk schedule** once we publish it.
 
-- Submit your video through the [portal](https://portal.pyladies.com/) by **November 7, 2025**
+- Submit your video to the [PyLadies Portal](https://portal.pyladies.com/) by **November 21, 2026**
 
 - Check if you would like to participate in Q&A session with session moderator ASAP.
 
@@ -39,14 +39,9 @@ If you have any questions, contact us at pyladiescon@pyladies.com
 
 
 ## Recording Your Presentation
+Sponsors: Please confirm your talk length with the sponsorship committee, as it depends on your sponsorship package. Videos that run over the allotted time will be edited down by our post-production team.
 
-All the talks are required to be recorded and should be **maximum 15 minutes long**.
-
-If your video is longer than 15 minutes, we will only take the first 15 minutes, and cut the rest.
-We sincerely request that you check your video and do the necessary edits before submitting.
-
-If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live
-on the scheduled conference time.
+If you are a Keynote Speaker, you do not need to record anything. Your session will be conducted live on the scheduled conference time.
 
 If you are a Panelist, your panel will now be pre-recorded, our team will schedule and run a
 recording session with all panelists, so you don't need to record anything on your own either.
@@ -56,7 +51,7 @@ See the [Panels Guide](https://conference.pyladies.com/docs/speakers/panels_guid
 
 1. Ensure your presentation is created in widescreen format(16:9 format) and recorded in `mp4`, `mkv` or `mov`.
 
-2. The duration of your presentation should not exceed 15 minutes.
+2. Please confirm the duration of your presentation as it depends on the sponsorship package.
 
 3. Name your file under your registered name (example: Mary_Long )
 
@@ -68,19 +63,15 @@ See the [Panels Guide](https://conference.pyladies.com/docs/speakers/panels_guid
 
 #### Uploading Video
 
-Videos are uploaded through the [PyLadiesCon portal](https://portal.pyladies.com/), from your
-session page, to private storage that only you and the team can reach. You don't need a Google
-account, and large files are fine. Record in `mp4`, `mkv` or `mov`; a PowerPoint presentation
-with recorded audio is not a video, export it as one first.
+You can find instructions on how to submit your videos to the [PyLadiesCon Portal](https://portal.pyladies.com/) via the following blog post: 
 
-The steps, and what to do if something goes wrong, are in the
-[Video guide](https://conference.pyladies.com/docs/speakers/video_guide/#submitting-your-video).
-If you cannot upload your video this way, please contact the PyLadiesCon organizers:
-[pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com)
+- **[Send Us Your Video Through the PyLadiesCon Portal](https://conference.pyladies.com/2026-video-uploads/)**
+
+If you cannot upload your video this way, please contact PyLadiesCon organizer: [pyladiescon@pyladies.com](mailto:pyladiescon@pyladies.com)
 
 #### Presentation Content
 
-Each talk is allotted not more than **15** minutes. Please check that your video is shorter than 15 minutes!
+Please check your video time allocated with your liaison!
 We have had to cut videos in the past that were too long, so please be sure to check the recording before submitting.
 
 If you accept the Q&A, it will be conducted live on Discord. Attendees are able to either send their questions in the channel
@@ -215,7 +206,7 @@ and they will use yours. Details are in the
 # Speaker Cancellation
 
 If you have to withdraw your presentation for any reason,
-please do so by **November 6, 2025** at the latest and contact pyladiesCon@pyladies.com
+please do so by **November 21, 2026** at the latest and contact pyladiesCon@pyladies.com
 
 If you have to withdraw **after the deadline**, kindly include a brief remark on the reason you have to withdraw
 your presentation. Your remark will be considered when the decision about the no-show status is made.
@@ -228,8 +219,7 @@ prevents you from submitting your video on time, please contact us immediately s
 Our volunteers need time to process and review all the videos before the conference, and we will also be translating
 and transcribing your videos. Any delay in submission will affect our ability to prepare your video for the event.
 
-If we do not receive your video by the end of **November 7, 2025**, we will consider that you have withdrawn your talk
-and will remove it from the schedule.
+If we do not receive your video by the end of **November 21, 2026**, we will consider that you have withdrawn your talk and will remove it from the schedule.
 
 # Speaker Mentors
 
